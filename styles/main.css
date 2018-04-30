@@ -4,6 +4,9 @@ img {
 .site-header {
   position: relative; }
 
+.wrzosed {
+  background-color: #a08dc4; }
+
 .site-header .mdl-layout__header-row {
   padding: 0;
   -webkit-justify-content: center;
@@ -58,6 +61,9 @@ img {
     opacity: 1; }
   .site-navigation-row .mdl-navigation__link:hover {
     opacity: 1; }
+
+.mdl-layout__header {
+  background-color: #664999; }
 
 .mdl-layout__header .mdl-layout__drawer-button {
   color: #fff; }
