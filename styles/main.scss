@@ -8,15 +8,15 @@ img {
   position: relative;
 }
 
-.wrzosed{
+.wrzosed {
   background-color: #a08dc4;
 }
 
 .site-header .mdl-layout__header-row {
   padding: 0;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .site-description {
@@ -27,6 +27,10 @@ img {
   margin-bottom: 10px;
 }
 
+.logo-anchor {
+  color: white;
+  text-decoration: none;
+}
 
 .is-compact .mdl-layout__title span {
   display: none;
@@ -36,11 +40,9 @@ img {
   min-height: 200px;
 }
 
-
 .is-compact .site-logo-row {
   min-height: auto;
 }
-
 
 .site-logo {
   background: url(../img/w-logo.png) 50% no-repeat;
@@ -56,7 +58,6 @@ img {
   margin: 7px auto;
 }
 
-
 .site-navigation-row {
   background-color: rgba(0, 0, 0, 0.08);
   text-transform: uppercase;
@@ -70,10 +71,10 @@ img {
 
   .mdl-navigation__link {
     -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    -ms-flex: 1;
+    flex: 1;
     line-height: 42px;
-          color: #fff;
+    color: #fff;
   }
 
   .is-active {
@@ -87,6 +88,7 @@ img {
   }
 
 }
+
 .mdl-layout__header {
   background-color: #664999;
 }
@@ -99,8 +101,7 @@ img {
   background-color: #fefefe;
 }
 
-
-// Site Content 
+// Site Content
 
 .site-content {
   margin: 1em auto;
@@ -145,7 +146,7 @@ img {
 
   .mdl-card__actions {
     display: flex;
-    box-sizing:border-box;
+    box-sizing: border-box;
     align-items: center;
   }
 
@@ -171,7 +172,7 @@ img {
   -ms-flex-pack: center;
   justify-content: center;
   min-height: 150px;
-  
+
   .material-icons {
     font-size: 3rem;
   }
@@ -190,7 +191,6 @@ img {
   margin-bottom: -1em;
   padding: 2rem 0;
 }
-
 
 .portfolio-card .mdl-card__title {
   padding-bottom: 0;
@@ -220,10 +220,11 @@ img.article-image {
   font-weight: 500;
 }
 
-.banner-card  {
+.banner-card {
   padding: 8px;
   background-color: #ffffff;
 }
+
 // Contact form
 
 .form-contact .mdl-textfield {
@@ -249,6 +250,7 @@ footer {
     border-bottom: 1px dotted #aaa;
   }
 }
+
 .footer-container {
   margin: 0 auto;
 }

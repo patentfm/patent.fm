@@ -20,6 +20,10 @@ img {
   font-weight: 400;
   margin-bottom: 10px; }
 
+.logo-anchor {
+  color: white;
+  text-decoration: none; }
+
 .is-compact .mdl-layout__title span {
   display: none; }
 
