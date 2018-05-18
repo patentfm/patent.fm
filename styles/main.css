@@ -94,6 +94,12 @@ img {
   height: 290px;
   background: url("../img/laptop-maly.jpg") center/cover; }
 
+.mdl-card__title-text {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: normal;
+  color: #000; }
+
 .event-card {
   background: #3E4EB8; }
   .event-card .mdl-card__actions {
