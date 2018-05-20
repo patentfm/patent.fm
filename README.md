@@ -1,13 +1,9 @@
 # wrzosdev
-Repozytorium przechowuje stronę domową wrzosdev.pl
-
-Podgląd na:
+Repozytorium przechowuje stronę domową 
 
 https://wrzosdev.github.io/wrzosdev/
 
 https://wrzosdev.pl
 
-czekam na propagacje https, moze dzialac tylko http
-
 Plany:
-Dążę do dostosowania witryny pod DSL i przepisanie jej do kotlinka (: 
+Dążę do dostosowania witryny pod DSL i przepisanie js do kotlina (: 
