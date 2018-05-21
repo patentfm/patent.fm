@@ -129,11 +129,11 @@ img {
   background: url('../img/laptop-maly.jpg') center / cover;
 }
 
-.mdl-card__title-text{
+.mdl-card__title-text {
   font-size: 24px;
   font-weight: 300;
   line-height: normal;
-  color:#000;
+  color: #000;
 }
 
 .event-card {
@@ -230,6 +230,13 @@ img.article-image {
 .banner-card {
   padding: 8px;
   background-color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .banner-card, .banner-grid {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 // Contact form
