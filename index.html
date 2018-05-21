@@ -72,6 +72,14 @@
         //ładuję zasób w środek strony
         function loadContent(content) {
             $("#switcher_content").load(content);
+
+            //todo posprzatać to na gałęzi kotlin
+            if (content.valueOf()  === "contact-content.html".valueOf()) {
+                $("#fabcontact-site-href").hide()
+            }
+            else{
+                $("#fabcontact-site-href").show()
+            }
         }
 
         //wstępnie jest to index
