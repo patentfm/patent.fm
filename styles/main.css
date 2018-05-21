@@ -172,10 +172,13 @@ img.article-image {
 @media screen and (max-width: 992px) {
   .banner-card, .banner-grid {
     padding-top: 0px;
-    padding-bottom: 0px; }
-.site-content{
-  margin-top:0px;
-}}
+    padding-bottom: 0px; } }
+@media screen and (min-width: 431px) {
+  .media-newline {
+    display: none; } }
+@media screen and (max-width: 430px) {
+  .media-newline {
+    display: block; } }
 .form-contact .mdl-textfield {
   width: 100%; }
 
