@@ -16,7 +16,7 @@
 </head>
 <body id="top">
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-    <a href="#" id="fabcontact-site-href"
+    <a href="#" id="fab-contact-site-href"
        class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast mdl-shadow--4dp"><i
             class="material-icons">mail</i></a>
     <header class="mdl-layout__header mdl-layout__header--waterfall site-header wrzosed">
@@ -42,7 +42,7 @@
                 class="mdl-navigation__link" href="#" id="mcontact-site-href">Kontakt</a>
         </nav>
     </div>
-    <main class="mdl-layout__content">
+    <main class="mdl-layout__content" id="scroller">
         <div class="site-content">
             <div class="container">
                 <div class="mdl-grid site-max-width banner-grid">
@@ -74,11 +74,15 @@
 
             //todo posprzatać to na gałęzi kotlin
             if (content.valueOf()  === "contact-content.html".valueOf()) {
-                $("#fabcontact-site-href").hide()
+                $("#fab-contact-site-href").hide()
             }
             else{
-                $("#fabcontact-site-href").show()
+                $("#fab-contact-site-href").show()
             }
+
+            $('#scroller').animate({
+                scrollTop: $("html").offset().top
+            }, 200);
         }
 
         //wstępnie jest to index
@@ -120,8 +124,13 @@
             loadContent("contact-content.html");
             return false;
         });
-        $('#fabcontact-site-href').click(function () {
-            loadContent("contact-content.html");
+        $('#fab-contact-site-href').click(function () {
+            $("#switcher_content").load("contact-content.html", function () {
+                $('#scroller').animate({
+                    scrollTop: $(document).height()
+                }, 500);
+            });
+            $("#fab-contact-site-href").hide();
             return false;
         });
         $('#fabout-site-href').click(function () {
