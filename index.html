@@ -19,7 +19,7 @@
     <a href="#" id="fab-contact-site-href"
        class="mdl-button mdl-button--fab mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast mdl-shadow--4dp"><i
             class="material-icons">mail</i></a>
-    <header class="mdl-layout__header mdl-layout__header--waterfall site-header wrzosed">
+    <header class="mdl-layout__header mdl-layout__header--waterfall site-header wrzosed" id="header">
         <div class="mdl-layout__header-row site-logo-row"><span class="mdl-layout__title">
             <a class="logo-anchor" href="#" id="logo-site-href"><div class="site-logo"></div><span
                     class="site-description">Wrzosdev</span></a></span>
@@ -66,7 +66,14 @@
             </div>
         </footer>
     </main>
-    <script src="https://code.getmdl.io/1.3.0/material.min.js" defer></script>
+    <script src="https://code.getmdl.io/1.3.0/material.min.js" defer>
+
+    </script>
+   <script>
+       $('#header').mouseenter(
+           function(){ $(this).removeClass('is-compact') }
+       );
+   </script>
     <script>
         //ładuję zasób w środek strony
         function loadContent(content) {
