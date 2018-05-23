@@ -151,6 +151,13 @@ img.article-image {
   width: 100%;
   height: auto; }
 
+.github-tile {
+  flex-flow: column;
+  display: flex; }
+
+.github-support-text {
+  flex: 1 1 auto; }
+
 .demo-card-image.mdl-card {
   width: 192px;
   height: 192px; }
