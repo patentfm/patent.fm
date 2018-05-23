@@ -34,7 +34,7 @@
             </nav>
         </div>
     </header>
-    <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+    <div class="mdl-layout__drawer mdl-layout--small-screen-only"  id="small-menu">
         <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"><a class="mdl-navigation__link"
                                                                                    href="#" id="mindex-site-href">Główna</a><a
                 class="mdl-navigation__link" href="#" id="mportfolio-site-href">Projekty</a><a class="mdl-navigation__link"
@@ -117,14 +117,20 @@
         });
         $('#mindex-site-href').click(function () {
             loadContent("index-content.html");
+            $('#small-menu').removeClass('is-visible');
+            $('.mdl-layout__obfuscator').removeClass('is-visible');
             return false;
         });
         $('#mportfolio-site-href').click(function () {
             loadContent("portfolio-content.html");
+            $('#small-menu').removeClass('is-visible');
+            $('.mdl-layout__obfuscator').removeClass('is-visible');
             return false;
         });
         $('#mcontact-site-href').click(function () {
             loadContent("contact-content.html");
+            $('#small-menu').removeClass('is-visible');
+            $('.mdl-layout__obfuscator').removeClass('is-visible');
             return false;
         });
         $('#fcontact-site-href').click(function () {
