@@ -24,13 +24,13 @@ img {
   color: white;
   text-decoration: none; }
 
-.is-compact .mdl-layout__title span {
+ .mdl-layout__title span {
   display: none; }
 
 .site-logo-row {
   min-height: 200px; }
 
-.is-compact .site-logo-row {
+ .site-logo-row {
   min-height: auto; }
 
 .site-logo {
@@ -40,7 +40,7 @@ img {
   width: 120px;
   margin: 15px auto; }
 
-.is-compact .site-logo {
+.site-logo {
   height: 50px;
   width: 50px;
   margin: 7px auto; }
