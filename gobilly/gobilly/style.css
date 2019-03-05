@@ -407,6 +407,11 @@ p {
     z-index: 99;
 }
 
+.go-play-google > a > img {
+height: 70px;
+max-width: none;
+}
+
 .header_area.sticky .menu_area .navbar-brand {
     font-size: 50px;
 }
