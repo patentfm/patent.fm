@@ -1,4 +1,4 @@
-# wrzosdev
+# wrzosdev.pl
 *Repozytorium tylko przechowuje stronę firmy do github pages*
 
 * https://wrzosdev.github.io/wrzosdev/
