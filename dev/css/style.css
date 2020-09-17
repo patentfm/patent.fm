@@ -157,11 +157,7 @@ Surjith S M / @surjithctly
   border-radius: 30px;
   font-size: 20px;
   padding: 12px 40px; }
-  @media (max-width: 992px) {
-    .btn-success {
-      font-size: 18px;
-      padding: 10px 16px; } }
-  @media (max-width: 480px) {
+  @media (max-width: 767px) {
     .btn-success {
       width: 100%; } }
 
@@ -461,7 +457,7 @@ button {
   padding: 170px 0 140px; }
 
 .slider-title {
-  padding: 8rem 0 0 0; }
+  padding: 7rem 0 0 0; }
   @media (max-width: 992px) {
     .slider-title {
       padding: 12px 0 0; } }
