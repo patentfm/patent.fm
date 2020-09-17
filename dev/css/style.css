@@ -255,9 +255,15 @@ p {
 
 .space {
   padding: 100px 0; }
-  @media (max-width: 768px) {
-    .space {
-      padding: 70px 0; } }
+@media (max-width: 768px) {
+  .space {
+    padding: 70px 0; } }
+
+.space-md-up {
+  padding: 100px 0; }
+@media (max-width: 768px) {
+  .space-md-up {
+    padding: 0px 0; } }
 
 .center-block {
   text-align: center; }
