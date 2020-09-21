@@ -41,9 +41,20 @@ URI     : http://themeforest.net/user/surjithctly
     <link rel="stylesheet" href="vendors/magnific-popup/css/magnific-popup.css">
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        #subscribe_email_input {
+            background-color: #fff;
+        }
+
+        @media (max-width: 767px) {
+            #subscribe_email_input {
+                border-radius: 37px 0 0 37px;
+            }
+        }
+    </style>
 </head>
 
-<body data-scroll-animation="true" class="dark-theme">
+<body data-scroll-animation="false" class="dark-theme">
 <!--===================== Header =====================-->
 <div class="preloader" id="preloader">
     <svg class="spinner" id="pageloader_anime" width="32px" height="32px" viewBox="0 0 66 66"
@@ -82,7 +93,7 @@ URI     : http://themeforest.net/user/surjithctly
         </div>
     </div>
 </div>
-<!-- Slider -->
+<!-- Slider newsletter -->
 <section class="slider-bg mb-0 mb-xl-5 mt-0 mt-xl-3" id="home">
     <div class="container pb-0 pb-xl-5 pt-0 pt-xl-5">
         <div class="row">
@@ -106,230 +117,39 @@ URI     : http://themeforest.net/user/surjithctly
                     <p class="reveal fadeInUp" data-wow-delay="0.3s">
                         Chcesz poznać programowanie od wiele ciekawszej strony niż czarne okno terminala, czy
                         szara teoria programowania? Możesz uczyć się na Fajnych
-                        Materiałach, zobacz jakie aplikacje umiałbyś wtedy zrobić 😎
+                        Materiałach, zobacz <a href="#features" style="color: #11aff1">jakie aplikacje </a>umiałbyś
+                        wtedy zrobić 😎
                     </p>
                     <!--                    <a href="#" class="btn btn-primary mr-2 reveal fadeInUp" data-wow-delay="0.6s">-->
                     <!--                        <i class="fa fa-apple mr-2" aria-hidden="true"></i>App Store</a>-->
                     <!--                    wstrzymajmy się z tym do końca kursu fluttera-->
-                    <p><a href="https://play.google.com/store/apps/dev?id=8485186211700706842&hl=pl" target="_blank"
-                          class="btn btn-success reveal fadeInUp" data-wow-delay="0.9s">
-                        <i class="fa fa-android mr-2" aria-hidden="true"></i>Play Store</a>
-                    </p>
-                    <p class="reveal fadeInUp opct opacity-90 text-sm-left text-center" data-wow-delay="3.2s">Jeśli
-                        chcesz darmowego e-booka
-                        <br class="d-xl-none d-lg-block d-md-block d-sm-block"/>
-                        <a href="darmowy-ebook-swiat-jest-programistyczny.html" style="color: #d4d6da">"Świat jest
-                            programistyczny",</a>
-                        <a href="darmowy-ebook-swiat-jest-programistyczny.html" style="color: #11aff1"> kliknij
-                            tutaj</a>
-                    </p>
+                    <form action="php/subscribe.php" method="post" id="subscribeform">
+                        <div class="input-group"><input type="email" name="email"
+                                                        class="form-control" id="subscribe_email_input"
+                                                        placeholder="Twój email"> <span
+                                class="input-group-btn theme-form-btn"><button class="btn" type="submit"
+                                                                               id="js-subscribe-btn"><i
+                                class="fa fa-envelope-o" aria-hidden="true"></i>SUBSKRYBUJ</button> </span></div>
+                        <div id="js-subscribe-result" class="text-center"
+                             data-success-msg="Almost finished. Please check your email and verify."
+                             data-error-msg="Oops. Something went wrong."></div>
+                    </form>
                 </div>
+                <p class="reveal fadeInUp opct opacity-90 text-sm-left text-center" data-wow-delay="3.2s">Jeśli
+                    chcesz darmowego e-booka
+                    <br class="d-xl-none d-lg-block d-md-block d-sm-block"/>
+                    <a href="darmowy-ebook-swiat-jest-programistyczny.html" style="color: #d4d6da">"Świat jest
+                        programistyczny",</a>
+                    <a href="darmowy-ebook-swiat-jest-programistyczny.html" style="color: #11aff1"> kliknij
+                        tutaj</a>
+                </p>
             </div>
         </div>
+    </div>
     </div>
 </section>
 <!--//End Header -->
-<!--===================== Clients =====================-->
-<div class="clients light-bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="client-slide owl-carousel reveal fadeIn">
-                    <!--todo wstawić loga aplikacji czy patronów?-->
-                    <div><img src="images/client1.png" alt="#"></div>
-                    <div><img src="images/client2.png" alt="#"></div>
-                    <div><img src="images/client3.png" alt="#"></div>
-                    <div><img src="images/client4.png" alt="#"></div>
-                    <div><img src="images/client5.png" alt="#"></div>
-                    <div><img src="images/client6.png" alt="#"></div>
-                    <div><img src="images/client1.png" alt="#"></div>
-                    <div><img src="images/client2.png" alt="#"></div>
-                    <div><img src="images/client3.png" alt="#"></div>
-                    <div><img src="images/client4.png" alt="#"></div>
-                    <div><img src="images/client5.png" alt="#"></div>
-                    <div><img src="images/client6.png" alt="#"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--//End Clients -->
-<!--===================== Beautiful landing Page =====================-->
-<!--<section class="skew-bg space">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--                <h2 class="reveal fadeInUp">Beautiful Landing Page Template</h2>-->
-<!--                <p class="reveal fadeInUp" data-wow-delay="0.3s">You can create custom iOS and macOS apps for your-->
-<!--                    business using Swift, our open source programming language. Apps that have the power to transform-->
-<!--                    workflows, improve client relationships, and boost your productivity.</p>-->
-<!--            </div>-->
-<!--            <div class="landing-img-bg reveal fadeIn">-->
-<!--                <div class="isometric-stack">-->
-<!--                    <div class="stack-screens"><img src="images/screen1.jpg" alt="screen"/> <img-->
-<!--                            src="images/screen5.jpg" alt="screen"/> <img src="images/screen3.jpg" alt="screen"/></div>-->
-<!--                    &lt;!&ndash; // end .stack-screens &ndash;&gt;<img src="images/isometric-view.png" class="img-fluid" alt="#"></div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--//End Beautiful landing Page -->
-<!--===================== App landing Page =====================-->
-<!--<div class="clearfix"></div>-->
-<!--<section class="app-landing light-bg">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center center-block">-->
-<!--            <div class="col-md-8">-->
-<!--                <div class="title-block">-->
-<!--                    <h2 class="reveal fadeInUp">Perfect landing page for any App</h2>-->
-<!--                    <p class="reveal fadeInUp" data-wow-delay="0.3s">You can create custom iOS and macOS apps for your-->
-<!--                        business using Swift, our open source programming language. Apps that have the power to-->
-<!--                        transform workflows, improve client relationships, and boost your productivity.</p> <a href="#"-->
-<!--                                                                                                               class="btn btn-primary mb-4 reveal fadeInUp"-->
-<!--                                                                                                               data-wow-delay="0.6s">Learn-->
-<!--                    more<span class="pe-7s-angle-right-circle ml-3"></span></a></div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--                <div class="landing-img-wrap reveal fadeIn" data-wow-delay="0.3s">-->
-<!--                    <div class="iphone-half1"><img src="images/detailed-screen.png" class="phone" alt="#">-->
-<!--                        <div class="screen"><img src="images/screen5.jpg" class="img-fluid" alt="#"></div>-->
-<!--                    </div>-->
-<!--                    <div class="iphone-half2 reveal fadeIn"><img src="images/iPhone-black.png" class="phone" alt="#">-->
-<!--                        <div class="screen"><img src="images/screen6.jpg" class="img-fluid" alt="#"></div>-->
-<!--                    </div>-->
-<!--                    <div class="iphone-half3 reveal fadeIn" data-wow-delay="0.6s"><img src="images/iPhone-gold.png"-->
-<!--                                                                                       class="phone" alt="#">-->
-<!--                        <div class="screen"><img src="images/screen7.jpg" class="img-fluid" alt="#"></div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--//End App landing Page -->
-<!--===================== Features =====================-->
-<section class="space">
-    <div class="container">
-        <div class="row justify-content-center center-block">
-            <div class="col-md-8">
-                <div class="title-block">
-                    <h2 class="reveal fadeInUp">Próbowałeś uczyć się programowania?</h2>
-                    <p class="reveal fadeInUp" data-wow-delay="0.3s">
-                        Kto powiedział, że zanim będziesz mógł robić fajne rzeczy, trzeba przebrnąć przez nudę, okno
-                        terminala i skomplikowaną teorię?
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="row featured-wrap">
-            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.3s"><i class="pe pe-7s-gleam"
-                                                                                       aria-hidden="true"></i>
-                <h4 class="mb-3 mt-3">Energiczne zajęcia</h4>
-                <p class="pb-4">Nie daj się nabrać, że programowanie jest nudne. Poczuj energię i zaangażowanie w
-                    ciekawych tematach.</p>
-            </div>
-
-            <div class="col-md-4 featured-item reveal fadeIn">
-                <i class="pe pe-7s-graph1" aria-hidden="true"></i>
-                <h4 class="mb-3 mt-3">Precyzja i skuteczność</h4>
-                <p class="pb-4">Praktyka pokazuje, że z 80% tematów prawie nigdy nie skorzystasz. Ja pokażę Ci jak być
-                    ninją w najważniejszych 20%!</p>
-            </div>
-            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.6s">
-                    <i class="pe pe-7s-smile" aria-hidden="true"></i>
-                <h4 class="mb-3 mt-3">Zabawa i sympatia</h4>
-                <p class="pb-4">Jeśli jesteś też na tyle wytrzymały, by przetrwać falę prześmiesznych dowcipków... <br/>to
-                    dodatkowy plus ;)</p>
-            </div>
-            <!--            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.9s"><i class="pe pe-7s-edit mt-4"-->
-            <!--                                                                                       aria-hidden="true"></i>-->
-            <!--                <h4 class="mb-3 mt-3">Customizable</h4>-->
-            <!--                <p>Apps that have the power to transform workflows, improve client relationships, and boost your-->
-            <!--                    productivity.</p>-->
-            <!--            </div>-->
-            <!--            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="1.2s"><i class="pe pe-7s-graph3 mt-4"-->
-            <!--                                                                                       aria-hidden="true"></i>-->
-            <!--                <h4 class="mb-3 mt-3">Improve your sales</h4>-->
-            <!--                <p>Apps that have the power to transform workflows, improve client relationships, and boost your-->
-            <!--                    productivity.</p>-->
-            <!--            </div>-->
-            <!--            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="1.5s"><i class="pe pe-7s-help2 mt-4"-->
-            <!--                                                                                       aria-hidden="true"></i>-->
-            <!--                <h4 class="mb-3 mt-3">24/7 Support</h4>-->
-            <!--                <p>Apps that have the power to transform workflows, improve client relationships, and boost your-->
-            <!--                    productivity.</p>-->
-            <!--            </div>-->
-        </div>
-    </div>
-</section>
-<!--//End Features -->
-<!--===================== Video section =====================-->
-<!--<section class="space light-bg" >-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-6">-->
-<!--                <div class="title-block-2"><i class="pe-primary pe-7s-film reveal fadeInDown" aria-hidden="true"></i>-->
-<!--                    <h2 class="reveal fadeInUp" data-wow-delay="0.3s">Watch the film</h2>-->
-<!--                    <h3 class="reveal fadeInUp" data-wow-delay="0.6s">A video is worth thousand words</h3>-->
-<!--                    <p class="reveal fadeInUp" data-wow-delay="0.3s">Apps that have the power to transform workflows,-->
-<!--                        improve client relationships, and boost your productivity.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6">-->
-<!--                <div class="video-wrap reveal fadeIn"><a href="https://www.youtube.com/watch?v=Q6dsRpVyyWs"-->
-<!--                                                         class="video-play">-->
-<!--                    <img src="images/video-img.jpg" class="img-fluid" alt="#">-->
-<!--                    <i class="fa fa-play video-icon" aria-hidden="true"></i>-->
-<!--                    <div class="video-wrap-overlay"></div>-->
-<!--                </a></div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--//End Video section -->
 <!--===================== Featured 1 =====================-->
-<!--<section class="featured1 no-overflow">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-6 order-md-2">-->
-<!--                <div class="featured1-wrap"><i class="pe-primary pe-7s-like  reveal fadeInDown" aria-hidden="true"></i>-->
-<!--                    <h2 class="reveal fadeInUp" data-wow-delay="0.3s">Features you’ll love</h2>-->
-<!--                    <p class="reveal fadeInUp" data-wow-delay="0.6s">Apps that have the power to transform workflows,-->
-<!--                        improve client relationships, and boost your productivity.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 order-md-1 d-flex align-items-end reveal fadeInUp" data-wow-delay="0.3s">-->
-<!--                <div class="iphone-half"><img src="images/iPhone-gold.png" class="phone" alt="#">-->
-<!--                    <div class="screen"><img src="images/screen3.jpg" class="img-fluid" alt="#"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--//End Featured 2 -->
-<!--===================== Featured 2 =====================-->
-<!--<section class="featured1 featured2 light-bg no-overflow">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-6">-->
-<!--                <div class="featured1-wrap"><i class="pe-primary pe-7s-science" aria-hidden="true"></i>-->
-<!--                    <h2 class="reveal fadeInUp" data-wow-delay="0.3s">Modern and Minimal</h2>-->
-<!--                    <p class="reveal fadeInUp" data-wow-delay="0.6s">Apps that have the power to transform workflows,-->
-<!--                        improve client relationships, and boost your productivity</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-md-6 order-md-1 d-flex align-items-end reveal fadeInUp" data-wow-delay="0.3s">-->
-<!--                <div class="iphone-half"><img src="images/iPhone-black.png" class="phone" alt="#">-->
-<!--                    <div class="screen"><img src="images/screen6.jpg" class="img-fluid" alt="#"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--//End Featured 2 -->
-<!--===================== Featured 3 =====================-->
 <section class="space light-bg" name="features">
     <div class="container">
         <div class="row">
@@ -373,9 +193,9 @@ URI     : http://themeforest.net/user/surjithctly
         </div>
     </div>
 </section>
-<!--//End Featured 3 -->
-<!--===================== Featured 3 =====================-->
-<section class="space" name="features">
+<!--//End Featured 1 -->
+<!--===================== Featured 2 =====================-->
+<section class="space">
     <div class="container">
         <div class="row">
             <div class="col-md-5 order-2 featured3-block">
@@ -418,9 +238,9 @@ URI     : http://themeforest.net/user/surjithctly
         </div>
     </div>
 </section>
-<!--//End Featured 3 -->
+<!--//End Featured 2 -->
 <!--===================== Featured 3 =====================-->
-<section class="space light-bg" name="features">
+<section class="space light-bg" >
     <div class="container">
         <div class="row">
             <div class="col-md-5 featured3-block">
@@ -464,177 +284,101 @@ URI     : http://themeforest.net/user/surjithctly
     </div>
 </section>
 <!--//End Featured 3 -->
-<!--&lt;!&ndash;===================== Testimonial =====================&ndash;&gt;-->
-<!--<section class="space">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center center-block">-->
-<!--            <div class="col-md-8">-->
-<!--                <div class="title-block">-->
-<!--                    <h2 class="reveal fadeInUp">User reviews</h2>-->
-<!--                    <p class="reveal fadeInUp" data-wow-delay="0.3s">Conveniently coordinate cross-platform data after-->
-<!--                        emerging internal or organic sources. Authoritatively productivate fully tested niches and 2.0-->
-<!--                        vortals. </p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="container-fluid">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-12">-->
-<!--                <div class="loop reveal fadeIn">-->
-<!--                    <div class="comment-wrap">-->
-<!--                        <div class="star-rating mb-2"><i class="fa fa-star" aria-hidden="true"></i> <i-->
-<!--                                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>-->
-<!--                            <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>-->
-<!--                        </div>-->
-<!--                        <h4>Exceptional Mobile App</h4>-->
-<!--                        <p>The more recent updates have turned this app into one of the best app I've seen! It deserves-->
-<!--                            more than 5 stars. I absolutely love this app and i couldn’t recommend it more. Keep up the-->
-<!--                            good work guys.</p> <span>— Roger Cooper, <small> United States</small></span> <img-->
-<!--                            src="images/testi-img1.jpg" class="comment-img" alt="#"></div>-->
-<!--                    <div class="comment-wrap">-->
-<!--                        <div class="star-rating mb-2"><i class="fa fa-star" aria-hidden="true"></i> <i-->
-<!--                                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>-->
-<!--                            <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>-->
-<!--                        </div>-->
-<!--                        <h4>Keeps getting better!</h4>-->
-<!--                        <p>The more recent updates have turned this app into one of the best app I've seen! It deserves-->
-<!--                            more than 5 stars. I absolutely love this app and i couldn’t recommend it more. Keep up the-->
-<!--                            good work guys.</p> <span>— Juan Sullivan, <small> Australia</small></span> <img-->
-<!--                            src="images/testi-img2.jpg" class="comment-img" alt="#"></div>-->
-<!--                    <div class="comment-wrap">-->
-<!--                        <div class="star-rating mb-2"><i class="fa fa-star" aria-hidden="true"></i> <i-->
-<!--                                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>-->
-<!--                            <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>-->
-<!--                        </div>-->
-<!--                        <h4>It deserves more than 5 stars!</h4>-->
-<!--                        <p>The more recent updates have turned this app into one of the best app I've seen! It deserves-->
-<!--                            more than 5 stars. I absolutely love this app and i couldn’t recommend it more. Keep up the-->
-<!--                            good work guys.</p> <span>— Ann Kennedy, <small> United States</small></span> <img-->
-<!--                            src="images/testi-img3.jpg" class="comment-img" alt="#"></div>-->
-<!--                    <div class="comment-wrap">-->
-<!--                        <div class="star-rating mb-2"><i class="fa fa-star" aria-hidden="true"></i> <i-->
-<!--                                class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>-->
-<!--                            <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i>-->
-<!--                        </div>-->
-<!--                        <h4>It deserves more than 5 stars!</h4>-->
-<!--                        <p>The more recent updates have turned this app into one of the best app I've seen! It deserves-->
-<!--                            more than 5 stars. I absolutely love this app and i couldn’t recommend it more. Keep up the-->
-<!--                            good work guys.</p> <span>— Roger Cooper, <small> United States</small></span> <img-->
-<!--                            src="images/testi-img1.jpg" class="comment-img" alt="#"></div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--&lt;!&ndash;//End Testimonial &ndash;&gt;-->
-
-<!--&lt;!&ndash;===================== Gallery =====================&ndash;&gt;-->
-<!--<section class="space light-bg">-->
-<!--    <div class="container">-->
-<!--        <div class="row justify-content-center">-->
-<!--            <div class="col-md-8 center-block">-->
-<!--                <div class="title-block">-->
-<!--                    <h2 class="reveal fadeInUp">Gallery</h2>-->
-<!--                    <p class="reveal fadeInUp">Showcase the screenshots of your application for a better understanding-->
-<!--                        of your app and it helps to increase app downloads and purchases. Always make sure its-->
-<!--                        great.</p>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="gallery-wrap reveal fadeIn" data-wow-delay="0.3s">-->
-<!--        <div class="phone-wrap-fix"><img src="images/dark-slide-bg.png" class="phone-img" alt="#"></div>-->
-<!--        <div class="owl-carousel owl-theme screen-carousel-1">-->
-<!--            <div class="screen-set"><img src="images/screen1.jpg" alt="#"></div>-->
-<!--            <div class="screen-set"><img src="images/screen2.jpg" alt="#"></div>-->
-<!--            <div class="screen-set"><img src="images/screen3.jpg" alt="#"></div>-->
-<!--            <div class="screen-set"><img src="images/screen4.jpg" alt="#"></div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
-<!--&lt;!&ndash;//End Gallery &ndash;&gt;-->
-<!--===================== Tab =====================-->
-<section class="space light-bg">
+<!--===================== Clients =====================-->
+<div class="clients">
     <div class="container">
         <div class="row">
-            <div class="col-md-7">
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li class="nav-item phone-tab-list reveal fadeInLeft"><a class="nav-link active" data-toggle="tab"
-                                                                             href="#tab-img1" role="tab">
-                        <span>01</span>
-                        <div class="tab-list-content">
-                            <h4>Login with Touch ID</h4>
-                            <p class="text-muted">Apps that have the power to transform workflows.</p>
-                        </div>
-                    </a></li>
-                    <li class="nav-item phone-tab-list reveal fadeInLeft" data-wow-delay="0.3s"><a class="nav-link"
-                                                                                                   data-toggle="tab"
-                                                                                                   href="#tab-img2"
-                                                                                                   role="tab">
-                        <span>02</span>
-                        <div class="tab-list-content">
-                            <h4>View Dashboard Analytics</h4>
-                            <p class="text-muted">Apps that have the power to transform workflows.</p>
-                        </div>
-                    </a></li>
-                    <li class="nav-item phone-tab-list reveal fadeInLeft" data-wow-delay="0.6s"><a class="nav-link"
-                                                                                                   data-toggle="tab"
-                                                                                                   href="#tab-img3"
-                                                                                                   role="tab">
-                        <span>03</span>
-                        <div class="tab-list-content">
-                            <h4>Enjoy Mobile Services</h4>
-                            <p class="text-muted">Apps that have the power to transform workflows.</p>
-                        </div>
-                    </a></li>
-                </ul>
-            </div>
-            <div class="col-md-5 justify-content-center">
-                <div class="tab-wrap reveal fadeIn"><img src="images/iPhone-black.png" class="tab-phone" alt="#">
-                    <div class="tab-screen">
-                        <!-- Tab panes -->
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="tab-img1" role="tabpanel"><img src="images/screen1.jpg"
-                                                                                            class="img-fluid" alt="#">
-                            </div>
-                            <div class="tab-pane" id="tab-img2" role="tabpanel"><img src="images/screen2.jpg"
-                                                                                     class="img-fluid" alt="#"></div>
-                            <div class="tab-pane" id="tab-img3" role="tabpanel"><img src="images/screen3.jpg"
-                                                                                     class="img-fluid" alt="#"></div>
-                        </div>
-                    </div>
+            <div class="col-md-12">
+                <div class="client-slide owl-carousel reveal fadeIn">
+                    <!--todo wstawić loga aplikacji czy patronów?-->
+                    <div><img src="images/client1.png" alt="#"></div>
+                    <div><img src="images/client2.png" alt="#"></div>
+                    <div><img src="images/client3.png" alt="#"></div>
+                    <div><img src="images/client4.png" alt="#"></div>
+                    <div><img src="images/client5.png" alt="#"></div>
+                    <div><img src="images/client6.png" alt="#"></div>
+                    <div><img src="images/client1.png" alt="#"></div>
+                    <div><img src="images/client2.png" alt="#"></div>
+                    <div><img src="images/client3.png" alt="#"></div>
+                    <div><img src="images/client4.png" alt="#"></div>
+                    <div><img src="images/client5.png" alt="#"></div>
+                    <div><img src="images/client6.png" alt="#"></div>
+<!--                    todo wstawić aplikacje i odnośnik do "WSZYTSKIE"-->
                 </div>
             </div>
         </div>
     </div>
+</div>
+<!--//End Clients -->
+<!--===================== Learning  =====================-->
+<section class="space light-bg" id="sumup">
+    <div class="container">
+        <div class="row justify-content-center center-block">
+            <div class="col-md-8">
+                <div class="title-block">
+                    <h2 class="reveal fadeInUp">Próbowałeś uczyć się programowania?</h2>
+                    <p class="reveal fadeInUp" data-wow-delay="0.3s">
+                        Kto powiedział, że zanim będziesz mógł robić fajne rzeczy, trzeba przebrnąć przez nudę, okno
+                        terminala i skomplikowaną teorię?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row featured-wrap">
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.3s"><i class="pe pe-7s-gleam"
+                                                                                       aria-hidden="true"></i>
+                <h4 class="mb-3 mt-3">Energiczne zajęcia</h4>
+                <p class="pb-4">Nie daj się nabrać, że programowanie jest nudne. Poczuj energię i zaangażowanie w
+                    ciekawych tematach.</p>
+            </div>
+
+            <div class="col-md-4 featured-item reveal fadeIn">
+                <i class="pe pe-7s-graph1" aria-hidden="true"></i>
+                <h4 class="mb-3 mt-3">Precyzja i skuteczność</h4>
+                <p class="pb-4">Praktyka pokazuje, że z 80% tematów prawie nigdy nie skorzystasz. Ja pokażę Ci jak być
+                    ninją w najważniejszych 20%!</p>
+            </div>
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.6s">
+                <i class="pe pe-7s-smile" aria-hidden="true"></i>
+                <h4 class="mb-3 mt-3">Zabawa i sympatia</h4>
+                <p class="pb-4">Jeśli jesteś też na tyle wytrzymały, by przetrwać falę prześmiesznych dowcipków... <br/>to
+                    dodatkowy plus ;)</p>
+            </div>
+        </div>
+    </div>
 </section>
-<!--//End Tab -->
-<!--===================== Detailed Slider =====================-->
+<!--//End Features -->
+<!--===================== Programming  =====================-->
 <section class="space">
     <div class="container">
+        <div class="row justify-content-center center-block">
+            <div class="col-md-8">
+                <div class="title-block">
+                    <h2 class="reveal fadeInUp">A może potrzebujesz aplikacji?</h2>
+                    <p class="reveal fadeInUp" data-wow-delay="0.3s">
+                        Mam wieloletnie doświadczenie programistyczne, mogę pomóc z ustaleniem jak najlepiej rozwiązywać problemy, przygotować i nadzorować infrastrukturę oraz stworzyć kompletne rozwiązanie informatyczne, aplikację, program...
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-4 detailed-icon-wrap">
                 <div class="detailed-block reveal fadeInLeft"><span class="pe-primary pe-7s-server"></span>
-                    <h4>Powerful Stack</h4>
-                    <p class="text-muted">Conveniently redefine transparent results vis-a-vis inexpensive best practices
-                        of the tech.</p>
+                    <h4>Obsługa dużej ilości danych</h4>
+                    <p class="text-muted">Aplikacja może obsługiwać znaczne ilości danych, również o użytkownikach, przechowywane na serwerze, lub/i urządzeniu.</p>
                 </div>
                 <div class="detailed-block reveal fadeInLeft" data-wow-delay="0.3s"><span
                         class="pe-primary pe-7s-science"></span>
                     <div class="detailed-title">
-                        <h4>React native support</h4>
-                        <p class="text-muted">Holisticly cultivate effective web services for leading-edge users.
-                            Completely myocardinate impactful </p>
+                        <h4>Proste i skomplikowane</h4>
+                        <p class="text-muted">Realizacje zarówno w zakresie "minimalnym" do wybadania rynku/rozpoczęcia świadczenia usług, jak i "pod klucz" gotowy do wdrożenia.</p>
                     </div>
                 </div>
                 <div class="detailed-block reveal fadeInLeft" data-wow-delay="0.6s"><span
                         class="pe-primary pe-7s-photo"></span>
                     <div class="detailed-title">
-                        <h4>Images included</h4>
-                        <p class="text-muted">Completely myocardinate impactful processes vis-a-vis mission-critical
-                            initiatives practices</p>
+                        <h4>Profesjonalny design</h4>
+                        <p class="text-muted">Rozwiązania interfejsu znane i rozumiane przez użytkowników - intuicyjne i sprawdzone. Estetyczne.</p>
                     </div>
                 </div>
             </div>
@@ -654,179 +398,26 @@ URI     : http://themeforest.net/user/surjithctly
             <div class="col-md-4 detailed-icon-wrap">
                 <div class="detailed-block2 reveal fadeInRight"><span
                         class="pe-primary pe-7s-rocket detailed-icon2"></span>
-                    <h4>Fully functional template</h4>
-                    <p class="text-muted">Conveniently redefine transparent results vis-a-vis inexpensive best practices
-                        of web. </p>
+                    <h4>Szybkość działania</h4>
+                    <p class="text-muted">Możliwość wykonania w technologiach natywnych, o bardzo wysokiej wydajności, jak i w ekonomicznych hybrydowych technologiach.</p>
                 </div>
                 <div class="detailed-block2 reveal fadeInRight"><span class="pe-primary pe-7s-medal detailed-icon2"
                                                                       data-wow-delay="0.3s"></span>
-                    <h4>Award winning design</h4>
-                    <p class="text-muted">Redefine transparent results vis-a-vis inexpensive best practices. Holisticly
-                        cultivate.</p>
+                    <h4>Pomoc od początku</h4>
+                    <p class="text-muted">Oferuję wsparcie przy wdrożeniu aplikacji i doradztwo/zaplecze dla małych i średnich aplikacji.</p>
                 </div>
                 <div class="detailed-block2 reveal fadeInRight"><span class="pe-primary pe-7s-edit detailed-icon2"
                                                                       data-wow-delay="0.6s"></span>
-                    <h4>Easy to customize</h4>
-                    <p class="text-muted">Transparent results vis-a-vis inexpensive best practices. Holisticly cultivate
-                        effective.</p>
+                    <h4>Elastyczny kod źródłowy</h4>
+                    <p class="text-muted">Korzystne cenowo oferty rozwijania i modyfikacji na stworzonych tu aplikacjach.</p>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!--//End Detailed Slider -->
-<!--===================== Sum up =====================-->
-<section class="space light-bg" id="sumup">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 center-block">
-                <div class="tilte-block">
-                    <h2 class="reveal fadeInUp">Pricing plans</h2>
-                    <p class="reveal fadeInUp" data-wow-delay="0.3s">Conveniently coordinate cross-platform data after
-                        emerging internal or organic sources. Authoritatively productivate fully tested niches.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-4">
-                <div class="pricing-wrap reveal fadeIn">
-                    <div class="reveal fadeIn" data-wow-delay="0.9s">
-                        <h3>Standard</h3>
-                        <p class="text-muted">For individuals</p>
-                        <p class="price"><span>$</span>9</p>
-                        <ul>
-                            <li>up to 3 projects</li>
-                            <li>Basic Analytics</li>
-                            <li>Knowledgebase</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Buy this plan<span
-                                class="pe-7s-angle-right-circle ml-3"></span></a></div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="pricing-wrap pricing-wrap-popular reveal fadeIn" data-wow-delay="0.3s">
-                    <div class="reveal fadeIn" data-wow-delay="1.2s">
-                        <h3>Professional</h3>
-                        <p class="text-muted">For startups</p>
-                        <p class="price"><span>$</span>29</p>
-                        <ul>
-                            <li>up to 25 projects</li>
-                            <li>Advanced Analytics</li>
-                            <li>Priority Support</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Buy this plan<span
-                                class="pe-7s-angle-right-circle ml-3"></span></a>
-                        <div class="most-popular">
-                            <p>MOST POPULAR</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="pricing-wrap reveal fadeIn" data-wow-delay="0.6s">
-                    <div class="reveal fadeIn" data-wow-delay="1.5s">
-                        <h3>Enterprise</h3>
-                        <p class="text-muted">For companies</p>
-                        <p class="price"><span>$</span>99</p>
-                        <ul>
-                            <li>unlimited projects</li>
-                            <li>Advanced Analytics</li>
-                            <li>Priority Support</li>
-                        </ul>
-                        <a href="#" class="btn btn-primary">Buy this plan<span
-                                class="pe-7s-angle-right-circle ml-3"></span></a></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--//End Pricing -->
-<!--===================== FAQ =====================-->
-<section class="faq light-bg">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 center-block">
-                <div class="title-block">
-                    <h2 class="reveal fadeInUp">FAQ</h2>
-                    <p class="reveal fadeInUp" data-wow-delay="0.3s">Got questions? We’ve got answers.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <h4 class="reveal fadeInUp">How does the free trial work?</h4>
-                <p class="text-muted reveal fadeInUp" data-wow-delay="0.3s">Our 10 day trial is 100% free and does not
-                    require credit card information to start. If at the end of your trial you would like to upgrade,
-                    great. If not, you can cancel your account altogether, or let us mark it as inactive for you to come
-                    back to later.</p> <br>
-                <h4 class="reveal fadeInUp" data-wow-delay="0.6s">Can I switch plans later?</h4>
-                <p class="text-muted reveal fadeInUp" data-wow-delay="0.9s">Absolutely. You can switch between our paid
-                    plans, or cancel your account altogether, whenever you like. We will adjust any payments
-                    accordingly.</p>
-            </div>
-            <div class="col-md-6">
-                <h4 class="reveal fadeInUp">What payment types do you accept?</h4>
-                <p class="text-muted reveal fadeInUp" data-wow-delay="0.3s">We accept payments from MasterCard, Visa,
-                    Visa Debit and American Express. We do not accept PayPal. Remember, you do not need to supply card
-                    details to start your free trial.</p> <br>
-                <h4 class="reveal fadeInUp" data-wow-delay="0.6s">Do I need to choose a plan now?</h4>
-                <p class="text-muted reveal fadeInUp" data-wow-delay="0.9s">No. You get the full featured, unlimited
-                    version of Startup completely free for 10 days. Once you're ready to upgrade, you may choose a plan
-                    which suits your needs.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center mt-5">
-            <div class="col-md-8">
-                <p class="faq-link reveal fadeInUp" data-wow-delay="1.2s">Have another question? <a href="#"
-                                                                                                    class="link-color">
-                    Contact Support</a></p>
-            </div>
-        </div>
-    </div>
-</section>
-<!--//End FAQ -->
-<!--===================== Our team =====================-->
-<section class="space">
-    <div class="container">
-        <div class="row justify-content-center mb-5">
-            <div class="col-md-8 center-block">
-                <div class="title-block">
-                    <h2 class="reveal fadeInUp">Meet the team</h2>
-                    <p class="" data-wow-delay="0.3s">Conveniently coordinate cross-platform data after emerging
-                        internal or organic sources. Authoritatively productivate fully tested niches.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-3">
-                <div class="team-img-wrap reveal fadeInUp"><img src="images/team1.jpg" class="img-fluid" alt="#">
-                    <h5>Steven Rios</h5> <span class="text-muted">Founder and CEO</span></div>
-            </div>
-            <div class="col-md-3">
-                <div class="team-img-wrap reveal fadeInUp" data-wow-delay="0.3s"><img src="images/team2.jpg"
-                                                                                      class="img-fluid" alt="#">
-                    <h5>Steven Rios</h5> <span class="text-muted">Founder and CEO</span></div>
-            </div>
-            <div class="col-md-3">
-                <div class="team-img-wrap reveal fadeInUp" data-wow-delay="0.6s"><img src="images/team3.jpg"
-                                                                                      class="img-fluid" alt="#">
-                    <h5>Steven Rios</h5> <span class="text-muted">Founder and CEO</span></div>
-            </div>
-            <div class="col-md-3">
-                <div class="team-img-wrap reveal fadeInUp" data-wow-delay="0.9s"><img src="images/team4.jpg"
-                                                                                      class="img-fluid" alt="#">
-                    <h5>Steven Rios</h5> <span class="text-muted">Founder and CEO</span></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--//End Our team -->
-<!--===================== Map =====================-->
-<!-- Things to modify: Your Location Latitude, Longitude, Map Zoom and Google Maps API Key. [[[ See Docs ]]]  -->
-<div class="google-map" id="gmaps" data-lat="40.6700" data-lon="-73.9400" data-maps-apikey="" data-zoom="11"></div>
-<!--//End Map -->
 <!--===================== Contact =====================-->
-<section class="contact" id="contact">
+<section class="contact light-bg" id="contact">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -848,7 +439,7 @@ URI     : http://themeforest.net/user/surjithctly
                                 <div class="form-group"><textarea class="form-control" name="message"
                                                                   placeholder="Message" rows="3"></textarea></div>
                                 <div class="text-center">
-                                    <button type="submit" id="js-contact-btn" class="btn btn-primary mt-4">Send
+                                    <button type="submit" id="js-contact-btn" class="btn btn-primary mt-4">Sendo
                                         message<span class="pe-7s-angle-right-circle ml-3"></span></button>
                                     <div id="js-contact-result" data-success-msg="Success, We will get back to you soon"
                                          data-error-msg="Oops! Something went wrong"></div>
@@ -881,25 +472,6 @@ URI     : http://themeforest.net/user/surjithctly
     </div>
 </section>
 <!--//End Contact -->
-<!--===================== variation =====================-->
-<section class="space light-bg">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 center-block">
-                <h2 class="reveal fadeInUp">Perfect landing page for any App</h2>
-                <p class="mb-5 reveal fadeInUp" data-wow-delay="0.3s">You can create custom iOS and macOS apps for your
-                    business using Swift, our open source programming language. Apps that have the power to transform
-                    workflows, improve client relationships, and boost your productivity.</p> <a href="#"
-                                                                                                 class="reveal fadeInUp"
-                                                                                                 data-wow-delay="0.6s"><img
-                    src="images/app-store.png" class="img-fluid mb-3 mr-sm-3" alt="#"></a> <a href="#"
-                                                                                              class="reveal fadeInUp"
-                                                                                              data-wow-delay="0.9s"><img
-                    src="images/play-store.png" class="img-fluid mb-3" alt="#"></a></div>
-        </div>
-    </div>
-</section>
-<!--//End variation -->
 <!--===================== footer =====================-->
 <footer class="space">
     <div class="container">

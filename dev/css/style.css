@@ -531,8 +531,6 @@ button {
  * ----------------------------------------------- */
 .clients {
   padding: 24px 0; }
-  .dark-theme .clients {
-    background: #383e40; }
 
 /* -----------------------------------------------
  * Isometric View
@@ -1378,7 +1376,7 @@ button {
 .contact-form {
   background: #ffffff;
   padding: 38px 40px;
-  margin: -100px 0 0;
+  margin: -80px 0 0;
   -webkit-box-shadow: 0px 5px 39px -17px #cccccc;
   -moz-box-shadow: 0px 5px 39px -17px #cccccc;
   box-shadow: 0px 5px 39px -17px #cccccc; }
