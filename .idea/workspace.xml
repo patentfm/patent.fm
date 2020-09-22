@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Alpha?">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/polityka-prywatnosci-fajny-material.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wrzosdev" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wrzosdev" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wrzosdev" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wrzosdev" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wrzosdev" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wrzosdev" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectId" id="1haki5GoqB41YLwEPN3wRnRI985" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="buil&#9;FILE&#9;file://D:/Web/experimental3/wrzosdev/build.gradle&#10;wrzosde&#9;RUN_CONFIGURATION&#9;wrzosdev [assemble]" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dev" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.protractor.protractor_package" value="" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="start.from.branch" value="master" />
+    <property name="tasks.close.task.update.state.enabled" value="true" />
+    <property name="tasks.open.task.update.state.enabled" value="false" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/dev/index-white.html" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web\wrzosdev\gobilly" />
+      <recent name="D:\Web\wrzosdev\gobilly\gobilly\source" />
+      <recent name="D:\Web\wrzosdev\styles" />
+      <recent name="D:\Web\experimental3\wrzosdev\src\main\resources" />
+      <recent name="D:\Web\experimental3\wrzosdev\docs\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Web\wrzosdev\dev" />
+      <recent name="D:\Web\wrzosdev\dev\images" />
+      <recent name="D:\Web\wrzosdev\gobilly\gobilly\img\core-img" />
+      <recent name="D:\Web\wrzosdev\gobilly" />
+      <recent name="D:\Web\experimental3\wrzosdev\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="wrzosdev [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="wrzosdev [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="wrzosdev [classes]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="classes" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="wrzosdev [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/wrzosdev/dev/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.wrzosdev [build]" />
+      <item itemvalue="Gradle.wrzosdev [assemble]" />
+      <item itemvalue="Gradle.wrzosdev [clean]" />
+      <item itemvalue="Gradle.wrzosdev [classes]" />
+      <item itemvalue="JavaScript Debug.index.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Gradle.wrzosdev [build]" />
+        <item itemvalue="Gradle.wrzosdev [classes]" />
+        <item itemvalue="Gradle.wrzosdev [clean]" />
+        <item itemvalue="Gradle.wrzosdev [assemble]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <branch name="development" repository="D:\Web\wrzosdev" original="true" />
+      <branch name="master" repository="D:\Web\wrzosdev" original="true" />
+      <changelist id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="" />
+      <created>1526764884878</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527084224400</updated>
+      <workItem from="1526764888832" duration="3733000" />
+      <workItem from="1526842452355" duration="8700000" />
+      <workItem from="1526889489423" duration="412000" />
+      <workItem from="1526890148934" duration="2000" />
+      <workItem from="1526891362968" duration="783000" />
+      <workItem from="1526892168862" duration="2107000" />
+      <workItem from="1526989853498" duration="9000" />
+      <workItem from="1527065116664" duration="804000" />
+      <workItem from="1527079373726" duration="2525000" />
+      <workItem from="1527084225042" duration="1029000" />
+      <workItem from="1527086842099" duration="623000" />
+      <workItem from="1527169479863" duration="1830000" />
+      <workItem from="1527490628364" duration="1430000" />
+      <workItem from="1527594176467" duration="8000" />
+      <workItem from="1527681130330" duration="559000" />
+      <workItem from="1529187049158" duration="2014000" />
+      <workItem from="1529412359976" duration="1502000" />
+      <workItem from="1530008092361" duration="36000" />
+      <workItem from="1600256719707" duration="16621000" />
+      <workItem from="1600415734277" duration="2993000" />
+      <workItem from="1600428037091" duration="18428000" />
+    </task>
+    <task id="wrzosdev-21" summary="Formularz kontaktowy - przesuwanie strony">
+      <branch name="master" repository="D:\Web\wrzosdev" />
+      <created>1525348040000</created>
+      <option name="issue" value="true" />
+      <url>https://github.com/wrzosdev/wrzosdev/issues/21</url>
+      <option name="number" value="21" />
+      <option name="presentableId" value="wrzosdev-21" />
+      <option name="project" value="wrzosdev" />
+      <option name="type" value="BUG" />
+      <updated>1527084224140</updated>
+      <workItem from="1527081900973" duration="2322000" />
+    </task>
+    <task id="LOCAL-00011" summary="Znikające menu górne - nieintuicyjny klik">
+      <created>1527083308932</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1527083308932</updated>
+    </task>
+    <task id="LOCAL-00012" summary="close #29 zamykanie menu bocznego">
+      <created>1527083774103</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1527083774103</updated>
+    </task>
+    <task id="LOCAL-00013" summary="close #10 - github i skaczacy przycisk na zmienianych rozdzielczosciach">
+      <created>1527084213574</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1527084213574</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Aktualizacja daty wydania quizów">
+      <created>1527491873538</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1527491873538</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Aktualizacja daty wydania quizów">
+      <created>1548045625008</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1548045625008</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Aktualizacja landing page dla Go Billy">
+      <created>1548058449720</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1548058449720</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Aktualizacja strony głównej">
+      <created>1548059463232</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1548059463232</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Zaślepienie aktualności">
+      <created>1548059528897</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1548059528897</updated>
+    </task>
+    <task id="LOCAL-00019" summary="local js">
+      <created>1548060275112</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1548060275112</updated>
+    </task>
+    <task id="LOCAL-00020" summary="path css">
+      <created>1548060315656</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1548060315656</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Portfolio update">
+      <created>1548060557436</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1548060557436</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Script update - header FIX">
+      <created>1548060944791</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1548060944791</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Script update - header FIX">
+      <created>1548061146625</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1548061146625</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Script update - header FIX">
+      <created>1548061336740</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1548061336740</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Privacy policy template">
+      <created>1548110888339</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1548110888339</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Polityka prywatności dummy">
+      <created>1549649455376</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1549649455376</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Polityka prywatności">
+      <created>1549651244295</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1549651244295</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Przemianowanie">
+      <created>1549651360437</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1549651360437</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Literówka">
+      <created>1549651609290</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1549651609290</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Brak danych w sumie">
+      <created>1549651776926</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1549651776926</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Billy page">
+      <created>1550842393967</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1550842393967</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Billy page">
+      <created>1551719714247</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1551719714247</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Billy landing page">
+      <created>1551732004977</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1551732004978</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Billy landing page">
+      <created>1551745505051</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1551745505051</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Billy landing page">
+      <created>1551787852998</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1551787852998</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Billy landing page">
+      <created>1552131415230</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1552131415230</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Billy landing page">
+      <created>1552131434184</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1552131434184</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Billy landing page">
+      <created>1552132092911</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1552132092911</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Billy landing page">
+      <created>1552133964515</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1552133964515</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Billy landing page">
+      <created>1552134012776</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1552134012776</updated>
+    </task>
+    <task id="LOCAL-00041" summary="go billy">
+      <created>1562195034416</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1562195034416</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Usunięcie polityki (nieaktualna)">
+      <created>1562195539781</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1562195539781</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Usuniecie projektów">
+      <created>1562195620448</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1562195620448</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Site under construction">
+      <created>1562347831493</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1562347831493</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Przekierowanie">
+      <created>1562348140332</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1562348140332</updated>
+    </task>
+    <task id="LOCAL-00046" summary="entery">
+      <created>1562359830039</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1562359830039</updated>
+    </task>
+    <task id="LOCAL-00047" summary="koniec gobilly">
+      <created>1564413158017</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1564413158018</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Usuniecie dni otwartych">
+      <created>1572974012273</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1572974012274</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Redesign template">
+      <created>1600257619772</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1600257619773</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Reformat index, menu and slider landing section">
+      <created>1600344833263</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1600344833263</updated>
+    </task>
+    <task id="LOCAL-00051" summary="slider landing section">
+      <created>1600349464249</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1600349464249</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Missing css files">
+      <created>1600349768006</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1600349768006</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Video sm/xs fix">
+      <created>1600350577629</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1600350577630</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Video sm/xs fix">
+      <created>1600351039753</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1600351039753</updated>
+    </task>
+    <task id="LOCAL-00055" summary="SVG logo">
+      <created>1600351600389</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1600351600389</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Play store button xs sm">
+      <created>1600352551087</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1600352551087</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Features 3 sztuki">
+      <created>1600424183693</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1600424183693</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Alpha?">
+      <created>1600693910993</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1600693910994</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
+    <option name="clearContext" value="false" />
+    <option name="createBranch" value="false" />
+    <option name="useBranch" value="true" />
+    <option name="commitChanges" value="false" />
+    <servers>
+      <GitHub url="https://github.com">
+        <option name="preferredCloseTaskState">
+          <CustomTaskState id="RESOLVED" predefined="true" name="Resolved" />
+        </option>
+        <option name="repoAuthor" value="wrzosdev" />
+        <option name="repoName" value="wrzosdev" />
+        <option name="shouldFormatCommitMessage" value="true" />
+      </GitHub>
+    </servers>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Polityka prywatności dummy" />
+    <MESSAGE value="Polityka prywatności" />
+    <MESSAGE value="Przemianowanie" />
+    <MESSAGE value="Literówka" />
+    <MESSAGE value="Brak danych w sumie" />
+    <MESSAGE value="Billy page" />
+    <MESSAGE value="Billy landing page" />
+    <MESSAGE value="go billy" />
+    <MESSAGE value="Usunięcie polityki (nieaktualna)" />
+    <MESSAGE value="Usuniecie projektów" />
+    <MESSAGE value="Site under construction" />
+    <MESSAGE value="Przekierowanie" />
+    <MESSAGE value="entery" />
+    <MESSAGE value="koniec gobilly" />
+    <MESSAGE value="Usuniecie dni otwartych" />
+    <MESSAGE value="Redesign template" />
+    <MESSAGE value="Reformat index, menu and slider landing section" />
+    <MESSAGE value="slider landing section" />
+    <MESSAGE value="Missing css files" />
+    <MESSAGE value="Video sm/xs fix" />
+    <MESSAGE value="SVG logo" />
+    <MESSAGE value="Play store button xs sm" />
+    <MESSAGE value="MD smaller size" />
+    <MESSAGE value="Features 3 sztuki" />
+    <MESSAGE value="Alpha?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alpha?" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1600693502312">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600257657123" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600693502312" />
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1600693476030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600693476030" />
+    <state width="938" height="347" key="GridCell.Tab.0.bottom" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.0.center" timestamp="1600771191026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.0.center/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191026" />
+    <state width="938" height="347" key="GridCell.Tab.0.left" timestamp="1600771191026">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.0.left/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191026" />
+    <state width="938" height="347" key="GridCell.Tab.0.right" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.0.right/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.1.bottom" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.1.center" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.1.center/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.1.left" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.1.left/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.1.right" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.1.right/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.2.bottom" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.2.center" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.2.center/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.2.left" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.2.left/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.2.right" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.2.right/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.3.bottom" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.3.bottom/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.3.center" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.3.center/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.3.left" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.3.left/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state width="938" height="347" key="GridCell.Tab.3.right" timestamp="1600771191027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="347" key="GridCell.Tab.3.right/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1600775335906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600347322955" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600775335906" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600693915416">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600424185565" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600775514833" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600768564344">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600256895866" />
+    <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600768564344" />
+    <state x="666" y="119" width="587" height="801" key="find.popup" timestamp="1600773035967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351933286" />
+    <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600773035967" />
+    <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600693371054" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1600775560856">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600354149343" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600775560856" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600772441123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600353801111" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600772441123" />
+  </component>
+</project>
