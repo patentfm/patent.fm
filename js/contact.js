@@ -86,12 +86,12 @@ $(function() {
                     if (d == 'success') {
                         if (noredirect) {
                             $phpcontactform[0].reset();
-                            $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-success">' + success_msg + '</div>').delay(3000).fadeOut('slow');
+                            $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-success">' + success_msg + '</div>').delay(10000).fadeOut('slow');
                         } else {
                             window.location.href = redirect;
                         }
                     } else {
-                        $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(3000).fadeOut('slow');
+                        $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(10000).fadeOut('slow');
                         if (window.console) {
                             console.log('PHP Error: ' + d);
                         }
@@ -99,7 +99,7 @@ $(function() {
                     $jscontactbtn.attr("disabled", false);
                 },
                 error: function(d) {
-                    $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger"> Cannot access Server</div>').delay(3000).fadeOut('slow');
+                    $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger"> Cannot access Server</div>').delay(10000).fadeOut('slow');
                     $jscontactbtn.attr("disabled", false);
                     if (window.console) {
                         console.log('Ajax Error: ' + d.statusText);

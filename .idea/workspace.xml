@@ -28,17 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="test mail()">
-      <change afterPath="$PROJECT_DIR$/php/contact-form.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/phpmailer/class.phpmailer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/phpmailer/class.phpmaileroauth.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/phpmailer/class.phpmaileroauthgoogle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/phpmailer/class.pop3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/phpmailer/class.smtp.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/phpmailer/get_oauth_token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/contact-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact-form.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,19 +135,19 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/dev/index-white.html" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web\wrzosdev\gobilly" />
-      <recent name="D:\Web\wrzosdev\gobilly\gobilly\source" />
-      <recent name="D:\Web\wrzosdev\styles" />
-      <recent name="D:\Web\experimental3\wrzosdev\src\main\resources" />
-      <recent name="D:\Web\experimental3\wrzosdev\docs\lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Web\wrzosdev\dev" />
       <recent name="D:\Web\wrzosdev\dev\images" />
       <recent name="D:\Web\wrzosdev\gobilly\gobilly\img\core-img" />
       <recent name="D:\Web\wrzosdev\gobilly" />
       <recent name="D:\Web\experimental3\wrzosdev\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web\wrzosdev\gobilly" />
+      <recent name="D:\Web\wrzosdev\gobilly\gobilly\source" />
+      <recent name="D:\Web\wrzosdev\styles" />
+      <recent name="D:\Web\experimental3\wrzosdev\src\main\resources" />
+      <recent name="D:\Web\experimental3\wrzosdev\docs\lib" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -325,14 +317,7 @@
       <workItem from="1600256719707" duration="16621000" />
       <workItem from="1600415734277" duration="2993000" />
       <workItem from="1600428037091" duration="28608000" />
-      <workItem from="1600853070813" duration="8006000" />
-    </task>
-    <task id="LOCAL-00018" summary="Zaślepienie aktualności">
-      <created>1548059528897</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1548059528897</updated>
+      <workItem from="1600853070813" duration="9180000" />
     </task>
     <task id="LOCAL-00019" summary="local js">
       <created>1548060275112</created>
@@ -670,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600860402353</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="test mail()">
+      <created>1600862037230</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1600862037230</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -739,6 +731,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="test mail()" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="712" y="329" key="#Images" timestamp="1600862186784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="712" y="329" key="#Images/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600862186784" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1600693502312">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -817,11 +813,11 @@
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600347322955" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600775335906" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600860435776">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600862059046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600860435776" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600862059046" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -843,10 +839,10 @@
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600354149343" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600775560856" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600779965918">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600862175263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600353801111" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600779965918" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600862175263" />
   </component>
 </project>
