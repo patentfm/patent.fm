@@ -8,7 +8,7 @@ error_reporting(0);
  
 $to    = "wrzosdev@gmail.com"; // <--- Your email ID here
 
-$server_email = 'wrzosdev@gmail.com';  // Your server email to authenticate outgoing emails. eg: name@yourdomain.com
+$server_email = 'wrzosinf@wn28.webd.pl';  // Your server email to authenticate outgoing emails. eg: name@yourdomain.com
 /*
  * ------------------------------------
  * END CONFIGURATION
