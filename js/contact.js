@@ -80,7 +80,7 @@ $(function() {
             $.ajax({
                 type: "POST",
                 data: dataString,
-                url: "php/contact.php",
+                url: "php/contact-form.php",
                 cache: false,
                 success: function(d) {
                     if (d == 'success') {
