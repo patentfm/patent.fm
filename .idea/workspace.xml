@@ -28,7 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Poglądowa wersja alpha 3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/dev/php/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +153,19 @@
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -302,19 +317,7 @@
       <workItem from="1600256719707" duration="16621000" />
       <workItem from="1600415734277" duration="2993000" />
       <workItem from="1600428037091" duration="28608000" />
-      <workItem from="1600853070813" duration="1478000" />
-    </task>
-    <task id="wrzosdev-21" summary="Formularz kontaktowy - przesuwanie strony">
-      <branch name="master" repository="D:\Web\wrzosdev" />
-      <created>1525348040000</created>
-      <option name="issue" value="true" />
-      <url>https://github.com/wrzosdev/wrzosdev/issues/21</url>
-      <option name="number" value="21" />
-      <option name="presentableId" value="wrzosdev-21" />
-      <option name="project" value="wrzosdev" />
-      <option name="type" value="BUG" />
-      <updated>1527084224140</updated>
-      <workItem from="1527081900973" duration="2322000" />
+      <workItem from="1600853070813" duration="2995000" />
     </task>
     <task id="LOCAL-00014" summary="Aktualizacja daty wydania quizów">
       <created>1527491873538</created>
@@ -652,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600854690860</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Poglądowa wersja alpha 3">
+      <created>1600854751389</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1600854751390</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -799,11 +809,11 @@
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600347322955" />
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600775335906" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600854692352">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1600854949042">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600854692352" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600854949042" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -814,11 +824,11 @@
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600256895866" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600778344535" />
-    <state x="666" y="119" width="587" height="801" key="find.popup" timestamp="1600854646340">
+    <state x="666" y="119" width="587" height="801" key="find.popup" timestamp="1600855123725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351933286" />
-    <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600854646340" />
+    <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600855123725" />
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600693371054" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1600775560856">
       <screen x="0" y="0" width="1920" height="1040" />
