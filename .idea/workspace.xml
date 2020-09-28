@@ -27,9 +27,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Cookies">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Polityka prywatnosci">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/polityka-prywatnosci-fajny-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/polityka-prywatnosci-fajny-material.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/blog-img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog-img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,14 +316,7 @@
       <workItem from="1600415734277" duration="2993000" />
       <workItem from="1600428037091" duration="28608000" />
       <workItem from="1600853070813" duration="12103000" />
-      <workItem from="1601281558719" duration="11992000" />
-    </task>
-    <task id="LOCAL-00026" summary="Polityka prywatności dummy">
-      <created>1549649455376</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1549649455376</updated>
+      <workItem from="1601281558719" duration="13494000" />
     </task>
     <task id="LOCAL-00027" summary="Polityka prywatności">
       <created>1549651244295</created>
@@ -660,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601292532505</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Polityka prywatnosci">
+      <created>1601297307720</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1601297307720</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -701,7 +702,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Przekierowanie" />
     <MESSAGE value="entery" />
     <MESSAGE value="koniec gobilly" />
     <MESSAGE value="Usuniecie dni otwartych" />
@@ -726,7 +726,8 @@
     <MESSAGE value="Usuniecie backupu" />
     <MESSAGE value="ignore backupu" />
     <MESSAGE value="Cookies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cookies" />
+    <MESSAGE value="Polityka prywatnosci" />
+    <option name="LAST_COMMIT_MESSAGE" value="Polityka prywatnosci" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -812,20 +813,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="938" height="347" key="GridCell.Tab.3.right/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600771191027" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1600775335906">
+    <state x="440" y="94" key="SettingsEditor" timestamp="1601297882082">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600347322955" />
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1600775335906" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601297882082" />
     <state width="530" height="446" key="SwitcherDM" timestamp="1601289738545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601292533568">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601297309481">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601292533568" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601297309481" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -847,10 +848,10 @@
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600354149343" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601296606248" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601296526893">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601297629578">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600353801111" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601296526893" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601297629578" />
   </component>
 </project>
