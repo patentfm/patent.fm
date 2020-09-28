@@ -27,10 +27,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Polityka prywatnosci">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Beta 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/blog-img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/blog-img1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +112,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/index-dark.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../billy.plus" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -153,17 +152,6 @@
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -316,14 +304,8 @@
       <workItem from="1600415734277" duration="2993000" />
       <workItem from="1600428037091" duration="28608000" />
       <workItem from="1600853070813" duration="12103000" />
-      <workItem from="1601281558719" duration="13494000" />
-    </task>
-    <task id="LOCAL-00027" summary="Polityka prywatności">
-      <created>1549651244295</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1549651244295</updated>
+      <workItem from="1601281558719" duration="14234000" />
+      <workItem from="1601299790653" duration="969000" />
     </task>
     <task id="LOCAL-00028" summary="Przemianowanie">
       <created>1549651360437</created>
@@ -661,7 +643,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601297307720</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="Beta 1">
+      <created>1601298844072</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1601298844072</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -702,7 +691,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="entery" />
     <MESSAGE value="koniec gobilly" />
     <MESSAGE value="Usuniecie dni otwartych" />
     <MESSAGE value="Redesign template" />
@@ -727,7 +715,8 @@
     <MESSAGE value="ignore backupu" />
     <MESSAGE value="Cookies" />
     <MESSAGE value="Polityka prywatnosci" />
-    <option name="LAST_COMMIT_MESSAGE" value="Polityka prywatnosci" />
+    <MESSAGE value="Beta 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beta 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -744,10 +733,10 @@
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600257657123" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601286078379" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600693502312" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601286010927">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601299794445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601286010927" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601299794445" />
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1600693476030" />
     <state width="938" height="347" key="GridCell.Tab.0.bottom" timestamp="1600771191027">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -822,11 +811,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601297309481">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601298921132">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601297309481" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601298921132" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
