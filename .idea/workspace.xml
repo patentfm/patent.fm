@@ -27,9 +27,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Beta 1">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Link dowiedz się więcej md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polityka-prywatnosci-fajny-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/polityka-prywatnosci-fajny-material.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,19 +135,19 @@
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/index-dark.html" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Web\wrzosdev\gobilly" />
-      <recent name="D:\Web\wrzosdev\gobilly\gobilly\source" />
-      <recent name="D:\Web\wrzosdev\styles" />
-      <recent name="D:\Web\experimental3\wrzosdev\src\main\resources" />
-      <recent name="D:\Web\experimental3\wrzosdev\docs\lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Web\wrzosdev" />
       <recent name="D:\Web\wrzosdev\dev" />
       <recent name="D:\Web\wrzosdev\dev\images" />
       <recent name="D:\Web\wrzosdev\gobilly\gobilly\img\core-img" />
       <recent name="D:\Web\wrzosdev\gobilly" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Web\wrzosdev\gobilly" />
+      <recent name="D:\Web\wrzosdev\gobilly\gobilly\source" />
+      <recent name="D:\Web\wrzosdev\styles" />
+      <recent name="D:\Web\experimental3\wrzosdev\src\main\resources" />
+      <recent name="D:\Web\experimental3\wrzosdev\docs\lib" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -305,14 +306,7 @@
       <workItem from="1600428037091" duration="28608000" />
       <workItem from="1600853070813" duration="12103000" />
       <workItem from="1601281558719" duration="14234000" />
-      <workItem from="1601299790653" duration="969000" />
-    </task>
-    <task id="LOCAL-00028" summary="Przemianowanie">
-      <created>1549651360437</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1549651360437</updated>
+      <workItem from="1601299790653" duration="1954000" />
     </task>
     <task id="LOCAL-00029" summary="Literówka">
       <created>1549651609290</created>
@@ -650,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601298844072</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="Link dowiedz się więcej md">
+      <created>1601301776777</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301776777</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -691,7 +692,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="koniec gobilly" />
     <MESSAGE value="Usuniecie dni otwartych" />
     <MESSAGE value="Redesign template" />
     <MESSAGE value="Reformat index, menu and slider landing section" />
@@ -716,7 +716,8 @@
     <MESSAGE value="Cookies" />
     <MESSAGE value="Polityka prywatnosci" />
     <MESSAGE value="Beta 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beta 1" />
+    <MESSAGE value="Link dowiedz się więcej md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Link dowiedz się więcej md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -811,11 +812,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601298921132">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601301778063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601298921132" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601301778063" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
