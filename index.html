@@ -49,6 +49,49 @@
             }
         }
     </style>
+    <style>
+        .cookieBottom {
+            background: rgba(27,27,27,.85);
+            text-align: center;
+            width: 100%;
+            padding-top: 5px;
+            position: fixed;
+            bottom: 0;
+            vertical-align: middle;
+            z-index: 10;
+            font-size: .7rem;
+        }
+        .cookieBottom a{
+            color: #1fb1ff;
+        }
+        .cookieBlueButton {
+            margin-left: 20px;
+            margin-right: 10px;
+            margin-top: -1px;
+            margin-bottom: 3px;
+            border: 0;
+            background: #1fb1ff;
+            color: #000;
+            border-radius: 5px;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+        }
+        @media (max-width: 767px) {
+            .cookie-privacy {
+                float: left;
+                margin-left: 25px;
+                margin-bottom: 10px;
+            }
+            .cookieBlueButton {
+                float: right;
+                margin-right: 25px;
+                margin-bottom: 10px;
+
+            }
+        }
+    </style>
 </head>
 
 <body data-scroll-animation="false" class="dark-theme">
@@ -75,14 +118,14 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
+                            <li class="nav-item d-none">
                                 <a class="nav-link" href="#home">ZAJAWKA <span class="sr-only">(current)</span></a>
                             </li>
                             <!--todo current i active nie mają obsługi-->
-                            <li class="nav-item">
+                            <li class="nav-item d-none">
                                 <a class="nav-link" href="#features">PROJEKTY</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item active d-none">
                                 <a class="nav-link" href="darmowy-ebook-swiat-jest-programistyczny.html">DARMOWY E-BOOK</a>
                             </li>
                             <li class="nav-item">
@@ -96,7 +139,7 @@
     </div>
 </div>
 <!-- Slider newsletter -->
-<section class="slider-bg mb-0 mb-xl-5 mt-0 mt-xl-3" id="home">
+<section class="slider-bg mb-0 mb-xl-5 mt-0 mt-xl-3 d-none" id="home">
     <div class="container pb-0 pb-xl-5 pt-0 pt-xl-5">
         <div class="row">
             <div class="col-md-6 order-md-1 space-md-up">
@@ -138,7 +181,7 @@
                              data-error-msg="Oops. Something went wrong."></div>
                     </form>
                 </div>
-                <p class="reveal fadeInUp opct opacity-90 text-sm-left text-center mt-md-1 mt-sm-1" data-wow-delay="3.2s">
+                <p class="reveal fadeInUp opct opacity-90 text-sm-left text-center mt-md-1 mt-sm-1 d-none" data-wow-delay="3.2s">
                     Jeśli chcesz darmowego e-booka
                     <br class="d-xl-none d-lg-block d-md-block d-sm-block"/>
                     <a href="darmowy-ebook-swiat-jest-programistyczny.html" style="color: #d4d6da">"Świat jest
@@ -222,7 +265,7 @@
                             <li>Zrobimy <strong>YouTube Music "bez reklam"</strong></li>
                             <li>Zobaczysz jak pracuje się w <strong>społeczności</strong></li>
                         </ul>
-                        <a href="#" class="btn btn-primary">Darmowe odcinki<span class="pe-7s-angle-right-circle ml-3" style="font-size: large"></span></a>
+                        <a href="kurs-github-i-git-flow-praktyczne-wykorzystanie.html" class="btn btn-primary">Darmowe odcinki<span class="pe-7s-angle-right-circle ml-3" style="font-size: large"></span></a>
                         <div class="most-popular">
                             <p>PREMIERA</p>
                         </div>
@@ -361,7 +404,7 @@
 </div>
 <!--//End Clients -->
 <!--===================== Learning  =====================-->
-<section class=" light-bg">
+<section class=" space">
     <div class="container">
         <div class="row justify-content-center center-block">
             <div class="col-md-8">
@@ -403,7 +446,7 @@
 </section>
 <!--//End Features -->
 <!--===================== Programming  =====================-->
-<section class="space">
+<section class="space d-none">
     <div class="container">
         <div class="row justify-content-center center-block">
             <div class="col-md-8">
@@ -492,7 +535,7 @@
 </section>
 <!--//End Detailed Slider -->
 <!--===================== Contact =====================-->
-<section class="contact light-bg">
+<section class="contact light-bg" style="margin-top:100px">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
@@ -569,6 +612,7 @@
         </div>
     </div>
 </footer>
+<div id="cookieBottom" class="cookieBottom d-none">Używamy plików cookie, aby zoptymalizować funkcjonalność strony i zapewnić jak najlepsze możliwe wrażenia.  <br class="d-block d-md-none"/> <a href="polityka-prywatnosci-fajny-material.html" class="cookie-privacy" target="_blank" rel="nofollow">Dowiedz się więcej </a><button class="cookieBlueButton" onclick="removeCookieAds()">OK</button></div>
 <!--//End footer -->
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="vendors/jquery/js/jquery-3.2.1.min.js"></script>
@@ -588,6 +632,18 @@
 <script src="js/contact.js"></script>
 <!-- Script JS -->
 <script src="js/script.js"></script>
+<script type="text/javascript" language="JavaScript">
+    if (!getCookie('cookiesDismissed')){
+        var element = document.getElementById('cookieBottom');
+        element.classList.remove('d-none')
+        element.classList.add('d-block')
+    }
+    function removeCookieAds(){
+        var element = document.getElementById('cookieBottom');
+        element.parentNode.removeChild(element)
+        setCookie('cookiesDismissed', 'ok', 9999)
+    }
+</script>
 </body>
 
 </html>
