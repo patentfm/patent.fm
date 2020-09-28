@@ -27,9 +27,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Link dowiedz się więcej md">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Ikony na podstronach">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polityka-prywatnosci-fajny-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/polityka-prywatnosci-fajny-material.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -306,14 +306,7 @@
       <workItem from="1600428037091" duration="28608000" />
       <workItem from="1600853070813" duration="12103000" />
       <workItem from="1601281558719" duration="14234000" />
-      <workItem from="1601299790653" duration="1954000" />
-    </task>
-    <task id="LOCAL-00029" summary="Literówka">
-      <created>1549651609290</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1549651609290</updated>
+      <workItem from="1601299790653" duration="2237000" />
     </task>
     <task id="LOCAL-00030" summary="Brak danych w sumie">
       <created>1549651776926</created>
@@ -651,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601301776777</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Ikony na podstronach">
+      <created>1601311617226</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1601311617226</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -692,7 +692,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Usuniecie dni otwartych" />
     <MESSAGE value="Redesign template" />
     <MESSAGE value="Reformat index, menu and slider landing section" />
     <MESSAGE value="slider landing section" />
@@ -717,7 +716,8 @@
     <MESSAGE value="Polityka prywatnosci" />
     <MESSAGE value="Beta 1" />
     <MESSAGE value="Link dowiedz się więcej md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Link dowiedz się więcej md" />
+    <MESSAGE value="Ikony na podstronach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ikony na podstronach" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -812,11 +812,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601301778063">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601311620259">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601301778063" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601311620259" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
