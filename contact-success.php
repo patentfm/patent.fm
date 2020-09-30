@@ -60,7 +60,7 @@
                         <input type="email" name="email"
                                class="form-control" id="subscribe_email_input"
                                placeholder="Twój email"
-                        value="<?php error_reporting(0); echo $_POST['email']; ?>">
+                        value="<?php error_reporting(0); echo $_GET['email']; ?>">
                         <span class="input-group-btn theme-form-btn">
                                 <button class="btn" type="submit" id="js-subscribe-btn">
                                     <i class="fa fa-envelope-o" aria-hidden="true"></i>SUBSKRYBUJ

@@ -72,17 +72,17 @@ $(function() {
                 url: "php/contact.php",
                 cache: false,
                 success: function(d) {
-                    if (d == 'success') {
+                    if (d.startsWith("Mailer")) {
+                        $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(10000).fadeOut('slow');
+                        if (window.console) {
+                            console.log('PHP Error: ' + d);
+                        }
+                    } else {
                         if (noredirect) {
                             $phpcontactform[0].reset();
                             $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-success">' + success_msg + '</div>').delay(10000).fadeOut('slow');
                         } else {
-                            window.location.href = redirect;
-                        }
-                    } else {
-                        $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(10000).fadeOut('slow');
-                        if (window.console) {
-                            console.log('PHP Error: ' + d);
+                            window.location.href = redirect+"?email="+d;
                         }
                     }
                     $jscontactbtn.attr("disabled", false);
