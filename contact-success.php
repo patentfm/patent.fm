@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Mobland - Responsive HTML5">
+    <meta name="keywords" content="HTML5, bootstrap, interior, fashion, shopping, responsive">
+    <title>Fajny Materiał - Kurs github i git flow : Praktyka i korzystanie</title>
+    <!-- Icons-->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="alternate icon" href="favicon.ico">
+    <link rel="mask-icon" href="favicon.png" color="#FFFFFF">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="vendors/fontawesome/css/font-awesome.min.css">
+    <!-- Simple Line Font -->
+    <link rel="stylesheet" href="vendors/simple-line-icons/css/simple-line-icons.css">
+    <!-- Pe-icon Font -->
+    <link rel="stylesheet" href="vendors/pe-icon/css/helper.css">
+    <link rel="stylesheet" href="vendors/pe-icon/css/pe-icon-7-stroke.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <!-- owlcarousel Slider -->
+    <link rel="stylesheet" href="vendors/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/owlcarousel/css/owl.theme.default.min.css">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet"> </head>
+
+<body class="dark-theme">
+<div class="preloader" id="preloader"> <svg class="spinner" id="pageloader_anime" width="32px" height="32px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+    <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
+</svg> </div>
+<!--===================== Static No Scroll =====================-->
+<section class="space static">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 d-none d-md-block">
+                <div class="deatiled-phone-wrap"> <img src="images/detailed-screen.png" class="phone" alt="#">
+                    <div class="screen">
+                        <div class="screen-slider owl-carousel owl-theme">
+                            <div class="item"><img src="images/screen1.jpg" alt="#"></div>
+                            <div class="item"><img src="images/screen2.jpg" alt="#"></div>
+                            <div class="item"><img src="images/screen3.jpg" alt="#"></div>
+                            <div class="item"><img src="images/screen4.jpg" alt="#"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="static-content-wrap"> <img src="images/fajnymaterial.png" class="img-fluid" alt="#">
+                    <h1 class="mb-4 h2">Udało Ci się! Odpiszę w ciągu 24h :)</h1>
+                    <h3>Chcesz być na bieżąco z materiałem?</h3>
+                    <p class="pr-md-0 pr-sm-0">Możesz od razu zapisać się na listę osób, którym daję znać przed czasem o nowościach i udostępniam Fajne Materiały :) Dla każdego na początek garść fajnych gratisków. Pozdrawiam!</p>
+                </div>
+                <form action="php/subscribe.php" method="post" id="subscribeform" class="mb-5">
+                    <div class="input-group">
+                        <input type="email" name="email"
+                               class="form-control" id="subscribe_email_input"
+                               placeholder="Twój email"
+                        value="<?php error_reporting(0); echo $_POST['email']; ?>">
+                        <span class="input-group-btn theme-form-btn">
+                                <button class="btn" type="submit" id="js-subscribe-btn">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>SUBSKRYBUJ
+                                </button>
+                            </span>
+                    </div>
+                    <div id="js-subscribe-result" class="text-center"
+                         data-success-msg="Almost finished. Please check your email and verify."
+                         data-error-msg="Oops. Something went wrong."></div>
+                </form>
+                <div class="static-list-block"> <span class="pe-7s-check"></span>
+                    <p>Żadnego spamu, tylko Fajne Materiały</p>
+                </div>
+                <div class="static-list-block"> <span class="pe-7s-check"></span>
+                    <p>Możesz wypisać się w każdej chwili</p>
+                </div>
+                <div class="static-list-block"> <span class="pe-7s-check"></span>
+                    <p>Specjalne oferty i zniżki</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="row mt-5">
+                <div class="col-md-6 ">
+                    <p>Copyright © 2020. All rights reserved. Wrzosdev</p>
+                </div>
+                <div class="col-md-6">
+                    <a href="polityka-prywatnosci-fajny-material.html" class="link-color reveal fadeInUp" data-wow-delay="0.9s">PRYWATNOŚĆ</a>
+                    <a href="ceidg.pdf" class="link-color reveal fadeInUp" data-wow-delay="0.6s">CEIDG</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</section>
+<!--//End Static No Scroll -->
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+<script src="vendors/jquery/js/jquery-3.2.1.min.js"></script>
+<script src="vendors/bootstrap/js/popper.min.js"></script>
+<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+<!-- owlcarousel JS -->
+<script src="vendors/owlcarousel/js/owl.carousel.min.js"></script>
+<!-- Script JS -->
+<script src="js/script.js"></script>
+</body>
+
+</html>
