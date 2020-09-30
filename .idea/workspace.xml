@@ -29,7 +29,12 @@
   <component name="ChangeListManager">
     <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Mailchimp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact-success.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact-success.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/subscribe.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/subscribe.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,14 +312,7 @@
       <workItem from="1601281558719" duration="14234000" />
       <workItem from="1601299790653" duration="4219000" />
       <workItem from="1601451319935" duration="9858000" />
-      <workItem from="1601464838896" duration="1270000" />
-    </task>
-    <task id="LOCAL-00046" summary="entery">
-      <created>1562359830039</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1562359830039</updated>
+      <workItem from="1601464838896" duration="4422000" />
     </task>
     <task id="LOCAL-00047" summary="koniec gobilly">
       <created>1564413158017</created>
@@ -652,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601465384860</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Mailchimp">
+      <created>1601466113815</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1601466113815</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -813,12 +818,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601465387982">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601466986983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601465387982" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601466986983" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601469773945">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601469773945" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -828,17 +837,17 @@
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600256895866" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601458890524" />
-    <state x="978" y="119" width="651" height="801" key="find.popup" timestamp="1601463105667">
+    <state x="978" y="119" width="651" height="801" key="find.popup" timestamp="1601470061723">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351933286" />
-    <state x="978" y="119" width="651" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601463105667" />
+    <state x="978" y="119" width="651" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601470061723" />
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600693371054" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1601296606248">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1601470247229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600354149343" />
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601296606248" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601470247229" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601312054408">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -39,12 +39,12 @@ $(function() {
             message: "required",
         },
         messages: {
-            name: "Your full name please",
+            name: "Proszę, podaj swoję imie",
             email: {
-                required: "Please enter your email address",
-                email: "Please enter a valid email address"
+                required: "Proszę, podaj adres bym mógł odpowiedzieć",
+                email: "Proszę, upewnij się, że adres nie ma błędów"
             },
-            message: "Please enter your message",
+            message: "Proszę, napisz wiadomość",
         },
         submitHandler: function(form) {
             $jscontactbtn.attr("disabled", true);
@@ -82,7 +82,7 @@ $(function() {
                             $phpcontactform[0].reset();
                             $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-success">' + success_msg + '</div>').delay(10000).fadeOut('slow');
                         } else {
-                            window.location.href = redirect+"?email="+d;
+                            window.location.href = redirect+d;
                         }
                     }
                     $jscontactbtn.attr("disabled", false);

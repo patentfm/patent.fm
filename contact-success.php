@@ -63,22 +63,30 @@
                     <h3>Chcesz być na bieżąco z materiałem?</h3>
                     <p class="pr-md-0 pr-sm-0">Możesz od razu zapisać się na listę osób, którym daję znać przed czasem o nowościach i udostępniam Fajne Materiały :) Dla każdego na początek garść fajnych gratisków. Pozdrawiam!</p>
                 </div>
-                <form action="php/subscribe.php" method="post" id="subscribeform" class="mb-5">
-                    <div class="input-group">
-                        <input type="email" name="email"
-                               class="form-control" id="subscribe_email_input"
-                               placeholder="Twój email"
-                        value="<?php error_reporting(0); echo $_GET['email']; ?>">
-                        <span class="input-group-btn theme-form-btn">
-                                <button class="btn" type="submit" id="js-subscribe-btn">
-                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>SUBSKRYBUJ
-                                </button>
-                            </span>
-                    </div>
-                    <div id="js-subscribe-result" class="text-center"
-                         data-success-msg="Almost finished. Please check your email and verify."
-                         data-error-msg="Oops. Something went wrong."></div>
-                </form>
+                <div id="mc_embed_signup">
+                                <form action="https://dev.us2.list-manage.com/subscribe/post?u=bf1fad4c920810c83a2002d8a&amp;id=7bd31e5563"  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="mb-5" target="_blank" novalidate>
+                <!--                    class="validate" form-->
+                                    <div class="input-group" id="mc_embed_signup_scroll">
+                                        <input type="email" name="EMAIL"
+                                               class="form-control" id="mce-EMAIL"
+                                               value="<?php error_reporting(0); echo $_GET['email']; ?>"
+                                               placeholder="Twój email">
+                                        <input type="hidden" value="" name="FNAME" class="" value="<?php error_reporting(0); echo $_GET['name']; ?>" id="mce-FNAME">
+
+                                        <span class="input-group-btn theme-form-btn">
+                                                <button class="btn" type="submit" value="Subscribe" name="subscribe" mc-embedded-subscribe>
+                                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>SUBSKRYBUJ
+                                                </button>
+                                            </span>
+                                    </div>
+                                    <div id="mce-responses" class="text-center">
+                                        <div class="response" id="mce-error-response" style="display:none">Test</div>
+                                        <div class="response" id="mce-success-response" style="display:none">tests</div>
+                                    </div>
+                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_bf1fad4c920810c83a2002d8a_7bd31e5563" tabindex="-1" value=""></div>
+                                </form>
+                                </div>
                 <div class="static-list-block"> <span class="pe-7s-check"></span>
                     <p>Żadnego spamu, tylko Fajne Materiały</p>
                 </div>
