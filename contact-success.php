@@ -30,7 +30,7 @@
     <link href="css/style.css" rel="stylesheet">
      <style>
      @media (min-width: 768px) and (max-width: 991px) {
-    .subscribe_email_input{
+    #subscribe_email_input{
         font-size: 13px;
         }
     }
