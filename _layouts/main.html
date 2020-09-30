@@ -5,14 +5,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Uczę programować w ciekawy sposób">
-    <meta name="keywords" content="programowanie">
-    <!--    todo dodać keywords z plannera-->
-    <title>Fajny Materiał - {{ page.title }}</title>
-    <!-- Icons-->
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="alternate icon" href="favicon.ico">
-    <link rel="mask-icon" href="favicon.png" color="#FFFFFF">
+    <meta name="description" content="{{page.meta-description}}">
+    <meta name="keywords" content="{{page.meta-keywords}}">
+    <title>Fajny Materiał - {{page.title }}</title>
+    {% include favicon.html %}
     <!-- Font -->
     <link rel='dns-prefetch' href='//fonts.googleapis.com'>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
@@ -49,50 +45,9 @@
             }
         }
     </style>
-    <style>
-        .cookieBottom {
-            background: rgba(27,27,27,.85);
-            text-align: center;
-            width: 100%;
-            padding-top: 5px;
-            position: fixed;
-            bottom: 0;
-            vertical-align: middle;
-            z-index: 10;
-            font-size: .7rem;
-        }
-        .cookieBottom a{
-            color: #1fb1ff;
-        }
-        .cookieBlueButton {
-            margin-left: 20px;
-            margin-right: 10px;
-            margin-top: -1px;
-            margin-bottom: 3px;
-            border: 0;
-            background: #1fb1ff;
-            color: #000;
-            border-radius: 5px;
-            -moz-border-radius: 5px;
-            -webkit-border-radius: 5px;
-            -ms-border-radius: 5px;
-            -o-border-radius: 5px;
-        }
-        @media (max-width: 767px) {
-            .cookie-privacy {
-                float: left;
-                margin-left: 25px;
-                margin-bottom: 10px;
-            }
-            .cookieBlueButton {
-                float: right;
-                margin-right: 25px;
-                margin-bottom: 10px;
-
-            }
-        }
-    </style>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/bf1fad4c920810c83a2002d8a/30a8abc8f83d0bb85f834c26a.js");</script>
+    <script id="mcjs">!function (c, h, i, m, p) {
+        m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p)
+    }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/bf1fad4c920810c83a2002d8a/30a8abc8f83d0bb85f834c26a.js");</script>
 </head>
 
 <body data-scroll-animation="false" class="dark-theme">
@@ -103,130 +58,286 @@
         <circle class="path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle>
     </svg>
 </div>
-<!-- Nav Menu -->
-<div class="nav-menu">
-    <div class="container">
+{% include navmenu.html %}
+<!-- Slider newsletter -->
+<!--                todo odblokować jak ebook będzie gotowy-->
+<section class="slider-bg mb-0 mb-xl-5 mt-0 mt-xl-3 d-none" id="home">
+    <div class="container pb-0 pb-xl-5 pt-0 pt-xl-5">
         <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg navbar-light reveal fadeInDown">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="images/w-logo.svg" class="img-fluid" alt="logo" style="width: 5vh">
+            <div class="col-md-6 order-md-1 space-md-up">
+                <div class="video-wrap reveal fadeIn mt-4 mt-md-0">
+                    <a href="https://www.youtube.com/watch?v=11ZRpXj54rU" class="video-play">
+                        <img src="images/video-img.jpg" class="img-fluid" alt="#">
+                        <i class="fa fa-play video-icon" aria-hidden="true"></i>
+                        <div class="video-wrap-overlay"></div>
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item d-none">
-                                <a class="nav-link" href="#home">ZAJAWKA <span class="sr-only">(current)</span></a>
-                            </li>
-                            <!--todo current i active nie mają obsługi-->
-                            <li class="nav-item d-none">
-                                <a class="nav-link" href="#features">PROJEKTY</a>
-                            </li>
-                            <li class="nav-item active d-none">
-                                <a class="nav-link" href="darmowy-ebook-swiat-jest-programistyczny.html">DARMOWY E-BOOK</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#contact">KONTAKT</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+                </div>
+            </div>
+            <div class="col-md-6 order-md-2">
+                <div class="slider-title">
+                    <br class="mt-5 text-muted reveal fadeInUp d-none d-md-block d-lg-none" data-wow-delay="1.2s"/>
+                    <br class="mt-5 text-muted reveal fadeInUp d-none d-md-block d-lg-none" data-wow-delay="1.2s"/>
+                    <br class="mt-5 text-muted reveal fadeInUp d-none d-md-block d-lg-none" data-wow-delay="1.2s"/>
+                    <h1 class="h2 reveal fadeInUp text-sm-left text-center">Wreszcie trafiłeś <br
+                            class="d-none d-lg-block d-xl-none"/><br class="d-block d-sm-none"/> na <br
+                            class="d-none d-xl-block"/>Fajny Materiał</h1>
+                    <p class="reveal fadeInUp" data-wow-delay="0.3s">
+                        Chcesz poznać programowanie od wiele ciekawszej strony niż czarne okno terminala, czy
+                        szara teoria programowania? Możesz uczyć się na Fajnych
+                        Materiałach, zobacz <br class="d-none d-md-block d-xl-none"/> <a href="#features" style="color: #11aff1">jakie aplikacje </a>umiałbyś
+                        wtedy zrobić 😎
+                    </p>
+                    <form action="php/subscribe.php" method="post" id="subscribeform">
+                        <div class="input-group">
+                            <input type="email" name="email"
+                                   class="form-control" id="subscribe_email_input"
+                                   placeholder="Twój email">
+                            <span class="input-group-btn theme-form-btn">
+                                <button class="btn" type="submit" id="js-subscribe-btn">
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>SUBSKRYBUJ
+                                </button>
+                            </span>
+                        </div>
+                        <div id="js-subscribe-result" class="text-center"
+                             data-success-msg="Almost finished. Please check your email and verify."
+                             data-error-msg="Oops. Something went wrong."></div>
+                    </form>
+                </div>
+                <p class="reveal fadeInUp opct opacity-90 text-sm-left text-center mt-md-1 mt-sm-1 d-none" data-wow-delay="3.2s">
+                    Jeśli chcesz darmowego e-booka
+                    <br class="d-xl-none d-lg-block d-md-block d-sm-block"/>
+                    <a href="darmowy-ebook-swiat-jest-programistyczny.html" style="color: #d4d6da">"Świat jest
+                        programistyczny",</a>
+                    <a href="darmowy-ebook-swiat-jest-programistyczny.html" style="color: #11aff1"> kliknij
+                        tutaj</a>
+                    <!-- todo jeśli input uzupełniony to przenosi do landing z uzupełnionymi -->
+                </p>
             </div>
         </div>
     </div>
-</div>
-
-{{ content }}
-<!--===================== Contact =====================-->
-<section class="contact light-bg" style="margin-top:100px">
+</section>
+<!--//End Header -->
+<!--===================== Featured 1 =====================-->
+<section class="space light-bg" id="features">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <div class="contact-form reveal fadeInUp" id="contact">
-                    <form id="phpcontactform" action="php/contact.php" method="post" data-redirect="contact-success.html">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2 class="center-block mb-5">Porozmawiajmy </h2>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="name" style="display:block;">Z kim mam przyjemność?</label>
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Imię">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="email" style="display:block;">Jak mogę odpowiedzieć ?</label>
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label for="message" style="display:block;">Jak mogę pomóc ?</label>
-                                    <textarea class="form-control" style="display:block;" id="message" name="message" placeholder="Tu wpisz wiadomość" rows="3"></textarea>
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit" id="js-contact-btn" class="btn btn-primary mt-4">
-                                        Wyślij wiadomość<span class="pe-7s-angle-right-circle ml-3" style="font-size: large"></span>
-                                    </button>
-                                    <div id="js-contact-result" data-success-msg="Dzięki, zazwyczaj odpowiadam w ciągu 24 godzin"
-                                         data-error-msg="Oops! Coś nie zadziałało, napisz mi o tym proszę inaczej"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
+            <div class="col-md-7 featured3-block">
+                <div class="featured3-wrap">
+                    <h2 class="reveal fadeInUp" data-wow-delay="0.3s">Naucz się Githuba</h2>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="address-block">
-                    <div>
-                        <p class="reveal fadeInUp mt-5" style="line-height: 1.3; text-align: center;"><span style="font-size: smaller;">Wrzosdev <br class="d-block d-md-none"/>Usługi informatyczne <br
-                                class="d-none d-lg-block d-xl-none"/>Arkadiusz Wrzos </span><br class="d-none d-md-block"/>
-                            NIP: 7142049617, <br class="d-none d-md-block d-lg-none"/>REGON: 369750293<br class="d-none d-md-block"/>
-                            <span style="font-size: x-small;">21-150 Kock, ul. Władysława Jagiełły 14</span><br class="d-none d-md-block"/>
-                            <span style="font-size: x-small;">mBank: 65 1140 2004 0000 3302 7752 8171</span></p>
+            <div class="col-md-5 order-1 featured3-block">
+                <div class="featured3-wrap">
+                    <h3 class="reveal fadeInUp mt-md-3" data-wow-delay="0.6s">Nie wymyślasz koła na nowo?</h3>
+                    <p class="reveal fadeInUp" data-wow-delay="0.9s">Wszystko czego Ci potrzeba zostało już wymyślone,<br/>
+                        wystarczy wiedzieć gdzie szukać, jak szukać, oraz... czego Ci potrzeba :)
+                    </p>
+                    <div class="featured-list mt-5">
+                        <i class="pe-primary pe-7s-share reveal fadeInUp"
+                           data-wow-delay="1.2s" aria-hidden="true"></i>
+                        <div class="featured-list-title reveal fadeInUp" data-wow-delay="1.2s">
+                            <h4>System kontroli wersji</h4>
+                            <p>Kopie bezpieczeństwa na repozytorium</p>
+                        </div>
+                        <hr class="reveal fadeIn d-none d-xl-block" data-wow-delay="1.5s">
+                        <i class="pe-primary pe-7s-note2 reveal fadeInUp d-none d-xl-inline-block" data-wow-delay="1.5s" aria-hidden="true"></i>
+                        <div class="featured-list-title reveal fadeInUp d-none d-xl-inline-block" data-wow-delay="1.5s">
+                            <h4>Organizacja zadań i pracy</h4>
+                            <p>Jedno miejsce ze spisem rzeczy do zrobienia</p>
+                        </div>
+                        <hr class="reveal fadeIn" data-wow-delay="1.8s">
+                        <i class="pe-primary pe-7s-plugin reveal fadeInUp" data-wow-delay="1.8s" aria-hidden="true"></i>
+                        <div class="featured-list-title reveal fadeInUp" data-wow-delay="1.8s">
+                            <h4>Wykorzystywanie gotowego kodu</h4>
+                            <p>Dzielenie się kodem dla dobra ogółu</p>
+                        </div>
+                        <hr class="reveal fadeIn" data-wow-delay="1.8s">
+                        <i class="pe-primary pe-7s-users reveal fadeInUp" data-wow-delay="1.8s" aria-hidden="true"></i>
+                        <div class="featured-list-title reveal fadeInUp" data-wow-delay="1.8s">
+                            <h4>Praca w zespole programistów</h4>
+                            <p>Wysyłanie swoich rozwiązań zadań</p>
+                        </div>
+                        <hr class="reveal fadeIn" data-wow-delay="1.8s">
+                        <i class="pe-primary pe-7s-shuffle reveal fadeInUp" data-wow-delay="1.8s" aria-hidden="true"></i>
+                        <div class="featured-list-title reveal fadeInUp" data-wow-delay="1.8s">
+                            <h4>Rozwiązania błędów i konfliktów</h4>
+                            <p>Napsułeś w gicie? Spokojnie, naprawimy </p>
+                        </div>
                     </div>
-                    <div class="address reveal fadeInUp" data-wow-delay="0.3s">
-                        <span class="pe-7s-mail mr-md-1 ml-md-1"></span>
-                        <p><a href="mailto:wrzosdev@gmail.com" style="color: #d4d6da;">wrzosdev@gmail.com</a></p>
+                    <div class=" d-block d-lg-none" style="text-align:center;padding-top: 21px;">
+                        <a href="kurs-github-i-git-flow-praktyczne-wykorzystanie.html" class="btn btn-primary">Dowiedz się więcej <span class="pe-7s-angle-right-circle ml-3"
+                                                                                                                                        style="font-size: large"></span></a>
                     </div>
-                    <div class="address reveal fadeInUp" data-wow-delay="0.6s">
-                        <span class="pe-7s-call mr-md-1 ml-md-1"></span>
-                        <p><a href="phone:+48730411189" style="color: #d4d6da; ">+48 730 411 189</a></p>
+                </div>
+            </div>
+            <div class="col-md-7 order-0 featured3-block">
+                <div class="video-wrap reveal fadeIn">
+                    <a href="https://www.youtube.com/watch?v=11ZRpXj54rU" class="video-play">
+                        <img src="images/video-img.jpg" class="img-fluid" alt="#">
+                        <i class="fa fa-play video-icon" aria-hidden="true"></i>
+                        <div class="video-wrap-overlay"></div>
+                    </a>
+                </div>
+                <div class="pricing-wrap pricing-wrap-popular pricing-wrap-feature reveal fadeIn" data-wow-delay="0.3s">
+                    <div class="reveal fadeIn" data-wow-delay="1.2s">
+                        <h3>Github i Git</h3>
+                        <p class="text-muted">Dla początkujących</p>
+                        <p class="price"><span>PLN</span>67</p>
+                        <ul>
+                            <li>Pokażę skąd brać <strong>gotowy kod</strong></li>
+                            <li>Zrobimy <strong>YouTube Music "bez reklam"</strong></li>
+                            <li>Zobaczysz jak pracuje się w <strong>społeczności</strong></li>
+                        </ul>
+                        <a href="kurs-github-i-git-flow-praktyczne-wykorzystanie.html" class="btn btn-primary">Darmowe odcinki<span class="pe-7s-angle-right-circle ml-3"
+                                                                                                                                    style="font-size: large"></span></a>
+                        <div class="most-popular">
+                            <p>PREMIERA</p>
+                        </div>
                     </div>
-                    <ul class="reveal fadeInUp" data-wow-delay="0.9s">
-                        <li><a href="https://facebook.com/arek.wrzos" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="https://linkedin.com/in/arkadiusz-wrzos/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                        <li><a href="https://github.com/wrzosdev" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
-                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--//End Featured 1 -->
+<!--===================== Learning  =====================-->
+<section class="space">
+    <div class="container">
+        <div class="row justify-content-center center-block">
+            <div class="col-md-8">
+                <div class="title-block">
+                    <h2 class="reveal fadeInUp">Próbowałeś uczyć się programowania?</h2>
+                    <p class="reveal fadeInUp" data-wow-delay="0.3s">
+                        Kto powiedział, że zanim będziesz mógł robić fajne rzeczy, trzeba przebrnąć przez nudę, okno
+                        terminala i skomplikowaną teorię?
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row featured-wrap">
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.3s">
+                <i class="pe pe-7s-gleam"
+                   aria-hidden="true"></i>
+                <h4 class="mb-3 mt-3">Energiczne zajęcia</h4>
+                <p class="pb-4">Nie daj się nabrać, że programowanie jest nudne. Poczuj energię i zaangażowanie w
+                    ciekawych tematach.
+                </p>
+            </div>
+            <div class="col-md-4 featured-item reveal fadeIn">
+                <i class="pe pe-7s-graph1" aria-hidden="true"></i>
+                <h4 class="mb-3 mt-3">Precyzja i skuteczność</h4>
+                <p class="pb-4">Praktyka pokazuje, że z 80% tematów prawie nigdy nie skorzystasz. <br class="d-none d-lg-block d-xl-none"/>Ja pokażę Ci jak być
+                    ninją w najważniejszych 20%!
+                </p>
+            </div>
+            <div class="col-md-4 featured-item reveal fadeIn" data-wow-delay="0.6s">
+                <i class="pe pe-7s-smile" aria-hidden="true"></i>
+                <h4 class="mb-3 mt-3">Zabawa i sympatia</h4>
+                <p class="pb-4">Jeśli jesteś też na tyle wytrzymały, <br class="d-none d-lg-block d-xl-none"/> by przetrwać falę <br class="d-none d-lg-block d-xl-none"/>
+                    prześmiesznych dowcipków... <br/>to
+                    dodatkowy plus ;)
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--//End Features -->
+<!--===================== Programming  =====================-->
+<!--todo odblokować po pierwszym sezonie-->
+<section class="space d-none">
+    <div class="container">
+        <div class="row justify-content-center center-block">
+            <div class="col-md-8">
+                <div class="title-block">
+                    <h2 class="reveal fadeInUp">A może potrzebujesz aplikacji?</h2>
+                    <p class="reveal fadeInUp" data-wow-delay="0.3s">
+                        Mam wieloletnie doświadczenie programistyczne, mogę pomóc dobrze poznać
+                        szanse i problemy, przygotować i nadzorować infrastrukturę oraz stworzyć kompletne rozwiązanie
+                        informatyczne, aplikację, program... <br/>Ceny MVP od 6 tys. zł, 1 tys. zł za MD.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 detailed-icon-wrap">
+                <div class="detailed-block reveal fadeInLeft">
+                    <span class="pe-primary pe-7s-server"></span>
+                    <h4>Obsługa dużej <br class="d-none d-lg-block d-xl-none"/>ilości danych</h4>
+                    <p class="text-muted">Mogę przetwarzać znaczne ilości danych, również o użytkownikach,
+                        na serwerze, lub/i urządzeniu.
+                    </p>
+                </div>
+                <div class="detailed-block reveal fadeInLeft" data-wow-delay="0.3s">
+                     <span
+                             class="pe-primary pe-7s-science"></span>
+                    <div class="detailed-title">
+                        <h4>Proste oraz skomplikowane</h4>
+                        <p class="text-muted">Realizacje zarówno w zakresie "minimalnym" do wybadania rynku/rozpoczęcia
+                            świadczenia usług, jak i "pod klucz" gotowe do wdrożenia.
+                        </p>
+                    </div>
+                </div>
+                <div class="detailed-block reveal fadeInLeft" data-wow-delay="0.6s">
+                     <span
+                             class="pe-primary pe-7s-photo"></span>
+                    <div class="detailed-title">
+                        <h4>Profesjonalny design</h4>
+                        <p class="text-muted">Rozwiązania interfejsu znane i rozumiane przez użytkowników - intuicyjne i
+                            sprawdzone. Estetyczne.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 detaled-wrap-flex">
+                <div class="deatiled-phone-wrap reveal fadeIn">
+                    <img src="images/detailed-screen.png" class="phone"
+                         alt="#">
+                    <div class="screen">
+                        <div class="screen-slider owl-carousel owl-theme">
+                            <div class="item"><img src="images/screen1.jpg" alt="#"></div>
+                            <div class="item"><img src="images/screen2.jpg" alt="#"></div>
+                            <div class="item"><img src="images/screen3.jpg" alt="#"></div>
+                            <div class="item"><img src="images/screen4.jpg" alt="#"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 detailed-icon-wrap">
+                <div class="detailed-block2 reveal fadeInRight">
+                     <span
+                             class="pe-primary pe-7s-rocket detailed-icon2"></span>
+                    <h4>Szybkość działania</h4>
+                    <p class="text-muted">Możliwość wykonania w technologiach natywnych, o bardzo wysokiej wydajności,
+                        jak i w ekonomicznych hybrydowych technologiach.
+                    </p>
+                </div>
+                <div class="detailed-block2 reveal fadeInRight">
+                     <span class="pe-primary pe-7s-medal detailed-icon2"
+                           data-wow-delay="0.3s"></span>
+                    <h4>Pomoc od początku</h4>
+                    <p class="text-muted">Oferuję wsparcie przy wdrożeniu aplikacji i doradztwo/zaplecze dla małych i
+                        średnich aplikacji. Wspieram Start Up'y.
+                    </p>
+                </div>
+                <div class="detailed-block2 reveal fadeInRight">
+                     <span class="pe-primary pe-7s-edit detailed-icon2"
+                           data-wow-delay="0.6s"></span>
+                    <h4>Elastyczny <br class="d-none d-lg-block d-xl-none"/>kod źródłowy</h4>
+                    <p class="text-muted">Korzystne cenowo oferty rozwijania i modyfikacji na stworzonych u mnie
+                        aplikacji.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
 </section>
-<!--//End Contact -->
-<!--===================== footer =====================-->
-<footer class="space">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-8 center-block">
-                <p class="reveal fadeInUp">Copyright © 2020. All rights reserved. Wrzosdev</p>
-                <a href="polityka-prywatnosci-fajny-material.html" class="link-color reveal fadeInUp" data-wow-delay="0.9s">PRYWATNOŚĆ</a>
-                <a href="ceidg.pdf" class="link-color reveal fadeInUp" data-wow-delay="0.6s">CEIDG</a>
-            </div>
-        </div>
-    </div>
-</footer>
-<div id="cookieBottom" class="cookieBottom d-none">Używamy plików cookie, aby zoptymalizować funkcjonalność strony i zapewnić jak najlepsze możliwe wrażenia.  <br class="d-block d-md-none"/> <a href="polityka-prywatnosci-fajny-material.html" class="cookie-privacy" target="_blank" rel="nofollow">Dowiedz się więcej </a><button class="cookieBlueButton" onclick="removeCookieAds()">OK</button></div>
-<!--//End footer -->
-<!-- jQuery first, then Tether, then Bootstrap JS. -->
-<script src="vendors/jquery/js/jquery-3.2.1.min.js"></script>
-<script src="vendors/bootstrap/js/popper.min.js"></script>
-<script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+<!--//End Detailed Slider -->
+{% include contact-form.html %}
+{% include footer.html %}
+{% include cookies.html %}
+
+{% include basic-js-vendors.html %}
 <!-- Slick JS -->
 <script src="vendors/slick/js/slick.min.js"></script>
 <!-- owlcarousel JS -->
@@ -235,24 +346,7 @@
 <script src="vendors/wow.min.js"></script>
 <!-- owlcarousel JS -->
 <script src="vendors/magnific-popup/js/magnific-popup.min.js"></script>
-<!-- Validate JS -->
-<script src="vendors/validate.js"></script>
-<!-- Contact JS -->
-<script src="js/contact.js"></script>
-<!-- Script JS -->
-<script src="js/script.js"></script>
-<script type="text/javascript" language="JavaScript">
-    if (!getCookie('cookiesDismissed')){
-        var element = document.getElementById('cookieBottom');
-        element.classList.remove('d-none')
-        element.classList.add('d-block')
-    }
-    function removeCookieAds(){
-        var element = document.getElementById('cookieBottom');
-        element.parentNode.removeChild(element)
-        setCookie('cookiesDismissed', 'ok', 9999)
-    }
-</script>
+{% include basic-js.html %}
 </body>
 
 </html>

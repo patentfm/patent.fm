@@ -47,6 +47,7 @@ $(function() {
             message: "Proszę, napisz wiadomość",
         },
         submitHandler: function(form) {
+
             setCookie('last-name', $('#name').val(), 300)
             setCookie('last-mail', $('#email').val(), 300)
 
@@ -91,7 +92,7 @@ $(function() {
                     $jscontactbtn.attr("disabled", false);
                 },
                 error: function(d) {
-                    $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger"> Serwer niedostępny, napisz mi na <a href="mailto:wrzosdev@gmail.com">wrzosdev@gmail.com</a></div>').delay(15000).fadeOut('slow');
+                    $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger"> Serwer niedostępny, napisz mi na <a href="mailto:wrzosdev@gmail.com">wrzosdev@gmail.com</a><br/>Error 69: What a Terrible Failure</div>').delay(15000).fadeOut('slow');
                     $jscontactbtn.attr("disabled", false);
                     if (window.console) {
                         console.log('Ajax Error: ' + d.statusText);

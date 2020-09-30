@@ -303,3 +303,19 @@ function getCookie(name) {
 function eraseCookie(name) {
     document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
 }
+
+if (!getCookie('cookiesDismissed')) {
+    var element = document.getElementById('cookieBottom');
+    element.classList.remove('d-none')
+    element.classList.add('d-block')
+}
+
+function removeCookieAds() {
+    var element = document.getElementById('cookieBottom');
+    element.parentNode.removeChild(element)
+    setCookie('cookiesDismissed', 'ok', 9999)
+}
+
+/*-----------------------------------
+ * CONTACT PERSISTENCY
+ *-----------------------------------*/

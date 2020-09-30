@@ -59,7 +59,7 @@ $mail->Body = $msg;
 if (!$mail->send()) {
     echo "Mailer Error: " . $mail->ErrorInfo;
 } else {
-    echo "success";
+    echo "?email=".$_POST["email"]."&name=".$_POST["name"];
 }
 
 //echo "success";

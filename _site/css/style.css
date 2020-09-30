@@ -47,6 +47,7 @@ Surjith S M / @surjithctly
  * NAV-MENU
  * ========================================================================== */
 .nav-menu {
+  max-height: 100px;
   background: #ffffff;
   position: absolute;
   top: 0;
@@ -1475,7 +1476,7 @@ footer a {
     margin: 110px 0 80px; }
     @media (max-width: 768px) {
       .blog .blog-title {
-        margin: 90px 0 40px; } }
+        margin: 110px 0 40px; } }
 
 @media (max-width: 768px) {
   .blog-wrap {
@@ -1861,3 +1862,50 @@ blockquote {
   transform: rotate(-45deg);
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
+
+/* COOKIES */
+ .cookieBottom {
+   background: rgba(27, 27, 27, .85);
+   text-align: center;
+   width: 100%;
+   padding-top: 5px;
+   position: fixed;
+   bottom: 0;
+   vertical-align: middle;
+   z-index: 10;
+   font-size: .7rem;
+ }
+
+.cookieBottom a {
+  color: #1fb1ff;
+}
+
+.cookieBlueButton {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: -1px;
+  margin-bottom: 3px;
+  border: 0;
+  background: #1fb1ff;
+  color: #000;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .cookie-privacy {
+    float: left;
+    margin-left: 25px;
+    margin-bottom: 10px;
+  }
+
+  .cookieBlueButton {
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 10px;
+
+  }
+}
