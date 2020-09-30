@@ -27,24 +27,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Margines górny md sm xs">
-      <change afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/phpmailer/PHPMailerAutoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/phpmailer/class.phpmailer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/phpmailer/class.phpmaileroauth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/phpmailer/class.phpmaileroauthgoogle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/phpmailer/class.pop3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/phpmailer/class.smtp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/phpmailer/get_oauth_token.php" afterDir="false" />
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Mailing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/darmowy-ebook-swiat-jest-programistyczny.html" beforeDir="false" afterPath="$PROJECT_DIR$/darmowy-ebook-swiat-jest-programistyczny.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/subscribe.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/subscribe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/contact-form.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/polityka-prywatnosci-fajny-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/polityka-prywatnosci-fajny-material.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,14 +317,7 @@
       <workItem from="1600853070813" duration="12103000" />
       <workItem from="1601281558719" duration="14234000" />
       <workItem from="1601299790653" duration="4219000" />
-      <workItem from="1601451319935" duration="4414000" />
-    </task>
-    <task id="LOCAL-00033" summary="Billy landing page">
-      <created>1551732004977</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1551732004978</updated>
+      <workItem from="1601451319935" duration="4898000" />
     </task>
     <task id="LOCAL-00034" summary="Billy landing page">
       <created>1551745505051</created>
@@ -677,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601451393211</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Mailing">
+      <created>1601458351347</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1601458351348</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -718,7 +703,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Missing css files" />
     <MESSAGE value="Video sm/xs fix" />
     <MESSAGE value="SVG logo" />
     <MESSAGE value="Play store button xs sm" />
@@ -743,7 +727,8 @@
     <MESSAGE value="Labelki do formularza" />
     <MESSAGE value="Usunięcie Zrzuty w kursie na tel" />
     <MESSAGE value="Margines górny md sm xs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Margines górny md sm xs" />
+    <MESSAGE value="Mailing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mailing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -838,11 +823,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601451405311">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601458355006">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601451405311" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601458355006" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
