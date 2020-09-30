@@ -27,16 +27,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Mailchimp + subscribe">
-      <change afterPath="$PROJECT_DIR$/_layouts/blog-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/landing-subscribe.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Jekyll">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact-success.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact-success.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/landing-subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/landing-subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/contact-success.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact-success.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/_site/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/_site/php/contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.markdown" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,14 +328,7 @@
       <workItem from="1601281558719" duration="14234000" />
       <workItem from="1601299790653" duration="4219000" />
       <workItem from="1601451319935" duration="9858000" />
-      <workItem from="1601464838896" duration="14490000" />
-    </task>
-    <task id="LOCAL-00048" summary="Usuniecie dni otwartych">
-      <created>1572974012273</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1572974012274</updated>
+      <workItem from="1601464838896" duration="16403000" />
     </task>
     <task id="LOCAL-00049" summary="Redesign template">
       <created>1600257619772</created>
@@ -672,7 +666,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601471720605</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="Jekyll">
+      <created>1601497150759</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1601497150760</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -713,7 +714,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Poglądowa wersja alpha" />
     <MESSAGE value="Poglądowa wersja alpha 2" />
     <MESSAGE value="Poglądowa wersja alpha 3" />
     <MESSAGE value="contact form" />
@@ -738,7 +738,8 @@
     <MESSAGE value="Mail size md" />
     <MESSAGE value="Mailchimp" />
     <MESSAGE value="Mailchimp + subscribe" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mailchimp + subscribe" />
+    <MESSAGE value="Jekyll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jekyll" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -749,11 +750,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601494428019" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601286078379">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1601498261065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600257657123" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601286078379" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601498261065" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600693502312" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1601299794445">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -833,11 +834,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601471729214">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601497153257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601471729214" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601497153257" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601469773945">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -852,11 +853,11 @@
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600256895866" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601458890524" />
-    <state x="978" y="119" width="864" height="801" key="find.popup" timestamp="1601496777614">
+    <state x="978" y="119" width="864" height="801" key="find.popup" timestamp="1601497666415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351933286" />
-    <state x="978" y="119" width="864" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601496777614" />
+    <state x="978" y="119" width="864" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601497666415" />
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600693371054" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601470247229">
       <screen x="0" y="0" width="1920" height="1040" />

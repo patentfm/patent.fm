@@ -85,7 +85,7 @@ $(function() {
                             $phpcontactform[0].reset();
                             $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-success">' + success_msg + '</div>').delay(10000).fadeOut('slow');
                         } else {
-                            window.location.href = redirect+d;
+                            window.location.href = redirect;
                         }
                     }
                     $jscontactbtn.attr("disabled", false);
