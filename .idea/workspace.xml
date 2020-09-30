@@ -27,14 +27,398 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v0.0050 Poprawki php i brakujący layout error">
-      <change afterPath="$PROJECT_DIR$/_includes/analytics.html" afterDir="false" />
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v0.0075 Analytics">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/landing-subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/landing-subscribe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/sectioned-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/sectioned-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Changelog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/fullpage-parallax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/adult-hand-dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/app-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/blog-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/client1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/client2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/client3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/client4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/client5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/client6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/comment-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/comment-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/comment-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/dark-slide-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/dark_landscape.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/detailed-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/gallery-slide-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/iPhone-gold.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/iphone-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/isometric-view.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/logo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/play-store.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen-center.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/screen8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/slider1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/sticky-header-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/sticky-phone.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/stylish-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/tab-screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/team1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/team2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/team3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/team4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/testi-img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/testi-img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/testi-img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/images/video-img.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/index-dark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/index-no-animation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/js/contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/js/subscribe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/cacert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/phpmailer/PHPMailerAutoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/phpmailer/class.phpmailer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/phpmailer/class.phpmaileroauth.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/phpmailer/class.phpmaileroauthgoogle.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/phpmailer/class.pop3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/phpmailer/class.smtp.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/phpmailer/get_oauth_token.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/php/subscribe.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/scss/nav-menu.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/scss/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/scss/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/static.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/sticky-parallax.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/bootstrap/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/bootstrap/js/tether.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fontawesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fontawesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fontawesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fontawesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fontawesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fontawesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fontawesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fontawesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fullpage/fullpage.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/fullpage/fullpage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/jquery/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/magnific-popup/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/magnific-popup/js/magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/owlcarousel/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/owlcarousel/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/owlcarousel/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/pe-icon/css/helper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/pe-icon/css/pe-icon-7-stroke.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/pe-icon/fonts/Pe-icon-7-stroke.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/pe-icon/fonts/Pe-icon-7-stroke.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/pe-icon/fonts/Pe-icon-7-stroke.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/pe-icon/fonts/Pe-icon-7-stroke.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/simple-line-icons/css/simple-line-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/simple-line-icons/fonts/Simple-Line-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/simple-line-icons/fonts/Simple-Line-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/simple-line-icons/fonts/Simple-Line-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/simple-line-icons/fonts/Simple-Line-Icons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/skrollr/skrollr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/css/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/css/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/images/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/js/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/slick/js/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/smoothscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/vendors/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/stroke.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/Stroke-Gap-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/Stroke-Gap-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/Stroke-Gap-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/Stroke-Gap-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/font-awesome-4.3.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/font-awesome-4.3.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/font-awesome-4.3.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/lanenar_Lane.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/lanenar_Lane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/lanenar_Lane.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/fonts/lanenar_Lane.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/dummy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_rounded/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_square/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_square/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/dark_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/default/default_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/default/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/default/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/default/sprite_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/default/sprite_prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/default/sprite_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/default/sprite_y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/facebook/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_rounded/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_square/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/prettyPhoto/light_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/upload/paypal-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/upload/paypal-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/upload/paypal-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/images/upload/rate-template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/jquery.fitvids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/jquery.prettyPhoto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Help Docs/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/License.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/PSD/source-files.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/prettyPhoto.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/stroke.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/Stroke-Gap-Icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/Stroke-Gap-Icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/Stroke-Gap-Icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/Stroke-Gap-Icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/font-awesome-4.3.0/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/font-awesome-4.3.0/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/font-awesome-4.3.0/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/font-awesome-4.3.0/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/lanenar_Lane.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/lanenar_Lane.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/lanenar_Lane.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/fonts/lanenar_Lane.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/dummy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_rounded/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_rounded/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_square/contentPattern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_square/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/dark_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/default/default_thumb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/default/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/default/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/default/sprite_next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/default/sprite_prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/default/sprite_x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/default/sprite_y.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/contentPatternBottom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/contentPatternLeft.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/contentPatternRight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/contentPatternTop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/facebook/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_rounded/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_rounded/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_rounded/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_rounded/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_rounded/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_square/btnNext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_square/btnPrevious.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_square/default_thumbnail.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_square/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/prettyPhoto/light_square/sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/upload/paypal-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/upload/paypal-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/upload/paypal-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/images/upload/rate-template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/jquery.fitvids.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/jquery.prettyPhoto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shAutoloader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushAS3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushAppleScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushBash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushCSharp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushColdFusion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushCpp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushCss.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushDelphi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushDiff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushErlang.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushGroovy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushJScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushJava.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushJavaFX.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushPerl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushPhp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushPlain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushPowerShell.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushPython.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushRuby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushSass.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushScala.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushSql.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushVb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shBrushXml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/scripts/shLegacy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCore.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCoreDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCoreEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCoreEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCoreFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCoreMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCoreMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shCoreRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shThemeDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shThemeDjango.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shThemeEclipse.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shThemeEmacs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shThemeFadeToGrey.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shThemeMDUltra.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shThemeMidnight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/syntax-highlighter/styles/shThemeRDark.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/ac0f7r56fkixd75f676f67rf6uHelpDocs/js/wow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/contact-success.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact-success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,14 +709,7 @@
       <workItem from="1601281558719" duration="14234000" />
       <workItem from="1601299790653" duration="4219000" />
       <workItem from="1601451319935" duration="9858000" />
-      <workItem from="1601464838896" duration="26695000" />
-    </task>
-    <task id="LOCAL-00052" summary="Missing css files">
-      <created>1600349768006</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1600349768006</updated>
+      <workItem from="1601464838896" duration="27296000" />
     </task>
     <task id="LOCAL-00053" summary="Video sm/xs fix">
       <created>1600350577629</created>
@@ -670,7 +1047,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601508345470</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Wrzos.dev v0.0075 Analytics">
+      <created>1601509248372</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1601509248372</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -712,7 +1096,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Beta v0.025" />
     <MESSAGE value="test mail()" />
     <MESSAGE value="Formularz działa" />
     <MESSAGE value="Formularz decode" />
@@ -737,7 +1120,8 @@
     <MESSAGE value="Jekyll  OLD" />
     <MESSAGE value="Wrzos.dev v0.0025" />
     <MESSAGE value="Wrzos.dev v0.0050 Poprawki php i brakujący layout error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v0.0050 Poprawki php i brakujący layout error" />
+    <MESSAGE value="Wrzos.dev v0.0075 Analytics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v0.0075 Analytics" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -836,11 +1220,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601508346937">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601509250083">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601508346937" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601509250083" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601469773945">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -866,10 +1250,10 @@
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600354149343" />
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601470247229" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601499115096">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601509449758">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600353801111" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601499115096" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601509449758" />
   </component>
 </project>

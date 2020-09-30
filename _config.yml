@@ -43,8 +43,9 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
+ exclude:
+   - ac0f7r56fkixd75f676f67rf6uHelpDocs/
+   - ac055777b0d2973437f2c1dBackupRaw/
 #   - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile
