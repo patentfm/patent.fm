@@ -28,6 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Mailchimp">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -306,14 +307,7 @@
       <workItem from="1601281558719" duration="14234000" />
       <workItem from="1601299790653" duration="4219000" />
       <workItem from="1601451319935" duration="9858000" />
-      <workItem from="1601464838896" duration="541000" />
-    </task>
-    <task id="LOCAL-00045" summary="Przekierowanie">
-      <created>1562348140332</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1562348140332</updated>
+      <workItem from="1601464838896" duration="1270000" />
     </task>
     <task id="LOCAL-00046" summary="entery">
       <created>1562359830039</created>
@@ -651,7 +645,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601465191688</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="Mailchimp">
+      <created>1601465384859</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1601465384860</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -812,11 +813,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601465194680">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601465387982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601465194680" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601465387982" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
