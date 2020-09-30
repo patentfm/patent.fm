@@ -27,7 +27,15 @@
     <link rel="stylesheet" href="vendors/owlcarousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="vendors/owlcarousel/css/owl.theme.default.min.css">
     <!-- Main css -->
-    <link href="css/style.css" rel="stylesheet"> </head>
+    <link href="css/style.css" rel="stylesheet">
+     <style>
+     @media (min-width: 768px) and (max-width: 991px) {
+    .subscribe_email_input{
+        font-size: 13px;
+        }
+    }
+     </style>
+     </head>
 
 <body class="dark-theme">
 <div class="preloader" id="preloader"> <svg class="spinner" id="pageloader_anime" width="32px" height="32px" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +59,7 @@
             </div>
             <div class="col-md-7">
                 <div class="static-content-wrap"> <img src="images/fajnymaterial.png" class="img-fluid" alt="#">
-                    <h1 class="mb-4 h2">Udało Ci się! Odpiszę w ciągu 24h :)</h1>
+                    <h1 class="mb-4 h2">Udało Ci się! <br class="d-block d-xl-none"/>Odpiszę w ciągu 24h :)</h1>
                     <h3>Chcesz być na bieżąco z materiałem?</h3>
                     <p class="pr-md-0 pr-sm-0">Możesz od razu zapisać się na listę osób, którym daję znać przed czasem o nowościach i udostępniam Fajne Materiały :) Dla każdego na początek garść fajnych gratisków. Pozdrawiam!</p>
                 </div>
