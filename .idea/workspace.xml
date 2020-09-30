@@ -27,7 +27,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Mailing">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="LOGING">
       <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -316,14 +316,7 @@
       <workItem from="1600853070813" duration="12103000" />
       <workItem from="1601281558719" duration="14234000" />
       <workItem from="1601299790653" duration="4219000" />
-      <workItem from="1601451319935" duration="5082000" />
-    </task>
-    <task id="LOCAL-00035" summary="Billy landing page">
-      <created>1551787852998</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1551787852998</updated>
+      <workItem from="1601451319935" duration="5299000" />
     </task>
     <task id="LOCAL-00036" summary="Billy landing page">
       <created>1552131415230</created>
@@ -661,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601458820259</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="LOGING">
+      <created>1601459007712</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1601459007712</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -702,7 +702,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Video sm/xs fix" />
     <MESSAGE value="SVG logo" />
     <MESSAGE value="Play store button xs sm" />
     <MESSAGE value="MD smaller size" />
@@ -727,7 +726,8 @@
     <MESSAGE value="Usunięcie Zrzuty w kursie na tel" />
     <MESSAGE value="Margines górny md sm xs" />
     <MESSAGE value="Mailing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mailing" />
+    <MESSAGE value="LOGING" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOGING" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -822,11 +822,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601458821853">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601459010218">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601458821853" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601459010218" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1600775514833">
       <screen x="0" y="0" width="1920" height="1040" />
