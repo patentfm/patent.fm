@@ -6,8 +6,8 @@
  * ------------------------------------
  */
 
-$apiKey       = 'YOUR_MAILCHIMP_API_KEY'; /*Your Mailchiimp API Key*/
-$listId       = 'MAILCHIMP_LIST_ID'; /*Mailchimp List ID*/
+$apiKey       = 'e16ec8c1a54b6030927fd7d4df1305f9-us2'; /*Your Mailchiimp API Key*/
+$listId       = '7bd31e5563'; /*Mailchimp List ID*/
 $email        = $_POST['email'];
 $status       = 'pending'; /* subscribed, unsubscribed, cleaned, pending */
 $fname        = ''; 
