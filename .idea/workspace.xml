@@ -27,12 +27,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v0.0025">
-      <change afterPath="$PROJECT_DIR$/_layouts/error.html" afterDir="false" />
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v0.0050 Poprawki php i brakujący layout error">
+      <change afterPath="$PROJECT_DIR$/_includes/analytics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/landing-subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/landing-subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/sectioned-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/sectioned-page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/_site/php/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,14 +325,7 @@
       <workItem from="1601281558719" duration="14234000" />
       <workItem from="1601299790653" duration="4219000" />
       <workItem from="1601451319935" duration="9858000" />
-      <workItem from="1601464838896" duration="25995000" />
-    </task>
-    <task id="LOCAL-00051" summary="slider landing section">
-      <created>1600349464249</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1600349464249</updated>
+      <workItem from="1601464838896" duration="26695000" />
     </task>
     <task id="LOCAL-00052" summary="Missing css files">
       <created>1600349768006</created>
@@ -668,7 +663,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601507674208</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="Wrzos.dev v0.0050 Poprawki php i brakujący layout error">
+      <created>1601508345470</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1601508345470</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -710,7 +712,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="contact form" />
     <MESSAGE value="Beta v0.025" />
     <MESSAGE value="test mail()" />
     <MESSAGE value="Formularz działa" />
@@ -735,7 +736,8 @@
     <MESSAGE value="Jekyll" />
     <MESSAGE value="Jekyll  OLD" />
     <MESSAGE value="Wrzos.dev v0.0025" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v0.0025" />
+    <MESSAGE value="Wrzos.dev v0.0050 Poprawki php i brakujący layout error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v0.0050 Poprawki php i brakujący layout error" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -834,11 +836,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601507912103">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601508346937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601507912103" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601508346937" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601469773945">
       <screen x="0" y="0" width="1920" height="1040" />
