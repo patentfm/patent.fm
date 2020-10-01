@@ -1,5 +1,7 @@
 <?php
 error_reporting(0);
+header("Access-Control-Allow-Origin: https://billy.plus/*");
+header("Access-Control-Allow-Headers: https://billy.plus/*");
 /*
  * ------------------------------------
  * Contact Form Configuration
