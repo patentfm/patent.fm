@@ -27,12 +27,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v50 Site Const">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v75 Segmentacja Subskrypcji">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/contact-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact-form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/landing-subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/landing-subscribe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -311,14 +308,7 @@
       <workItem from="1601299790653" duration="4219000" />
       <workItem from="1601451319935" duration="9858000" />
       <workItem from="1601464838896" duration="28206000" />
-      <workItem from="1601549474274" duration="9528000" />
-    </task>
-    <task id="LOCAL-00057" summary="Features 3 sztuki">
-      <created>1600424183693</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1600424183693</updated>
+      <workItem from="1601549474274" duration="10401000" />
     </task>
     <task id="LOCAL-00058" summary="Alpha?">
       <created>1600693910993</created>
@@ -656,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601554371860</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Wrzos.dev v75 Segmentacja Subskrypcji">
+      <created>1601561825113</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1601561825113</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -698,7 +695,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Usuniecie backupu" />
     <MESSAGE value="ignore backupu" />
     <MESSAGE value="Cookies" />
     <MESSAGE value="Polityka prywatnosci" />
@@ -723,7 +719,8 @@
     <MESSAGE value="Wrzos.dev v0.0100 Drobny design landing" />
     <MESSAGE value="Wrzos.dev v25 invalidate JS" />
     <MESSAGE value="Wrzos.dev v50 Site Const" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v50 Site Const" />
+    <MESSAGE value="Wrzos.dev v75 Segmentacja Subskrypcji" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v75 Segmentacja Subskrypcji" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -822,11 +819,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601550435309">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601561827153">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601550435309" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601561827153" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601510714791">
       <screen x="0" y="0" width="1920" height="1040" />
