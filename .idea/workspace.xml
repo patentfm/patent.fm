@@ -27,19 +27,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v100 CORS">
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v125  Segmentacja form">
       <change beforePath="$PROJECT_DIR$/_includes/contact-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/contact-success.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/contact-success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/jekyll/update/2020/09/30/welcome-to-jekyll.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/jekyll/update/2020/09/30/welcome-to-jekyll.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/kurs-github-i-git-flow-praktyczne-wykorzystanie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/polityka-prywatnosci-fajny-material.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/polityka-prywatnosci-fajny-material.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/contact.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -329,21 +318,7 @@
       <workItem from="1601299790653" duration="4219000" />
       <workItem from="1601451319935" duration="9858000" />
       <workItem from="1601464838896" duration="28206000" />
-      <workItem from="1601549474274" duration="13554000" />
-    </task>
-    <task id="LOCAL-00064" summary="Beta v0.025">
-      <created>1600858869617</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1600858869617</updated>
-    </task>
-    <task id="LOCAL-00065" summary="test mail()">
-      <created>1600859042203</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1600859042203</updated>
+      <workItem from="1601549474274" duration="14250000" />
     </task>
     <task id="LOCAL-00066" summary="test mail()">
       <created>1600860402353</created>
@@ -674,7 +649,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601563704123</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="Wrzos.dev v125  Segmentacja form">
+      <created>1601566440423</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1601566440423</updated>
+    </task>
+    <task id="LOCAL-00114" summary="Wrzos.dev v125  Segmentacja form">
+      <created>1601566494660</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1601566494660</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -716,7 +705,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Polityka prywatnosci" />
     <MESSAGE value="Beta 1" />
     <MESSAGE value="Link dowiedz się więcej md" />
     <MESSAGE value="Ikony na podstronach" />
@@ -741,7 +729,8 @@
     <MESSAGE value="Wrzos.dev v75 Segmentacja Subskrypcji" />
     <MESSAGE value="Wrzos.dev v100 Segmentacja Subskrypcji" />
     <MESSAGE value="Wrzos.dev v100 CORS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v100 CORS" />
+    <MESSAGE value="Wrzos.dev v125  Segmentacja form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v125  Segmentacja form" />
   </component>
   <component name="WindowStateProjectService">
     <state x="712" y="329" key="#Images" timestamp="1600862186784">
@@ -840,11 +829,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601563712987">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601566496656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601563712987" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601566496656" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601510714791">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -859,11 +848,11 @@
     </state>
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600256895866" />
     <state x="777" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601458890524" />
-    <state x="978" y="119" width="864" height="801" key="find.popup" timestamp="1601549729089">
+    <state x="978" y="119" width="864" height="801" key="find.popup" timestamp="1601567254234">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351933286" />
-    <state x="978" y="119" width="864" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601549729089" />
+    <state x="978" y="119" width="864" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601567254234" />
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600693371054" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601470247229">
       <screen x="0" y="0" width="1920" height="1040" />
