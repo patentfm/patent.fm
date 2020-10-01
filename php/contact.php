@@ -1,6 +1,6 @@
 <?php
-header("Access-Control-Allow-Origin: https://billy.plus");
-header("Access-Control-Allow-Headers: https://billy.plus");
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
 header('Access-Control-Allow-Methods: GET, POST, OPTIONS');
 error_reporting(0);
 /*

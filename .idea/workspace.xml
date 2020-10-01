@@ -308,14 +308,7 @@
       <workItem from="1601299790653" duration="4219000" />
       <workItem from="1601451319935" duration="9858000" />
       <workItem from="1601464838896" duration="28206000" />
-      <workItem from="1601549474274" duration="10979000" />
-    </task>
-    <task id="LOCAL-00060" summary="Poglądowa wersja alpha 2">
-      <created>1600850395452</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1600850395452</updated>
+      <workItem from="1601549474274" duration="11201000" />
     </task>
     <task id="LOCAL-00061" summary="Poglądowa wersja alpha 3">
       <created>1600854690860</created>
@@ -653,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601563068549</updated>
     </task>
-    <option name="localTasksCounter" value="109" />
+    <task id="LOCAL-00109" summary="Wrzos.dev v100 CORS">
+      <created>1601563271108</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1601563271108</updated>
+    </task>
+    <option name="localTasksCounter" value="110" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -819,11 +819,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="530" height="446" key="SwitcherDM/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601289738545" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601563070025">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601563272883">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351623863" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601563070025" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1601563272883" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1600693915416" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601510714791">
       <screen x="0" y="0" width="1920" height="1040" />
