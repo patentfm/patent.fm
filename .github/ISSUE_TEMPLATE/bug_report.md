@@ -25,6 +25,7 @@ Jesli konieczne, można dołączyć
 
 **Na czym błąd występuje?:**
  - Urządzenie/przeglądarka: [e.g. Samsung s8/Chrome]
+ - Rozdzielczość ekranu [ e.g. klasa sm/420px/680px]
  - System: [e.g. Android 8.1/Windows 10]
  - Wersja aplikacji [e.g. 2.25L]
 
