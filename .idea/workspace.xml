@@ -28,7 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v200 Templates">
-      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -273,10 +272,10 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.wrzosdev [build]" />
       <item itemvalue="Gradle.wrzosdev [assemble]" />
-      <item itemvalue="Gradle.wrzosdev [clean]" />
+      <item itemvalue="Gradle.wrzosdev [build]" />
       <item itemvalue="Gradle.wrzosdev [classes]" />
+      <item itemvalue="Gradle.wrzosdev [clean]" />
       <item itemvalue="Shell Script.start.sh" />
     </list>
     <recent_temporary>
@@ -869,6 +868,10 @@
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040/-1920.0.1920.1040/1920.0.2560.1040@0.0.1920.1040" timestamp="1600351933286" />
     <state x="978" y="119" width="864" height="801" key="find.popup/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1602149216537" />
     <state x="666" y="119" width="587" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600693371054" />
+    <state x="342" y="140" key="new project wizard" timestamp="1602851259107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="140" key="new project wizard/0.0.1920.1040/1920.-1767.3072.1688@0.0.1920.1040" timestamp="1602851259107" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1601470247229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
