@@ -32,9 +32,7 @@ if (isset($email) && isset($name)) {
 	$msg      = 'Hello Admin, <br/> <br/> Here are the Message details:';
 	$msg     .= ' <br/> <br/> <table border="1" cellpadding="6" cellspacing="0" style="border: 1px solid  #eeeeee;">';
 	foreach ($_POST as $label => $value) {
-		if ($label != "mail"){
 	    $msg .= "<tr><td width='100'>". ucfirst($label) . "</td><td width='300'>" . $value . " </tr>";
-	}
 	}
 	$msg      .= " </table> <br> --- <br>This e-mail was sent from $website";
 
