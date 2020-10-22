@@ -29,7 +29,7 @@ $(function() {
     var $jscontactresult = $("#js-contact-result");
     $phpcontactform.submit(function(e) {
         e.preventDefault();
-    }).validate({
+   }).validate({
         rules: {
             name: "required",
             emailadress: {
@@ -49,7 +49,7 @@ $(function() {
         submitHandler: function(form) {
 
             setCookie('last-name', $('#name').val(), 300)
-            setCookie('last-mail', $('#email').val(), 300)
+            setCookie('last-mail', $('#emailadress').val(), 300)
 
             $jscontactbtn.attr("disabled", true);
             /* 
