@@ -17,21 +17,24 @@ $server_email = 'wrzosinf@wn28.webd.pl';  // Your server email to authenticate o
 
 $name     = $_POST["name"];
 $email    = $_POST["email"];
-$bot      = $_POST["mail"];
 $website  = (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $website = dirname($website);
 $website = dirname($website);
 
 if (isset($email) && isset($name)) {
-
-	$subject  = "New Contact Message from $name"; // <--- Contact for Subject here.
-	if (isset($bot)) {
-		$subject = "BOT" . $subject;
-	}
+	//honeypot bot secure
+	$subject = ""
+	if(!empty($_POST['website'])) $subject = "BOT ";
+	if(!empty($_POST['mail'])) $subject = "BOT ";
+	if(!empty($_POST['email'])) $subject = "BOT ";
+	//for now only flag bot, one day simply die();
+	$subject  .= "Contact Message from $name"; // <--- Contact for Subject here.
 	$msg      = 'Hello Admin, <br/> <br/> Here are the Message details:';
 	$msg     .= ' <br/> <br/> <table border="1" cellpadding="6" cellspacing="0" style="border: 1px solid  #eeeeee;">';
 	foreach ($_POST as $label => $value) {
+		if ($label != "mail"){
 	    $msg .= "<tr><td width='100'>". ucfirst($label) . "</td><td width='300'>" . $value . " </tr>";
+	}
 	}
 	$msg      .= " </table> <br> --- <br>This e-mail was sent from $website";
 
