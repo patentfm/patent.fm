@@ -23,7 +23,7 @@ $website = dirname($website);
 
 if (isset($email) && isset($name)) {
 	//honeypot bot secure
-	$subject = ""
+	$subject = "";
 	if(!empty($_POST['website'])) $subject = "BOT ";
 	if(!empty($_POST['mail'])) $subject = "BOT ";
 	if(!empty($_POST['email'])) $subject = "BOT ";
