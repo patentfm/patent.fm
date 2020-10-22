@@ -32,7 +32,7 @@ $(function() {
     }).validate({
         rules: {
             name: "required",
-            email: {
+            emailadress: {
                 required: true,
                 email: true
             },
@@ -40,7 +40,7 @@ $(function() {
         },
         messages: {
             name: "Proszę, podaj swoję imie",
-            email: {
+            emailadress: {
                 required: "Proszę, podaj adres bym mógł odpowiedzieć",
                 email: "Proszę, upewnij się, że adres nie ma błędów"
             },
