@@ -3,7 +3,7 @@
 # Get its PID
 PID=$!
 # Wait for 2 seconds
-sleep 15
+sleep 8
 # Kill it
 kill $PID
 git add .
