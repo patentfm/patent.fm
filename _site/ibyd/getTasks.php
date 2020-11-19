@@ -1,4 +1,5 @@
-[{
+<?php
+$data = '[{
   "id": 1,
   "taskName": "Mycie podłogi",
   "userName": "Pietrek",
@@ -103,4 +104,9 @@
   "userImgUrl": "http://dummyimage.com/165x243.bmp/5fa2dd/ffffff",
   "lastDoneDate": "8/4/2020",
   "cykleType": "oneTime"
-}]
+}]';
+
+header('Content-Type: application/json');
+echo $data;
+
+?>
