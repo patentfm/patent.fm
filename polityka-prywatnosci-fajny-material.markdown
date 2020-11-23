@@ -20,7 +20,7 @@ Aplikacja – Oprogramowanie pod nazwą &#39;Aplikacja mobilna Billy Plus&#39;, 
 
 Dane osobowe - oznaczają informacje o zidentyfikowanej lub możliwej do zidentyfikowania osobie fizycznej („osobie, której dane dotyczą&quot;); możliwa do zidentyfikowania osoba fizyczna to osoba, którą można bezpośrednio lub pośrednio zidentyfikować, w szczególności na podstawie identyfikatora takiego jak imię i nazwisko, numer identyfikacyjny, dane o lokalizacji, identyfikator internetowy lub jeden bądź kilka szczególnych czynników określających fizyczną, fizjologiczną, genetyczną, psychiczną, ekonomiczną, kulturową lub społeczną tożsamość osoby fizycznej.
 
-Dostawca – dostawca Aplikacji mobilnej Billy Plus, którym jest Arkadiusz Wrzos prowadzący działalność gospodarczą pod firmą Wrzosdev - Usługi Informatyczne Arkadiusz Wrzos, ul. Władysława Jagiełły 14, 21-150 Kock, _NIP: 714-204-96-17_, _REGON: 369750293_, który jest jednocześnie administratorem danych osobowych Użytkowników_._
+Dostawca – dostawca usług Fajny materiał, którym jest Arkadiusz Wrzos prowadzący działalność gospodarczą pod firmą Fajny Materiał Arkadiusz Wrzos, ul. Władysława Jagiełły 14, 21-150 Kock, _NIP: 714-204-96-17_, _REGON: 369750293_, który jest jednocześnie administratorem danych osobowych Użytkowników_._
 
 Usługi – usługi świadczone drogą elektroniczną przez Dostawcę za pośrednictwem Aplikacji,
  w szczególności polegające na umożliwieniu dostępu do Treści oraz Treści Premium.
@@ -33,7 +33,7 @@ Treść – udostępniany Użytkownikom przez Dostawcę za pomocą Aplikacji mat
 
 ## III. Administrator danych osobowych
 
-1. Administratorem danych osobowych Użytkowników jest Arkadiusz Wrzos prowadzący działalność gospodarczą pod firmą Wrzosdev - Usługi Informatyczne Arkadiusz Wrzos, ul. Władysława Jagiełły 14, 21-150 Kock, _NIP: 714-204-96-17_, _REGON: 369750293_.
+1. Administratorem danych osobowych Użytkowników jest Arkadiusz Wrzos prowadzący działalność gospodarczą pod firmą Fajny Materiał Arkadiusz Wrzos, ul. Władysława Jagiełły 14, 21-150 Kock, _NIP: 714-204-96-17_, _REGON: 369750293_.
 2. Kontakt z administratorem danych osobowych możliwy jest za pośrednictwem poczty elektronicznej pod adresem: wrzosdev@gmail.com lub poczty tradycyjnej w formie pisemnej pod adresem: ul. Władysława Jagiełły 14, 21-150 Kock
 
 ## IV. Cel przetwarzania danych
