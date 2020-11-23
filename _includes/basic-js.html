@@ -4,3 +4,10 @@
 <script src="js/contact.js?{{site.version}}"></script>
 <!-- Script JS -->
 <script src="js/script.js?{{site.version}}"></script>
+<!-- Recaptcha 3 -->
+<script src="https://www.google.com/recaptcha/api.js"></script>
+ <script>
+   function onSubmit(token) { 
+     $('#phpcontactform').trigger('submit');
+   }
+ </script>

@@ -31,7 +31,12 @@
                                     <textarea class="form-control" style="display:block;" id="message" name="message" placeholder="Tu wpisz wiadomość" rows="3"></textarea>
                                 </div>
                                 <div class="text-center">
-                                    <button type="submit" id="js-contact-btn" class="btn btn-primary mt-4">
+                                    <button
+                                    data-sitekey="6LdQDeoZAAAAAMO0T86i2CKSUdOURGWrXtCi1vA-" 
+                                     data-callback='onSubmit' 
+                                        data-action='submit' 
+                                        id="js-contact-btn" 
+                                        class="btn btn-primary mt-4 g-recaptcha">
                                         Wyślij wiadomość<span class="pe-7s-angle-right-circle ml-3" style="font-size: large"></span>
                                     </button>
                                     <div id="js-contact-result" data-success-msg="Dzięki, zazwyczaj odpowiadam w ciągu 24 godzin"
