@@ -67,16 +67,11 @@ $(function() {
             var success_msg = $jscontactresult.data('success-msg');
             var error_msg = $jscontactresult.data('error-msg');
             var dataString = $(form).serialize();
-            var dataString = new FormData(form);
+            var data = new FormData(form);
             /* 
              AJAX POST
              --------- */
-            $.ajax({
-              url: "https://formspree.io/f/wrzosdev@gmail.com",
-              method: "POST",
-              dataType: "json",
-              data: dataString,
-                success: function(d) {
+              ajax(form.method, form.action, data, function(d) {
                     if (d.startsWith("Mailer")) {
                         $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(10000).fadeOut('slow');
                         if (window.console) {
@@ -91,15 +86,29 @@ $(function() {
                         }
                     }
                     $jscontactbtn.attr("disabled", false);
-                },
-                error: function(d) {
+              }, function(d) {
                     $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger"> Serwer niedostępny, napisz mi na <a href="mailto:wrzosdev@gmail.com">wrzosdev@gmail.com</a><br/>Error 69: What a Terrible Failure</div>').delay(15000).fadeOut('slow');
                     $jscontactbtn.attr("disabled", false);
                     if (window.console) {
                         console.log('Ajax Error: ' + d.statusText);
                     }
-                }
-            });
+                });
+            
+              function ajax(method, url, data, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.open(method, url);
+    xhr.setRequestHeader("Accept", "application/json");
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState !== XMLHttpRequest.DONE) return;
+      if (xhr.status === 200) {
+        success(xhr.response, xhr.responseType);
+      } else {
+        error(xhr.status, xhr.response, xhr.responseType);
+      }
+    };
+    xhr.send(data);
+  }
+           
             return false;
         }
     });
