@@ -73,7 +73,7 @@ $(function() {
             $.ajax({
                 type: "POST",
                 data: dataString,
-                url: "php/contact.php",
+                url: "https://wrzosinf.webd.pro/wrzos/php/contact.php",
                 cache: false,
                 success: function(d) {
                     if (d.startsWith("Mailer")) {
