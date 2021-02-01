@@ -71,10 +71,11 @@ $(function() {
              AJAX POST
              --------- */
             $.ajax({
-                type: "POST",
-                data: dataString,
-                url: "https://wrzosinf.webd.pro/wrzos/php/contact.php",
-                cache: false,
+              url: "https://formspree.io/f/wrzosdev@gmail.com",
+              method: "POST",
+              dataType: "json",
+              data: dataString,
+              cache: false,
                 success: function(d) {
                     if (d.startsWith("Mailer")) {
                         $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(10000).fadeOut('slow');
