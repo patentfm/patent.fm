@@ -75,10 +75,7 @@ $(function() {
               url: "https://formspree.io/f/wrzosdev@gmail.com",
               method: "POST",
               dataType: "json",
-              data: {
-                    email: "a.visitor@email.com",
-                    message: "Hello!"
-                    },
+              data: dataString,
                 success: function(d) {
                     if (d.startsWith("Mailer")) {
                         $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(10000).fadeOut('slow');
