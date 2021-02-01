@@ -74,7 +74,7 @@ $(function() {
               url: "https://formspree.io/f/wrzosdev@gmail.com",
               method: "POST",
               dataType: "json",
-              data: $(this).serializeArray().reduce(function(m,o){  m[o.name] = o.value; return m;}, {}),
+              data: $(form).serializeArray().reduce(function(m,o){  m[o.name] = o.value; return m;}, {}),
                 success: function(d) {
                     if (d.startsWith("Mailer")) {
                         $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(10000).fadeOut('slow');
