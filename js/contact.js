@@ -67,6 +67,7 @@ $(function() {
             var success_msg = $jscontactresult.data('success-msg');
             var error_msg = $jscontactresult.data('error-msg');
             var dataString = $(form).serialize();
+            var dataString = new FormData(form);
             /* 
              AJAX POST
              --------- */
@@ -74,8 +75,10 @@ $(function() {
               url: "https://formspree.io/f/wrzosdev@gmail.com",
               method: "POST",
               dataType: "json",
-              data: dataString,
-              cache: false,
+              data: {
+                    email: "a.visitor@email.com",
+                    message: "Hello!"
+                    },
                 success: function(d) {
                     if (d.startsWith("Mailer")) {
                         $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-danger">' + error_msg + '</div>').delay(10000).fadeOut('slow');
