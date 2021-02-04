@@ -27,10 +27,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v275 gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/landing-subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/landing-subscribe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com">
+      <change beforePath="$PROJECT_DIR$/sukces-hub-subskrypcja.md" beforeDir="false" afterPath="$PROJECT_DIR$/sukces-hub-subskrypcja.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,14 +330,7 @@
       <workItem from="1601451319935" duration="9858000" />
       <workItem from="1601464838896" duration="28206000" />
       <workItem from="1601549474274" duration="16736000" />
-      <workItem from="1612412900563" duration="1602000" />
-    </task>
-    <task id="LOCAL-00071" summary="Usuniecie backupu">
-      <created>1601031177822</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1601031177822</updated>
+      <workItem from="1612412900563" duration="1945000" />
     </task>
     <task id="LOCAL-00072" summary="ignore backupu">
       <created>1601031203994</created>
@@ -677,7 +668,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612413551681</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com">
+      <created>1612414713504</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1612414713504</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -720,7 +718,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Usunięcie Zrzuty w kursie na tel" />
     <MESSAGE value="Margines górny md sm xs" />
     <MESSAGE value="Mailing" />
     <MESSAGE value="LOGING" />
@@ -745,13 +742,14 @@
     <MESSAGE value="Wrzos.dev v200 Templates" />
     <MESSAGE value="Wrzos.dev v275" />
     <MESSAGE value="Wrzos.dev v275 gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v275 gitignore" />
+    <MESSAGE value="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1612413559073">
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1612414714478">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612413559073" />
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612414714478" />
     <state x="1531" y="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612414621076">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
