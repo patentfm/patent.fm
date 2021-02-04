@@ -45,11 +45,10 @@ plugins:
 # their entries' file path in the `include:` list.
 #
 exclude:
-  - ac0f7r56fkixd75f676f67rf6uHelpDocs/
-  - ac055777b0d2973437f2c1dBackupRaw/
+  - backup/
   - start.sh
   - refreshandpush.sh
-  - endpoint
+  - endpoint/
 #   - .jekyll-cache/
 #   - gemfiles/
 #   - Gemfile
