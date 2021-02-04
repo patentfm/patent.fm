@@ -10,6 +10,7 @@
       <excludeFolder url="file://$MODULE_DIR$/backup" />
       <excludeFolder url="file://$MODULE_DIR$/backup/ac055777b0d2973437f2c1dBackupRaw" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/vendors" />
       <excludeFolder url="file://$MODULE_DIR$/xr6f7r56fkixd75f676f67rf6uHelpDocs" />
     </content>
     <orderEntry type="inheritedJdk" />
