@@ -28,7 +28,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com">
-      <change beforePath="$PROJECT_DIR$/_layouts/landing-subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/landing-subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wrzosdev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wrzosdev.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,14 +331,7 @@
       <workItem from="1601451319935" duration="9858000" />
       <workItem from="1601464838896" duration="28206000" />
       <workItem from="1601549474274" duration="16736000" />
-      <workItem from="1612412900563" duration="2997000" />
-    </task>
-    <task id="LOCAL-00074" summary="Cookies">
-      <created>1601292532505</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1601292532505</updated>
+      <workItem from="1612412900563" duration="3613000" />
     </task>
     <task id="LOCAL-00075" summary="Polityka prywatnosci">
       <created>1601297307720</created>
@@ -675,7 +669,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612415974457</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com">
+      <created>1612416112765</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1612416112765</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -746,17 +747,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1612415985007">
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1612416114051">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612415985007" />
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612416114051" />
     <state x="1531" y="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612414621076">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="1531" y="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612414621076" />
-    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1612414684166">
+    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1612416663815">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612414684166" />
+    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612416663815" />
   </component>
 </project>

@@ -4,7 +4,11 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.gradle" />
-      <excludeFolder url="file://$MODULE_DIR$/ac055777b0d2973437f2c1dBackupRaw" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/.jekyll-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/_site" />
+      <excludeFolder url="file://$MODULE_DIR$/backup" />
+      <excludeFolder url="file://$MODULE_DIR$/backup/ac055777b0d2973437f2c1dBackupRaw" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
       <excludeFolder url="file://$MODULE_DIR$/xr6f7r56fkixd75f676f67rf6uHelpDocs" />
     </content>
