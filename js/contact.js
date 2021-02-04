@@ -36,7 +36,10 @@ $(function() {
                 required: true,
                 email: true
             },
-            message: "required",
+            message: {
+                required: true,
+                minLength: 3
+            },
         },
         messages: {
             name: "Proszę, podaj swoję imie",

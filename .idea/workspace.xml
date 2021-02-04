@@ -27,9 +27,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v275 excluded dirs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/wrzosdev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wrzosdev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +101,7 @@
   <component name="ProjectId" id="1haki5GoqB41YLwEPN3wRnRI985" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -331,21 +332,7 @@
       <workItem from="1601451319935" duration="9858000" />
       <workItem from="1601464838896" duration="28206000" />
       <workItem from="1601549474274" duration="16736000" />
-      <workItem from="1612412900563" duration="3613000" />
-    </task>
-    <task id="LOCAL-00075" summary="Polityka prywatnosci">
-      <created>1601297307720</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1601297307720</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Beta 1">
-      <created>1601298844072</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1601298844072</updated>
+      <workItem from="1612412900563" duration="5699000" />
     </task>
     <task id="LOCAL-00077" summary="Link dowiedz się więcej md">
       <created>1601301776777</created>
@@ -676,7 +663,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612416112765</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="Wrzos.dev v275 excluded dirs">
+      <created>1612416810500</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1612416810500</updated>
+    </task>
+    <task id="LOCAL-00125" summary="Wrzos.dev v275 excluded dirs">
+      <created>1612417027691</created>
+      <option name="number" value="00125" />
+      <option name="presentableId" value="LOCAL-00125" />
+      <option name="project" value="LOCAL" />
+      <updated>1612417027691</updated>
+    </task>
+    <option name="localTasksCounter" value="126" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -719,7 +720,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Margines górny md sm xs" />
     <MESSAGE value="Mailing" />
     <MESSAGE value="LOGING" />
     <MESSAGE value="Formularz mailowy" />
@@ -744,20 +744,33 @@
     <MESSAGE value="Wrzos.dev v275" />
     <MESSAGE value="Wrzos.dev v275 gitignore" />
     <MESSAGE value="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com" />
+    <MESSAGE value="Wrzos.dev v275 excluded dirs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v275 excluded dirs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1612416114051">
+    <state x="353" y="662" width="1734" height="867" key="DiffContextDialog" timestamp="1612417031090">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612416114051" />
+    <state x="353" y="662" width="1734" height="867" key="DiffContextDialog/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612417031090" />
+    <state x="2717" y="236" key="RollbackChangesDialog" timestamp="1612418954020">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2717" y="236" key="RollbackChangesDialog/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612418954020" />
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1612417029768">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612417029768" />
     <state x="1531" y="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612414621076">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="1531" y="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612414621076" />
-    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1612416663815">
+    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1612418187713">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612416663815" />
+    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612418187713" />
+    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup" timestamp="1612417549068">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612417549068" />
   </component>
 </project>
