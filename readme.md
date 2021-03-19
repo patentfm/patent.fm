@@ -6,3 +6,4 @@ contact.php przepuszcza billy.plus dzieki .htaccess
 skrypt refresh od razu pushuje z rebuildem
 
 Jest opcja na hosting mydevil podobno dobry jakby github siadł
+podobno hostinblue tez dobry
