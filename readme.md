@@ -4,3 +4,5 @@ endpoint ma się budować do webd, ale narazie tam jest problem z domeną ssl
 contact.php przepuszcza billy.plus dzieki .htaccess
 
 skrypt refresh od razu pushuje z rebuildem
+
+Jest opcja na hosting mydevil podobno dobry jakby github siadł

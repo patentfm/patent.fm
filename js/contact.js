@@ -38,7 +38,7 @@ $(function() {
             },
             message: {
                 required: true,
-                minLength: 3
+                minlength: 3
             },
         },
         messages: {
