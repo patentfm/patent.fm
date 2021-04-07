@@ -7,3 +7,5 @@ skrypt refresh od razu pushuje z rebuildem
 
 Jest opcja na hosting mydevil podobno dobry jakby github siadł
 podobno hostinblue tez dobry
+
+todo przenieść na fajny.dev i uprzątnąć jirę
