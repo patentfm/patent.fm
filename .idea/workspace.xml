@@ -28,8 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v275 excluded dirs">
+      <change afterPath="$PROJECT_DIR$/subskrypcja-sukces-potwierdzony-mail.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/contact-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/success-hub-subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/success-hub-subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sukces-hub-subskrypcja.md" beforeDir="false" afterPath="$PROJECT_DIR$/subskrypcja-sukces-podwojne-potwierdzenie.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +122,7 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../billy.plus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -134,21 +142,22 @@
     <property name="tasks.close.task.update.state.enabled" value="true" />
     <property name="tasks.open.task.update.state.enabled" value="false" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/ac055777b0d2973437f2c1dBackupRaw/Mobile App Landing Page Templates - Mobland/HTML/index-dark.html" />
+    <property name="two.files.diff.last.used.folder" value="D:/Web/wrzos.dev" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wrzos\IdeaProjects\fajny.dev" />
+      <recent name="D:\Web\wrzos.dev" />
+      <recent name="D:\Web\wrzos.dev\_layouts" />
+      <recent name="D:\Web\wrzos.dev\phpOLD" />
+      <recent name="D:\Web\wrzosdev" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Web\wrzos.dev\backup" />
       <recent name="D:\Web\wrzos.dev" />
       <recent name="D:\Web\wrzosdev\gobilly" />
       <recent name="D:\Web\wrzosdev\gobilly\gobilly\source" />
       <recent name="D:\Web\wrzosdev\styles" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Web\wrzos.dev" />
-      <recent name="D:\Web\wrzos.dev\_layouts" />
-      <recent name="D:\Web\wrzos.dev\phpOLD" />
-      <recent name="D:\Web\wrzosdev" />
-      <recent name="D:\Web\wrzosdev\dev" />
     </key>
   </component>
   <component name="RunManager" selected="Shell Script.start.sh">
@@ -158,15 +167,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -333,6 +340,7 @@
       <workItem from="1601464838896" duration="28206000" />
       <workItem from="1601549474274" duration="16736000" />
       <workItem from="1612412900563" duration="5699000" />
+      <workItem from="1617977882040" duration="6531000" />
     </task>
     <task id="LOCAL-00077" summary="Link dowiedz się więcej md">
       <created>1601301776777</created>
@@ -705,6 +713,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -748,10 +766,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v275 excluded dirs" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="353" y="662" width="1734" height="867" key="DiffContextDialog" timestamp="1612417031090">
+    <state x="2334" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617978020158">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
+    <state x="2334" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617978020158" />
+    <state x="1162" y="900" width="1734" height="867" key="DiffContextDialog" timestamp="1617978313782">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1162" y="900" width="1734" height="867" key="DiffContextDialog/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617978313782" />
     <state x="353" y="662" width="1734" height="867" key="DiffContextDialog/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612417031090" />
+    <state x="2660" y="288" key="FileChooserDialogImpl" timestamp="1617977913050">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="2660" y="288" key="FileChooserDialogImpl/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617977913050" />
     <state x="2717" y="236" key="RollbackChangesDialog" timestamp="1612418954020">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
@@ -764,13 +791,19 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="1531" y="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612414621076" />
-    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1612418187713">
+    <state x="2697" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617981933835">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
+    <state x="2697" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617981933835" />
+    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1617982092316">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617982092316" />
     <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612418187713" />
-    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup" timestamp="1612417549068">
+    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup" timestamp="1617981972763">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
+    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617981972763" />
     <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612417549068" />
   </component>
 </project>
