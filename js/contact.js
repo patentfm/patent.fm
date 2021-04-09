@@ -24,10 +24,10 @@ $(function() {
     /* 
     VALIDATE
     -------- */
-    var $phpcontactform = $("#phpcontactform");
+    var $contactform = $("#contactform");
     var $jscontactbtn = $("#js-contact-btn");
     var $jscontactresult = $("#js-contact-result");
-    $phpcontactform.submit(function(e) {
+    $contactform.submit(function(e) {
         e.preventDefault();
    }).validate({
         rules: {
@@ -58,7 +58,7 @@ $(function() {
             /* 
             CHECK PAGE FOR REDIRECT (Thank you page)
             ---------------------------------------- */
-            var redirect = $phpcontactform.data('redirect');
+            var redirect = $contactform.data('redirect');
             var noredirect = false;
             if (redirect == 'none' || redirect == "" || redirect == null) {
                 noredirect = true;
@@ -74,7 +74,7 @@ $(function() {
              AJAX POST
              --------- */
             $.ajax({
-              url: "https://formspree.io/f/wrzosdev@gmail.com",
+              url: "https://formspree.io/f/meqvqvqj",
               method: "POST",
               dataType: "json",
               data: {
@@ -86,7 +86,7 @@ $(function() {
                 success: function(d) {
                     if (d.ok) {
                         if (noredirect) {
-                            $phpcontactform[0].reset();
+                            $contactform[0].reset();
                             $jscontactresult.fadeIn('slow').html('<div class="mt-3 help-block text-success">' + success_msg + '</div>').delay(10000).fadeOut('slow');
                         } else {
                             window.location.href = redirect;

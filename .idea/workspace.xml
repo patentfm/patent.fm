@@ -27,17 +27,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="Wrzos.dev v275 excluded dirs">
-      <change afterPath="$PROJECT_DIR$/subskrypcja-sukces-potwierdzony-mail.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="FAJ-31 Wrzos.dev v300">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/basic-js.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/basic-js.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/contact-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/success-hub-subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/success-hub-subscribe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sukces-hub-subskrypcja.md" beforeDir="false" afterPath="$PROJECT_DIR$/subskrypcja-sukces-podwojne-potwierdzenie.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -340,14 +334,7 @@
       <workItem from="1601464838896" duration="28206000" />
       <workItem from="1601549474274" duration="16736000" />
       <workItem from="1612412900563" duration="5699000" />
-      <workItem from="1617977882040" duration="6531000" />
-    </task>
-    <task id="LOCAL-00077" summary="Link dowiedz się więcej md">
-      <created>1601301776777</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1601301776777</updated>
+      <workItem from="1617977882040" duration="8345000" />
     </task>
     <task id="LOCAL-00078" summary="Ikony na podstronach">
       <created>1601311617226</created>
@@ -685,7 +672,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612417027691</updated>
     </task>
-    <option name="localTasksCounter" value="126" />
+    <task id="LOCAL-00126" summary="FAJ-31 Wrzos.dev v300">
+      <created>1617984963731</created>
+      <option name="number" value="00126" />
+      <option name="presentableId" value="LOCAL-00126" />
+      <option name="project" value="LOCAL" />
+      <updated>1617984963731</updated>
+    </task>
+    <option name="localTasksCounter" value="127" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -738,7 +732,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Mailing" />
     <MESSAGE value="LOGING" />
     <MESSAGE value="Formularz mailowy" />
     <MESSAGE value="Success mail" />
@@ -763,7 +756,8 @@
     <MESSAGE value="Wrzos.dev v275 gitignore" />
     <MESSAGE value="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com" />
     <MESSAGE value="Wrzos.dev v275 excluded dirs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Wrzos.dev v275 excluded dirs" />
+    <MESSAGE value="FAJ-31 Wrzos.dev v300" />
+    <option name="LAST_COMMIT_MESSAGE" value="FAJ-31 Wrzos.dev v300" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617978020158">
@@ -783,9 +777,10 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="2717" y="236" key="RollbackChangesDialog/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612418954020" />
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1612417029768">
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1617984967907">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617984967907" />
     <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612417029768" />
     <state x="1531" y="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612414621076">
       <screen x="0" y="0" width="3840" height="2120" />
@@ -795,15 +790,15 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="2697" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617981933835" />
-    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1617982092316">
+    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1617985645632">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617982092316" />
+    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617985645632" />
     <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612418187713" />
-    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup" timestamp="1617981972763">
+    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup" timestamp="1617985628483">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617981972763" />
+    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617985628483" />
     <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612417549068" />
   </component>
 </project>
