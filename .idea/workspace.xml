@@ -27,11 +27,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="FAJ-31 Wrzos.dev v300">
+    <list default="true" id="5306008c-e294-40e2-83a1-ff834470f637" name="Default" comment="FAJ-31 v325 Update formspree">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/basic-js.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/basic-js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/contact-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact-form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -334,21 +332,7 @@
       <workItem from="1601464838896" duration="28206000" />
       <workItem from="1601549474274" duration="16736000" />
       <workItem from="1612412900563" duration="5699000" />
-      <workItem from="1617977882040" duration="8345000" />
-    </task>
-    <task id="LOCAL-00078" summary="Ikony na podstronach">
-      <created>1601311617226</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1601311617226</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Labelki do formularza">
-      <created>1601311894787</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1601311894787</updated>
+      <workItem from="1617977882040" duration="10083000" />
     </task>
     <task id="LOCAL-00080" summary="Usunięcie Zrzuty w kursie na tel">
       <created>1601450455812</created>
@@ -679,7 +663,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617984963731</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <task id="LOCAL-00127" summary="FAJ-31 v325 Update formspree">
+      <created>1617988880240</created>
+      <option name="number" value="00127" />
+      <option name="presentableId" value="LOCAL-00127" />
+      <option name="project" value="LOCAL" />
+      <updated>1617988880240</updated>
+    </task>
+    <task id="LOCAL-00128" summary="FAJ-31 v325 Update formspree">
+      <created>1617988895615</created>
+      <option name="number" value="00128" />
+      <option name="presentableId" value="LOCAL-00128" />
+      <option name="project" value="LOCAL" />
+      <updated>1617988895615</updated>
+    </task>
+    <option name="localTasksCounter" value="129" />
     <option name="clearContext" value="false" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
@@ -732,7 +730,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="LOGING" />
     <MESSAGE value="Formularz mailowy" />
     <MESSAGE value="Success mail" />
     <MESSAGE value="Mail size md" />
@@ -757,7 +754,8 @@
     <MESSAGE value="Wrzos.dev v275 mailchimp fajnymaterial@gmail.com" />
     <MESSAGE value="Wrzos.dev v275 excluded dirs" />
     <MESSAGE value="FAJ-31 Wrzos.dev v300" />
-    <option name="LAST_COMMIT_MESSAGE" value="FAJ-31 Wrzos.dev v300" />
+    <MESSAGE value="FAJ-31 v325 Update formspree" />
+    <option name="LAST_COMMIT_MESSAGE" value="FAJ-31 v325 Update formspree" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="188" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617978020158">
@@ -777,10 +775,10 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="2717" y="236" key="RollbackChangesDialog/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612418954020" />
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1617984967907">
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2" timestamp="1617988897133">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617984967907" />
+    <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617988897133" />
     <state x="1512" y="793" key="Vcs.Push.Dialog.v2/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612417029768" />
     <state x="1531" y="738" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612414621076">
       <screen x="0" y="0" width="3840" height="2120" />
@@ -790,10 +788,10 @@
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
     <state x="2697" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617981933835" />
-    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1617985645632">
+    <state x="1627" y="659" width="1582" height="826" key="find.popup" timestamp="1617989081590">
       <screen x="0" y="0" width="3840" height="2120" />
     </state>
-    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617985645632" />
+    <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.1080.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1617989081590" />
     <state x="1627" y="659" width="1582" height="826" key="find.popup/3840.972.1920.1040/0.0.3840.2120@0.0.3840.2120" timestamp="1612418187713" />
     <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup" timestamp="1617985628483">
       <screen x="0" y="0" width="3840" height="2120" />
