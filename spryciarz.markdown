@@ -1,13 +1,13 @@
 ---
-layout: sectioned-page
-meta-keywords: <!--    todo dodać keywords z plannera-->
-meta-description: <!--    todo dodać description z plannera-->
-title: Hej, jesteś sprytny
-subheader: Spryciarz z Ciebie
+layout: strona
+title: Spryciarz z Ciebie
+podtytul: Trafiłeś na adres, którego nigdzie nie linkuję.
+opis: Ukryta strona patent.fm dla tych, którzy grzebią głębiej.
+bez-newslettera: true
 ---
 
-**Takich ludzi potrzebuję**
+Skoro tu jesteś, to znaczy, że sprawdzasz rzeczy zamiast klikać to, co Ci podsunięto. Dokładnie
+takich ludzi szukam do współpracy — i takich najbardziej lubię mieć po drugiej stronie kursu.
 
-## Zgłoś się do mnie
-
-Napisz mi maila arek@fajny.dev
+Napisz do mnie: [{{ site.data.autor.email }}](mailto:{{ site.data.autor.email }}) i wpisz w temacie
+**spryciarz**. Będę wiedział, o co chodzi.
