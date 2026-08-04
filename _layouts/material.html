@@ -1,12 +1,24 @@
 ---
 layout: podstawa
 ---
+{%- comment -%}
+  Zachowanie przycisku zależy od trzech pól: `cena`, `link_zakupu`, `wymaga_zapisu`.
+  Materiał bez ceny i bez zapisu, oznaczony `status: wkrotce`, zbiera zainteresowanych
+  na newsletter zamiast udawać, że jest darmowy.
+{%- endcomment -%}
+{%- assign ma_cene = false -%}
+{%- if page.cena and page.cena != "" %}{% assign ma_cene = true %}{% endif -%}
+{%- assign ma_link = false -%}
+{%- if page.link_zakupu and page.link_zakupu != "" %}{% assign ma_link = true %}{% endif -%}
+
 <article class="kontener kontener--waski sekcja">
   <header class="naglowek-strony">
     <p class="etykieta">
       <span>Materiał</span>
       {%- if page.rodzaj %}<span>{{ page.rodzaj }}</span>{% endif %}
-      {%- if page.cena and page.cena != "" %}<span>{{ page.cena }} {{ site.data.sprzedaz.waluta }}</span>{% else %}<span>za darmo</span>{% endif %}
+      {%- if ma_cene %}<span>{{ page.cena }} {{ site.data.sprzedaz.waluta }}</span>
+      {%- elsif page.status == "wkrotce" %}<span>wkrótce</span>
+      {%- else %}<span>za darmo</span>{% endif %}
     </p>
     <h1>{{ page.title }}</h1>
     {%- if page.opis %}<p class="wiodacy">{{ page.opis }}</p>{% endif %}
@@ -22,25 +34,29 @@ layout: podstawa
   </ul>
   {%- endif %}
 
-  {%- if page.cena and page.cena != "" %}
-    {%- if page.link_zakupu and page.link_zakupu != "" %}
+  {%- if ma_cene and ma_link %}
     <div class="przyciski-rzad">
       <a class="przycisk" href="{{ page.link_zakupu }}" target="_blank" rel="noopener">
         Kup za {{ page.cena }} {{ site.data.sprzedaz.waluta }}
       </a>
     </div>
     <p class="oferta__drobne">{{ site.data.sprzedaz.platnosci.informacja }}</p>
-    {%- else %}
+  {%- elsif ma_cene %}
     <div class="przyciski-rzad">
       <a class="przycisk" href="{{ '/newsletter/' | relative_url }}">Powiadom mnie o premierze</a>
     </div>
-    {%- endif %}
+    <p class="oferta__drobne">Zapisani na listę dostają informację pierwsi i w niższej cenie.</p>
   {%- elsif page.wymaga_zapisu %}
     {% include newsletter.html tytul="Wyślę Ci to mailem" opis="Materiał jest darmowy — trafia na skrzynkę razem z zapisem na listę. Wypisujesz się jednym kliknięciem." %}
   {%- elsif page.plik %}
     <div class="przyciski-rzad">
       <a class="przycisk" href="{{ page.plik }}" {% unless page.plik contains 'http' %}download{% else %}target="_blank" rel="noopener"{% endunless %}>Pobierz</a>
     </div>
+  {%- elsif page.status == "wkrotce" %}
+    <div class="przyciski-rzad">
+      <a class="przycisk" href="{{ '/newsletter/' | relative_url }}">Powiadom mnie o premierze</a>
+    </div>
+    <p class="oferta__drobne">Zapisani na listę dostają informację pierwsi i w niższej cenie.</p>
   {%- endif %}
 
   {%- if page.odcinek %}

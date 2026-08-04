@@ -4,6 +4,8 @@
     <div class="karta__gora">
       {%- if m.cena and m.cena != "" %}
       <span class="znacznik znacznik--platny">{{ m.cena }} {{ site.data.sprzedaz.waluta }}</span>
+      {%- elsif m.status == "wkrotce" %}
+      <span class="znacznik znacznik--nagrywa">Wkrótce</span>
       {%- else %}
       <span class="znacznik znacznik--darmowy">Za darmo</span>
       {%- endif %}

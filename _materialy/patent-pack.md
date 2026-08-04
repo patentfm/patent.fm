@@ -4,6 +4,7 @@ kolejnosc: 3
 title: Patent Pack
 rodzaj: starter repo + szablony
 opis: Pełny zestaw taśmy produkcyjnej — starter repo, szablon pitch decku, prompty i checklisty.
+status: wkrotce
 cena: ""
 link_zakupu: ""
 zawartosc:

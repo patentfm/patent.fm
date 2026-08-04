@@ -44,5 +44,6 @@ się wcisnąć „systemu uprawnień”. Wcisnąć się da „klikasz i widzisz,
 4. Zrób pre-mortem: wyobraź sobie, że jest piątek i odcinka nie ma. Wypisz trzy powody
    i od razu zapisz, jak każdy z nich ubijasz.
 
-Szablon scenariusza i checklista są w [materiałach do lekcji](#). W następnej lekcji ustawiamy
+Szablon scenariusza i checklista są w [Patent Pack Lite](/materialy/patent-pack-lite/).
+W następnej lekcji ustawiamy
 stack tak, żeby przez cały tydzień nie podjąć ani jednej decyzji technologicznej.

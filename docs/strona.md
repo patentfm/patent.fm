@@ -94,6 +94,10 @@ Plik w `_materialy/<slug>.md`. Zachowanie przycisku zależy od pól:
 | `cena` puste + `plik: /sciezka.pdf` | przycisk „Pobierz” |
 | `cena` + `link_zakupu` | przycisk „Kup za …” |
 | `cena` bez `link_zakupu` | przycisk „Powiadom mnie o premierze” |
+| `status: wkrotce` (bez ceny i bez zapisu) | oznaczenie „Wkrótce” i zapis na powiadomienie |
+
+Materiał płatny, który jeszcze nie ma ustalonej ceny, musi mieć `status: wkrotce` — inaczej
+zostałby pokazany jako darmowy.
 
 ---
 
@@ -149,6 +153,10 @@ Katalogi `vendors/`, `scss/`, `css/style.css` oraz `js/contact.js` to pozostało
 szablonie Mobland. Żaden layout ich nie używa i są wyłączone z publikacji w `_config.yml`
 (sekcja `exclude`). Można je skasować — zostawione tylko na wypadek, gdyby czegoś stamtąd
 brakowało w pierwszych tygodniach.
+
+Nieużywane grafiki z tego szablonu (7 MB, wcześniej wgrywane przy każdym wdrożeniu) leżą teraz
+w `backup/stary-szablon-obrazki/`, czyli poza publikacją. W `images/` zostały tylko logotypy
+i grafika OG.
 
 Stare adresy nie umarły: `/polityka-prywatnosci-fajny-material.html`,
 `/kurs-git-i-git-flow-praktyczne-wykorzystanie.html` i `/contact-success.html` przekierowują
