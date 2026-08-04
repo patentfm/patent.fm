@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.jezyk | default: 'pl' }}">
+<head>
+  {%- include glowa.html %}
+</head>
+<body class="{{ page.klasa-body }}">
+  {%- include naglowek.html %}
+
+  <main id="tresc">
+    {{ content }}
+  </main>
+
+  {%- include stopka.html %}
+  {%- include cookies.html %}
+
+  <script src="{{ '/js/patent.js' | relative_url }}?v={{ site.version }}" defer></script>
+</body>
+</html>

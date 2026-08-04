@@ -1,0 +1,123 @@
+---
+layout: podstawa
+---
+{%- assign wszystkie = site.odcinki | sort: "numer" -%}
+{%- assign biezacy = 0 -%}
+{%- for o in wszystkie -%}
+  {%- if o.url == page.url -%}{%- assign biezacy = forloop.index0 -%}{%- endif -%}
+{%- endfor -%}
+{%- assign poprzedni_i = biezacy | minus: 1 -%}
+{%- assign nastepny_i = biezacy | plus: 1 -%}
+
+<article class="odcinek">
+  <header class="sekcja sekcja--gora">
+    <div class="kontener kontener--waski">
+      <p class="etykieta">
+        <span class="odcinek__numer">Odcinek #{{ page.numer }}</span>
+        {%- if page.data %}<span>{{ page.data | date: "%-d.%m.%Y" }}</span>{% endif %}
+        {%- if page.czas %}<span>zrobione w: {{ page.czas }}</span>{% endif %}
+      </p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.tagline %}<p class="wiodacy">{{ page.tagline }}</p>{% endif %}
+      {%- if page.status == "porazka" %}
+      <p class="alert alert--porazka">
+        Ten odcinek nie dowiózł. Zostawiam go w całości — rozbiór porażki uczy więcej niż kolejny sukces.
+      </p>
+      {%- endif %}
+    </div>
+  </header>
+
+  <div class="kontener kontener--waski">
+    {% include wideo.html youtube=page.youtube vimeo=page.vimeo tytul=page.title %}
+
+    <div class="przyciski-rzad">
+      {%- if page.demo_url %}
+      <a class="przycisk" href="{{ page.demo_url }}" target="_blank" rel="noopener">Odpal aplikację</a>
+      {%- endif %}
+      {%- if page.repo_url %}
+      <a class="przycisk przycisk--obrys" href="{{ page.repo_url }}" target="_blank" rel="noopener">Kod na GitHubie</a>
+      {%- endif %}
+    </div>
+
+    {%- if page.stack %}
+    <ul class="tagi">
+      {%- for t in page.stack %}<li>{{ t }}</li>{% endfor %}
+    </ul>
+    {%- endif %}
+  </div>
+
+  {%- if page.funkcje %}
+  <section class="sekcja">
+    <div class="kontener kontener--waski">
+      <h2 class="sekcja__tytul">Trzy fajerwerki</h2>
+      <p class="sekcja__opis">Cały zakres MVP. Reklama pokazuje trzy funkcje, więc aplikacja ma trzy funkcje — ani jednej więcej.</p>
+      <ol class="fajerwerki">
+        {%- for f in page.funkcje %}
+        <li>
+          <span class="fajerwerki__numer">{{ forloop.index }}</span>
+          <div>
+            <h3>{{ f.tytul }}</h3>
+            {%- if f.opis %}<p>{{ f.opis }}</p>{% endif %}
+          </div>
+        </li>
+        {%- endfor %}
+      </ol>
+    </div>
+  </section>
+  {%- endif %}
+
+  <div class="kontener kontener--waski">
+    <div class="tresc-tekstowa">
+      {{ content }}
+    </div>
+  </div>
+
+  {%- if page.kurs %}
+  {%- assign powiazany = site.kursy | where: "slug", page.kurs | first %}
+  {%- if powiazany %}
+  <section class="sekcja">
+    <div class="kontener kontener--waski">
+      <div class="polecenie">
+        <p class="etykieta">Chcesz robić tak samo?</p>
+        <h2>{{ powiazany.title }}</h2>
+        <p>{{ powiazany.opis }}</p>
+        <a class="przycisk" href="{{ powiazany.url | relative_url }}">Zobacz kurs</a>
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+  {%- endif %}
+
+  {%- if page.materialy %}
+  <section class="sekcja">
+    <div class="kontener kontener--waski">
+      <h2 class="sekcja__tytul">Materiały z odcinka</h2>
+      <div class="siatka siatka--2">
+        {%- for slug in page.materialy %}
+        {%- assign m = site.materialy | where: "slug", slug | first %}
+        {%- if m %}{% include karta-materialu.html material=m %}{% endif %}
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+
+  <nav class="sasiedzi kontener kontener--waski" aria-label="Inne odcinki">
+    {%- if biezacy > 0 %}
+    {%- assign poprzedni = wszystkie[poprzedni_i] %}
+    <a class="sasiedzi__link" href="{{ poprzedni.url | relative_url }}">
+      <span>← Poprzedni odcinek</span>
+      <strong>{{ poprzedni.title }}</strong>
+    </a>
+    {%- endif %}
+    {%- if nastepny_i < wszystkie.size %}
+    {%- assign nastepny = wszystkie[nastepny_i] %}
+    <a class="sasiedzi__link sasiedzi__link--prawo" href="{{ nastepny.url | relative_url }}">
+      <span>Następny odcinek →</span>
+      <strong>{{ nastepny.title }}</strong>
+    </a>
+    {%- endif %}
+  </nav>
+</article>
+
+{% include newsletter.html %}

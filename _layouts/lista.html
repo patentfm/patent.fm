@@ -1,0 +1,41 @@
+---
+layout: podstawa
+---
+<section class="sekcja sekcja--gora">
+  <div class="kontener">
+    <header class="naglowek-strony">
+      {%- if page.etykieta %}<p class="etykieta">{{ page.etykieta }}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {%- if page.podtytul %}<p class="wiodacy">{{ page.podtytul }}</p>{% endif %}
+    </header>
+
+    {%- if content != "" %}
+    <div class="tresc-tekstowa tresc-tekstowa--wstep">{{ content }}</div>
+    {%- endif %}
+
+    {%- case page.typ -%}
+    {%- when "odcinki" -%}
+      {%- assign pozycje = site.odcinki | sort: "numer" | reverse -%}
+      <div class="siatka siatka--3">
+        {%- for o in pozycje %}{% include karta-odcinka.html odcinek=o %}{% endfor %}
+      </div>
+      {%- if pozycje.size == 0 %}<p class="pustka">Pierwszy odcinek jest w produkcji.</p>{% endif %}
+
+    {%- when "kursy" -%}
+      {%- assign pozycje = site.kursy | sort: "kolejnosc" -%}
+      <div class="siatka siatka--3">
+        {%- for k in pozycje %}{% include karta-kursu.html kurs=k %}{% endfor %}
+      </div>
+      {%- if pozycje.size == 0 %}<p class="pustka">Pierwszy kurs powstaje z kulis sezonu 1.</p>{% endif %}
+
+    {%- when "materialy" -%}
+      {%- assign pozycje = site.materialy | sort: "kolejnosc" -%}
+      <div class="siatka siatka--3">
+        {%- for m in pozycje %}{% include karta-materialu.html material=m %}{% endfor %}
+      </div>
+      {%- if pozycje.size == 0 %}<p class="pustka">Materiały pojawią się razem z pierwszymi odcinkami.</p>{% endif %}
+    {%- endcase -%}
+  </div>
+</section>
+
+{% include newsletter.html %}

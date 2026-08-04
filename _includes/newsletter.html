@@ -1,0 +1,31 @@
+{%- assign n = site.data.sprzedaz.newsletter -%}
+<section class="newsletter" id="newsletter">
+  <div class="kontener newsletter__wnetrze">
+    <div class="newsletter__tresc">
+      <p class="etykieta">Newsletter</p>
+      <h2 class="newsletter__tytul">{{ include.tytul | default: n.nazwa }}</h2>
+      <p class="newsletter__opis">{{ include.opis | default: n.opis }}</p>
+      {%- if n.gratis %}
+      <p class="newsletter__gratis"><strong>Na start dostajesz:</strong> {{ n.gratis }}</p>
+      {%- endif %}
+    </div>
+
+    <form class="newsletter__formularz" action="{{ n.akcja }}" method="post" target="_blank" novalidate>
+      <label class="tylko-czytnik" for="pole-imie">Imię</label>
+      <input class="pole" type="text" id="pole-imie" name="FNAME" placeholder="Imię" autocomplete="given-name">
+
+      <label class="tylko-czytnik" for="pole-email">Email</label>
+      <input class="pole" type="email" id="pole-email" name="EMAIL" placeholder="Twój email" required autocomplete="email">
+
+      <div aria-hidden="true" style="position:absolute; left:-5000px;">
+        <input type="text" name="{{ n.bot }}" tabindex="-1" value="">
+      </div>
+
+      <button class="przycisk przycisk--pelny" type="submit" name="subscribe">Chcę patent tygodnia</button>
+      <p class="newsletter__drobne">
+        Bez spamu, jeden mail w tygodniu, wypisujesz się jednym kliknięciem.
+        <a href="{{ '/prywatnosc/' | relative_url }}">Jak przetwarzam dane</a>.
+      </p>
+    </form>
+  </div>
+</section>

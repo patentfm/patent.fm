@@ -1,0 +1,30 @@
+{%- comment -%}
+  Odtwarzacz wideo. Użycie:
+    {% include wideo.html youtube=page.youtube tytul=page.title %}
+    {% include wideo.html vimeo=page.vimeo tytul=page.title %}
+  Bez identyfikatora pokazuje zaślepkę — dzięki temu można opublikować stronę
+  odcinka albo lekcji zanim wideo trafi na serwer.
+{%- endcomment -%}
+{%- assign etykieta = include.tytul | default: "Wideo" | strip_html -%}
+
+{%- if include.youtube and include.youtube != "" %}
+<div class="wideo">
+  <iframe src="https://www.youtube-nocookie.com/embed/{{ include.youtube }}?rel=0"
+          title="{{ etykieta }}" loading="lazy" allowfullscreen
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+{%- elsif include.vimeo and include.vimeo != "" %}
+<div class="wideo">
+  <iframe src="https://player.vimeo.com/video/{{ include.vimeo }}?dnt=1"
+          title="{{ etykieta }}" loading="lazy" allowfullscreen
+          allow="autoplay; fullscreen; picture-in-picture"></iframe>
+</div>
+{%- else %}
+<div class="wideo wideo--zaslepka">
+  <div class="wideo__komunikat">
+    <span class="znacznik znacznik--nagrywa">Nagrywa się</span>
+    <p>{{ include.zaslepka | default: "Materiał wideo pojawi się tutaj zaraz po montażu." }}</p>
+  </div>
+</div>
+{%- endif %}

@@ -1,1 +1,9 @@
-<div id="cookieBottom" class="cookieBottom d-none">Używamy plików cookie, aby zoptymalizować funkcjonalność strony i zapewnić jak najlepsze możliwe wrażenia.  <br class="d-block d-md-none"/> <a href="polityka-prywatnosci-fajny-material.html" class="cookie-privacy" target="_blank" rel="nofollow">Dowiedz się więcej </a><button class="cookieBlueButton" onclick="removeCookieAds()">OK</button></div>
+{%- if site.data.sprzedaz.analityka.ga4 and site.data.sprzedaz.analityka.ga4 != "" %}
+<div class="ciasteczka" id="ciasteczka" hidden>
+  <p>
+    Używam ciasteczek do statystyk odwiedzin. Nic więcej się tu nie dzieje.
+    <a href="{{ '/prywatnosc/' | relative_url }}">Szczegóły</a>.
+  </p>
+  <button class="przycisk przycisk--maly" type="button" id="ciasteczka-ok">Rozumiem</button>
+</div>
+{%- endif %}

@@ -1,0 +1,99 @@
+---
+layout: podstawa
+---
+{%- assign kurs = site.kursy | where: "slug", page.kurs | first -%}
+{%- assign lekcje = site.lekcje | where: "kurs", page.kurs | sort: "numer" -%}
+{%- assign biezacy = 0 -%}
+{%- for l in lekcje -%}
+  {%- if l.url == page.url -%}{%- assign biezacy = forloop.index0 -%}{%- endif -%}
+{%- endfor -%}
+{%- assign poprzedni_i = biezacy | minus: 1 -%}
+{%- assign nastepny_i = biezacy | plus: 1 -%}
+
+<div class="lekcja">
+  <div class="kontener lekcja__uklad">
+    <article class="lekcja__glowna">
+      <p class="etykieta">
+        {%- if kurs %}<a href="{{ kurs.url | relative_url }}">{{ kurs.title }}</a>{% endif %}
+        <span>Lekcja {{ page.numer }}</span>
+        {%- if page.czas %}<span>{{ page.czas }}</span>{% endif %}
+      </p>
+      <h1>{{ page.title }}</h1>
+      {%- if page.opis %}<p class="wiodacy">{{ page.opis }}</p>{% endif %}
+
+      {%- if page.dostep == "platna" %}
+      <div class="zamek">
+        <span class="znacznik znacznik--platny">Lekcja z kursu</span>
+        <h2>Ta lekcja jest częścią kursu{% if kurs %} „{{ kurs.title }}”{% endif %}</h2>
+        <p>
+          Dostęp dostajesz mailem od razu po zakupie. Jeśli kurs już masz, wejdź przez link,
+          który przyszedł w mailu — <a href="{{ '/dostep/' | relative_url }}">tu jest instrukcja</a>.
+        </p>
+        {%- if kurs %}
+        {%- if kurs.link_zakupu and kurs.link_zakupu != "" %}
+        <a class="przycisk" href="{{ kurs.link_zakupu }}" target="_blank" rel="noopener">
+          Kup dostęp{% if kurs.cena %} — {{ kurs.cena }} {{ site.data.sprzedaz.waluta }}{% endif %}
+        </a>
+        {%- else %}
+        <a class="przycisk" href="{{ '/newsletter/' | relative_url }}">Powiadom mnie o premierze</a>
+        {%- endif %}
+        <a class="przycisk przycisk--obrys" href="{{ kurs.url | relative_url }}">Co jest w kursie</a>
+        {%- endif %}
+      </div>
+
+      {%- if page.zajawka %}
+      <div class="tresc-tekstowa">
+        <h2>Czego się nauczysz w tej lekcji</h2>
+        <ul>
+          {%- for z in page.zajawka %}<li>{{ z }}</li>{% endfor %}
+        </ul>
+      </div>
+      {%- endif %}
+
+      {%- else %}
+      {% include wideo.html youtube=page.youtube vimeo=page.vimeo tytul=page.title %}
+
+      <div class="tresc-tekstowa">
+        {{ content }}
+      </div>
+
+      {%- if page.materialy %}
+      <section class="sekcja sekcja--bez-gory">
+        <h2 class="sekcja__tytul">Materiały do lekcji</h2>
+        <div class="siatka siatka--2">
+          {%- for slug in page.materialy %}
+          {%- assign m = site.materialy | where: "slug", slug | first %}
+          {%- if m %}{% include karta-materialu.html material=m %}{% endif %}
+          {%- endfor %}
+        </div>
+      </section>
+      {%- endif %}
+      {%- endif %}
+
+      <nav class="sasiedzi" aria-label="Nawigacja po lekcjach">
+        {%- if biezacy > 0 %}
+        {%- assign poprzednia = lekcje[poprzedni_i] %}
+        <a class="sasiedzi__link" href="{{ poprzednia.url | relative_url }}">
+          <span>← Poprzednia lekcja</span>
+          <strong>{{ poprzednia.title }}</strong>
+        </a>
+        {%- endif %}
+        {%- if nastepny_i < lekcje.size %}
+        {%- assign nastepna = lekcje[nastepny_i] %}
+        <a class="sasiedzi__link sasiedzi__link--prawo" href="{{ nastepna.url | relative_url }}">
+          <span>Następna lekcja →</span>
+          <strong>{{ nastepna.title }}</strong>
+        </a>
+        {%- endif %}
+      </nav>
+    </article>
+
+    <aside class="lekcja__bok">
+      {%- if kurs %}
+      <p class="etykieta">Program kursu</p>
+      <h2 class="bok__tytul"><a href="{{ kurs.url | relative_url }}">{{ kurs.title }}</a></h2>
+      {%- endif %}
+      {% include lista-lekcji.html kurs=page.kurs aktualna=page.url %}
+    </aside>
+  </div>
+</div>

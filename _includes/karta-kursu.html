@@ -1,0 +1,28 @@
+{%- assign k = include.kurs -%}
+{%- assign lekcje = site.lekcje | where: "kurs", k.slug -%}
+<article class="karta karta--kurs">
+  <a class="karta__link" href="{{ k.url | relative_url }}">
+    <div class="karta__gora">
+      {%- if k.status == "dostepny" %}
+      <span class="znacznik znacznik--live">Dostępny</span>
+      {%- elsif k.status == "przedsprzedaz" %}
+      <span class="znacznik znacznik--przedsprzedaz">Przedsprzedaż</span>
+      {%- else %}
+      <span class="znacznik znacznik--nagrywa">W produkcji</span>
+      {%- endif %}
+      {%- if k.poziom %}<span class="karta__meta">{{ k.poziom }}</span>{%- endif %}
+    </div>
+    <h3 class="karta__tytul">{{ k.title }}</h3>
+    <p class="karta__opis">{{ k.opis | strip_html | truncate: 160 }}</p>
+    <div class="karta__stopka">
+      <span>{{ lekcje | size }} lekcji{% if k.czas %} · {{ k.czas }}{% endif %}</span>
+      <span class="karta__cena">
+        {%- if k.cena and k.cena != "" -%}
+          {{ k.cena }} {{ site.data.sprzedaz.waluta }}
+        {%- else -%}
+          Wkrótce
+        {%- endif -%}
+      </span>
+    </div>
+  </a>
+</article>

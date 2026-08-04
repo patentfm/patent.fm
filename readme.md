@@ -1,22 +1,29 @@
-start.sh przebudowuje cały site, przydatne przed release
-_config.yml ma version, dobre do invalidate js / css przy release
-endpoint ma się budować do webd, ale narazie tam jest problem z domeną ssl 
-contact.php przepuszcza billy.plus dzieki .htaccess
+# patent.fm
 
-skrypt refresh od razu pushuje z rebuildem
+Strona domowa projektu **patent.fm** — co tydzień jedna aplikacja od pomysłu do działającego MVP,
+plus kursy i materiały dla tych, którzy chcą robić tak samo.
 
-Jest opcja na hosting mydevil podobno dobry jakby github siadł
-podobno hostinblue tez dobry
+Jekyll + GitHub Pages, bez backendu. Domena: [patent.fm](https://patent.fm).
+Podmiot: Fajny Materiał — Arkadiusz Wrzos.
 
-todo przenieść na fajny.dev i uprzątnąć jirę
+## Uruchomienie
 
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
-## Integracja z Mailchimpem
+## Dokumentacja
 
-1. Użytkownik jakoś przechodzi do zapisywania się na subskrypcję
-1. Podaje swój adres email, ewentualnie przechwycone imię
-1. Mailchimp przekierowuje signup thank you page na fajny.dev
-1. Przechodzi na informację o koniecznym potwierdzeniu email
-1. Ze skrzynki potwierdza rejestrację
-1. Mailchimp przekierowuje confirmation thank you page na fajny.dev
-1. Przechodzi na informację o prawidłowej rejestracji
+| Dokument | O czym |
+|---|---|
+| [`docs/koncepcja.md`](docs/koncepcja.md) | pomysł, odbiorcy, drabinka produktów, lejek, format wideo, taśma produkcyjna, ryzyka |
+| [`docs/strona.md`](docs/strona.md) | jak dodać odcinek, kurs, lekcję i materiał; ustawienia sprzedaży i analityki |
+| [`docs/produkcja/`](docs/produkcja/) | szablon scenariusza reklamy, szablon pitch decku, checklista odcinka |
+
+Katalog `docs/` jest wyłączony z publikacji — to zaplecze, nie treść strony.
+
+## Publikacja
+
+Push na `master` uruchamia build GitHub Pages. `_config.yml` ma pole `version` — podbij je przy
+wydaniu, żeby unieważnić cache CSS i JS.

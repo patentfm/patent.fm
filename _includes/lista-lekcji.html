@@ -1,0 +1,21 @@
+{%- assign lekcje = site.lekcje | where: "kurs", include.kurs | sort: "numer" -%}
+<ol class="lekcje">
+  {%- for lekcja in lekcje %}
+  <li class="lekcje__pozycja{% if lekcja.url == include.aktualna %} lekcje__pozycja--aktualna{% endif %}">
+    <a href="{{ lekcja.url | relative_url }}">
+      <span class="lekcje__numer">{{ lekcja.numer }}</span>
+      <span class="lekcje__tresc">
+        <span class="lekcje__tytul">{{ lekcja.title }}</span>
+        {%- if lekcja.opis %}<span class="lekcje__opis">{{ lekcja.opis | strip_html | truncate: 110 }}</span>{% endif %}
+      </span>
+      <span class="lekcje__znacznik">
+        {%- if lekcja.dostep == "platna" -%}
+          <span class="znacznik znacznik--platny">W kursie</span>
+        {%- else -%}
+          <span class="znacznik znacznik--darmowy">Za darmo</span>
+        {%- endif -%}
+      </span>
+    </a>
+  </li>
+  {%- endfor %}
+</ol>

@@ -1,0 +1,29 @@
+# Ustawienia sprzedaży, newslettera i analityki.
+# Strona jest statyczna (GitHub Pages), więc płatności i wysyłka maili idą przez
+# zewnętrznych dostawców — tutaj trzymamy wszystkie adresy w jednym miejscu.
+
+waluta: zł
+
+# --- Newsletter ---------------------------------------------------
+# Adres formularza Mailchimpa. Pole `bot` to pułapka na boty — Mailchimp wymaga,
+# żeby nazwa miała postać b_<u>_<id> z parametrów adresu powyżej.
+newsletter:
+  nazwa: Patent tygodnia
+  opis: Jeden mail w tygodniu — nowy odcinek, czego się nauczyłem i co poszło nie tak.
+  akcja: "https://dev.us7.list-manage.com/subscribe/post?u=54baae73492a822b430c2ad68&amp;id=8ff5c67fd0"
+  bot: b_54baae73492a822b430c2ad68_8ff5c67fd0
+  # Co dostaje zapisujący się od razu po potwierdzeniu maila.
+  gratis: Patent Pack Lite — checklista 5 dni i szablon scenariusza reklamy
+
+# --- Płatności ----------------------------------------------------
+# Docelowo: Gumroad / easy.tools / Stripe Payment Link. Do czasu podpięcia
+# zostaw `link_zakupu` pusty w kursie — przycisk sam zamieni się w zapis na listę.
+platnosci:
+  dostawca: ""
+  informacja: Płatność obsługuje zewnętrzny operator. Dostęp dostajesz mailem od razu po opłaceniu.
+
+# --- Analityka ----------------------------------------------------
+# Universal Analytics (UA-…) przestało zbierać dane w 2023 r. — wpisz identyfikator
+# GA4 (G-…) albo zostaw pusto, jeśli wolisz stronę bez śledzenia.
+analityka:
+  ga4: ""

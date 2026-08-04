@@ -1,0 +1,15 @@
+{%- assign m = include.material -%}
+<article class="karta karta--material">
+  <a class="karta__link" href="{{ m.url | relative_url }}">
+    <div class="karta__gora">
+      {%- if m.cena and m.cena != "" %}
+      <span class="znacznik znacznik--platny">{{ m.cena }} {{ site.data.sprzedaz.waluta }}</span>
+      {%- else %}
+      <span class="znacznik znacznik--darmowy">Za darmo</span>
+      {%- endif %}
+      {%- if m.rodzaj %}<span class="karta__meta">{{ m.rodzaj }}</span>{%- endif %}
+    </div>
+    <h3 class="karta__tytul">{{ m.title }}</h3>
+    <p class="karta__opis">{{ m.opis | strip_html | truncate: 160 }}</p>
+  </a>
+</article>

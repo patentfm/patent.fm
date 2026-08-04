@@ -1,0 +1,26 @@
+<a class="pomin-do-tresci" href="#tresc">Przejdź do treści</a>
+
+<header class="naglowek" id="naglowek">
+  <div class="kontener naglowek__wnetrze">
+    <a class="marka" href="{{ '/' | relative_url }}">
+      <span class="marka__fala" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+      <span class="marka__nazwa">patent<span class="marka__kropka">.</span>fm</span>
+    </a>
+
+    <button class="menu-przycisk" type="button" aria-expanded="false" aria-controls="menu-glowne" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="menu" id="menu-glowne" aria-label="Menu główne">
+      <ul class="menu__lista">
+        {%- for pozycja in site.data.nawigacja.glowne %}
+        <li>
+          <a href="{{ pozycja.url | relative_url }}"
+             {% if page.url contains pozycja.url %}aria-current="page"{% endif %}>{{ pozycja.tytul }}</a>
+        </li>
+        {%- endfor %}
+      </ul>
+      <a class="przycisk przycisk--maly" href="{{ site.data.nawigacja.cta.url | relative_url }}">{{ site.data.nawigacja.cta.tytul }}</a>
+    </nav>
+  </div>
+</header>
