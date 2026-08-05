@@ -1,0 +1,26 @@
+# Dane autora i podmiotu — używane w stopce, na stronie kontaktu i w regulaminie.
+imie: Arkadiusz Wrzos
+rola: programista, autor patent.fm
+opis: >-
+  Od kilkunastu lat robię oprogramowanie — od aplikacji mobilnych po systemy, które
+  przetwarzają zbyt dużo danych, żeby o tym opowiadać na imprezie. Na patent.fm robię to
+  szybciej i głośniej: jeden tydzień, jedna aplikacja, jedna reklama, której nikt nie zamawiał.
+
+firma: Fajny Materiał Arkadiusz Wrzos
+nip: "7142049617"
+regon: "369750293"
+adres: 21-150 Kock, ul. Władysława Jagiełły 14
+konto: "mBank: 65 1140 2004 0000 3302 7752 8171"
+
+email: wrzosdev@gmail.com
+telefon: "+48 730 411 189"
+
+social:
+  - nazwa: GitHub
+    url: https://github.com/wrzosdev
+  - nazwa: LinkedIn
+    url: https://linkedin.com/in/arkadiusz-wrzos/
+  - nazwa: YouTube
+    url: "#"
+  - nazwa: TikTok
+    url: "#"

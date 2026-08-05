@@ -1,0 +1,21 @@
+{%- assign o = include.odcinek -%}
+<article class="karta karta--odcinek">
+  <a class="karta__link" href="{{ o.url | relative_url }}">
+    <div class="karta__gora">
+      <span class="karta__numer">#{{ o.numer | default: "00" }}</span>
+      {%- if o.status == "porazka" %}
+      <span class="znacznik znacznik--porazka">Porażka tygodnia</span>
+      {%- elsif o.status == "wkrotce" %}
+      <span class="znacznik znacznik--nagrywa">Wkrótce</span>
+      {%- else %}
+      <span class="znacznik znacznik--live">Na antenie</span>
+      {%- endif %}
+    </div>
+    <h3 class="karta__tytul">{{ o.title }}</h3>
+    <p class="karta__opis">{{ o.opis | strip_html | truncate: 140 }}</p>
+    <div class="karta__stopka">
+      {%- if o.czas %}<span>{{ o.czas }}</span>{%- endif %}
+      {%- if o.stack %}<span>{{ o.stack | join: " · " }}</span>{%- endif %}
+    </div>
+  </a>
+</article>

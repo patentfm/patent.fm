@@ -1,0 +1,155 @@
+---
+layout: podstawa
+---
+{%- assign lekcje = site.lekcje | where: "kurs", page.slug | sort: "numer" -%}
+{%- assign darmowe = lekcje | where: "dostep", "darmowa" -%}
+
+<article class="kurs">
+  <header class="sekcja sekcja--gora">
+    <div class="kontener kurs__naglowek">
+      <div>
+        <p class="etykieta">
+          <span>Kurs</span>
+          {%- if page.poziom %}<span>{{ page.poziom }}</span>{% endif %}
+          {%- if page.czas %}<span>{{ page.czas }}</span>{% endif %}
+        </p>
+        <h1>{{ page.title }}</h1>
+        {%- if page.tagline %}<p class="wiodacy">{{ page.tagline }}</p>{% endif %}
+
+        {%- if page.efekty %}
+        <ul class="lista-ptaszki">
+          {%- for e in page.efekty %}<li>{{ e }}</li>{% endfor %}
+        </ul>
+        {%- endif %}
+      </div>
+
+      <aside class="oferta">
+        {%- if page.status == "dostepny" %}
+        <span class="znacznik znacznik--live">Dostępny od ręki</span>
+        {%- elsif page.status == "przedsprzedaz" %}
+        <span class="znacznik znacznik--przedsprzedaz">Przedsprzedaż</span>
+        {%- else %}
+        <span class="znacznik znacznik--nagrywa">W produkcji</span>
+        {%- endif %}
+
+        <p class="oferta__cena">
+          {%- if page.cena and page.cena != "" -%}
+            {%- if page.cena_przed and page.cena_przed != "" %}<s>{{ page.cena_przed }} {{ site.data.sprzedaz.waluta }}</s>{% endif %}
+            <strong>{{ page.cena }} {{ site.data.sprzedaz.waluta }}</strong>
+          {%- else -%}
+            <strong>Cena wkrótce</strong>
+          {%- endif -%}
+        </p>
+
+        {%- if page.link_zakupu and page.link_zakupu != "" %}
+        <a class="przycisk przycisk--pelny" href="{{ page.link_zakupu }}" target="_blank" rel="noopener">Kup dostęp</a>
+        <p class="oferta__drobne">{{ site.data.sprzedaz.platnosci.informacja }}</p>
+        {%- else %}
+        <a class="przycisk przycisk--pelny" href="{{ '/newsletter/' | relative_url }}">Powiadom mnie o premierze</a>
+        <p class="oferta__drobne">Zapisani na listę dostają informację pierwsi i w niższej cenie.</p>
+        {%- endif %}
+
+        {%- if darmowe.size > 0 %}
+        <p class="oferta__drobne">
+          <a href="{{ darmowe.first.url | relative_url }}">Zajrzyj najpierw do darmowej lekcji →</a>
+        </p>
+        {%- endif %}
+
+        <ul class="oferta__lista">
+          <li>{{ lekcje | size }} lekcji wideo</li>
+          {%- if page.materialy %}<li>{{ page.materialy | size }} materiałów do pobrania</li>{% endif %}
+          <li>Dostęp bez ograniczenia czasowego</li>
+          <li>Faktura na firmę</li>
+        </ul>
+      </aside>
+    </div>
+  </header>
+
+  {%- if page.youtube or page.vimeo %}
+  <div class="kontener">
+    {% include wideo.html youtube=page.youtube vimeo=page.vimeo tytul=page.title %}
+  </div>
+  {%- endif %}
+
+  {%- if page.dla_kogo %}
+  <section class="sekcja">
+    <div class="kontener">
+      <h2 class="sekcja__tytul">Dla kogo to jest</h2>
+      <div class="siatka siatka--2">
+        {%- for d in page.dla_kogo %}
+        <div class="kafel">
+          <h3>{{ d.kto }}</h3>
+          <p>{{ d.po_co }}</p>
+        </div>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+
+  <div class="kontener">
+    <div class="tresc-tekstowa">
+      {{ content }}
+    </div>
+  </div>
+
+  {%- if lekcje.size > 0 %}
+  <section class="sekcja" id="program">
+    <div class="kontener">
+      <h2 class="sekcja__tytul">Program</h2>
+      <p class="sekcja__opis">Lekcje oznaczone jako darmowe obejrzysz bez kupowania czegokolwiek.</p>
+      {% include lista-lekcji.html kurs=page.slug %}
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- if page.materialy %}
+  <section class="sekcja">
+    <div class="kontener">
+      <h2 class="sekcja__tytul">Co dostajesz oprócz wideo</h2>
+      <div class="siatka siatka--2">
+        {%- for slug in page.materialy %}
+        {%- assign m = site.materialy | where: "slug", slug | first %}
+        {%- if m %}{% include karta-materialu.html material=m %}{% endif %}
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+
+  {%- if page.faq %}
+  <section class="sekcja">
+    <div class="kontener">
+      <h2 class="sekcja__tytul">Pytania, które i tak byś zadał</h2>
+      <div class="faq">
+        {%- for p in page.faq %}
+        <details>
+          <summary>{{ p.pytanie }}</summary>
+          <p>{{ p.odpowiedz }}</p>
+        </details>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+
+  <section class="sekcja">
+    <div class="kontener">
+      <div class="polecenie">
+        <h2>{{ page.title }}</h2>
+        <p>
+          {%- if page.cena and page.cena != "" -%}
+            {{ page.cena }} {{ site.data.sprzedaz.waluta }} — dostęp bezterminowy, faktura na firmę.
+          {%- else -%}
+            Kurs jest w produkcji. Zapisz się, a dostaniesz znać pierwszy i taniej.
+          {%- endif -%}
+        </p>
+        {%- if page.link_zakupu and page.link_zakupu != "" %}
+        <a class="przycisk" href="{{ page.link_zakupu }}" target="_blank" rel="noopener">Kup dostęp</a>
+        {%- else %}
+        <a class="przycisk" href="{{ '/newsletter/' | relative_url }}">Powiadom mnie o premierze</a>
+        {%- endif %}
+      </div>
+    </div>
+  </section>
+</article>

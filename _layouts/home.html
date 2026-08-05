@@ -1,0 +1,139 @@
+---
+layout: podstawa
+---
+{%- assign odcinki = site.odcinki | sort: "numer" | reverse -%}
+{%- assign ostatni = odcinki | first -%}
+{%- assign kursy = site.kursy | sort: "kolejnosc" -%}
+{%- assign materialy = site.materialy | sort: "kolejnosc" -%}
+
+<section class="hero">
+  <div class="kontener hero__uklad">
+    <div class="hero__tresc">
+      <p class="znacznik znacznik--live znacznik--duzy">Na antenie</p>
+      <h1 class="hero__tytul">
+        Co tydzień jedna aplikacja.<br>
+        Od pomysłu do działającego MVP.
+      </h1>
+      <p class="hero__opis">
+        W poniedziałek pomysł, w czwartek wdrożenie, w piątek reklama, której nikt nie zamawiał.
+        Wszystko na widoku: kod, wpadki i to, ile naprawdę zajęło. A jak chcesz robić tak samo —
+        mam na to kursy.
+      </p>
+      <div class="przyciski-rzad">
+        {%- if ostatni %}
+        <a class="przycisk" href="{{ ostatni.url | relative_url }}">Ostatni odcinek</a>
+        {%- else %}
+        <a class="przycisk" href="{{ '/odcinki/' | relative_url }}">Zobacz odcinki</a>
+        {%- endif %}
+        <a class="przycisk przycisk--obrys" href="{{ '/kursy/' | relative_url }}">Kursy</a>
+      </div>
+      <p class="hero__drobne">Bez kursów „zostań seniorem w 30 dni”. Jest tydzień, jest apka, jest dowód.</p>
+    </div>
+
+    <div class="hero__wideo">
+      {%- if ostatni %}
+      {% include wideo.html youtube=ostatni.youtube vimeo=ostatni.vimeo tytul=ostatni.title zaslepka="Reklama ostatniego odcinka wjedzie tu zaraz po montażu." %}
+      <a class="hero__podpis" href="{{ ostatni.url | relative_url }}">
+        <span>Odcinek #{{ ostatni.numer }}</span>
+        <strong>{{ ostatni.title }}</strong>
+      </a>
+      {%- else %}
+      {% include wideo.html zaslepka="Odcinek zerowy jest w produkcji." %}
+      {%- endif %}
+    </div>
+  </div>
+</section>
+
+<section class="sekcja pasek">
+  <div class="kontener">
+    <ol class="kroki">
+      <li>
+        <span class="kroki__numer">01</span>
+        <h2>Poniedziałek: scenariusz przed kodem</h2>
+        <p>Najpierw piszę reklamę. Skoro pokazuje trzy funkcje, to aplikacja ma trzy funkcje. Koniec dyskusji o zakresie.</p>
+      </li>
+      <li>
+        <span class="kroki__numer">02</span>
+        <h2>Wtorek–czwartek: budowa i wdrożenie</h2>
+        <p>Stały stack, żadnych nowych zabawek w trakcie. W czwartek apka stoi pod publicznym adresem albo idzie „porażka tygodnia”.</p>
+      </li>
+      <li>
+        <span class="kroki__numer">03</span>
+        <h2>Piątek: reklama, której nikt nie zamawiał</h2>
+        <p>90 sekund absurdu z prawdziwym demo w środku. Plus opis, ile to naprawdę zajęło i co poszło nie tak.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+{%- if odcinki.size > 0 %}
+<section class="sekcja">
+  <div class="kontener">
+    <div class="sekcja__naglowek">
+      <div>
+        <p class="etykieta">Ramówka</p>
+        <h2 class="sekcja__tytul">Ostatnie odcinki</h2>
+      </div>
+      <a class="link-strzalka" href="{{ '/odcinki/' | relative_url }}">Wszystkie odcinki →</a>
+    </div>
+    <div class="siatka siatka--3">
+      {%- for o in odcinki limit: 3 %}{% include karta-odcinka.html odcinek=o %}{% endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if kursy.size > 0 %}
+<section class="sekcja sekcja--tlo">
+  <div class="kontener">
+    <div class="sekcja__naglowek">
+      <div>
+        <p class="etykieta">Do kupienia</p>
+        <h2 class="sekcja__tytul">Kursy</h2>
+        <p class="sekcja__opis">Reklama jest głupia, kurs jest serio. Tu pokazuję cały system, nie same sztuczki.</p>
+      </div>
+      <a class="link-strzalka" href="{{ '/kursy/' | relative_url }}">Wszystkie kursy →</a>
+    </div>
+    <div class="siatka siatka--3">
+      {%- for k in kursy limit: 3 %}{% include karta-kursu.html kurs=k %}{% endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+{%- if materialy.size > 0 %}
+<section class="sekcja">
+  <div class="kontener">
+    <div class="sekcja__naglowek">
+      <div>
+        <p class="etykieta">Do wzięcia</p>
+        <h2 class="sekcja__tytul">Materiały</h2>
+        <p class="sekcja__opis">Szablony, checklisty i startery, których sam używam w każdym odcinku.</p>
+      </div>
+      <a class="link-strzalka" href="{{ '/materialy/' | relative_url }}">Wszystkie materiały →</a>
+    </div>
+    <div class="siatka siatka--3">
+      {%- for m in materialy limit: 3 %}{% include karta-materialu.html material=m %}{% endfor %}
+    </div>
+  </div>
+</section>
+{%- endif %}
+
+<section class="sekcja sekcja--tlo">
+  <div class="kontener kontener--waski">
+    <div class="polecenie polecenie--zlecenie">
+      <p class="etykieta">Zamiast oglądać — zlecić</p>
+      <h2>Potrzebujesz swojego MVP?</h2>
+      <p>
+        Robię to samo na zlecenie, tylko bez peruki i lektora. Zakres w tydzień, wycena po rozmowie,
+        MVP od 6 000 zł.
+      </p>
+      <div class="przyciski-rzad">
+        <a class="przycisk" href="mailto:{{ site.data.autor.email }}?subject=MVP%20na%20zlecenie">Napisz do mnie</a>
+        <a class="przycisk przycisk--obrys" href="{{ '/o-mnie/' | relative_url }}">Kto to robi</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include newsletter.html %}

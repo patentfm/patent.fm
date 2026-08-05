@@ -1,0 +1,18 @@
+---
+layout: podstawa
+---
+<article class="kontener kontener--waski sekcja">
+  <header class="naglowek-strony">
+    {%- if page.etykieta %}<p class="etykieta">{{ page.etykieta }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    {%- if page.podtytul %}<p class="wiodacy">{{ page.podtytul }}</p>{% endif %}
+  </header>
+
+  <div class="tresc-tekstowa">
+    {{ content }}
+  </div>
+</article>
+
+{%- unless page.bez-newslettera %}
+{% include newsletter.html %}
+{%- endunless %}

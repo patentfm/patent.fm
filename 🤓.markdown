@@ -1,13 +1,4 @@
 ---
-layout: sectioned-page
-meta-keywords: <!--    todo dodać keywords z plannera-->
-meta-description: <!--    todo dodać description z plannera-->
-title: Hej, jesteś sprytny
-subheader: Spryciarz z Ciebie
+layout: przekierowanie
+przekierowanie: /spryciarz.html
 ---
-
-**Takich ludzi potrzebuję**
-
-## Zgłoś się do mnie
-
-Napisz mi maila arek@fajny.dev

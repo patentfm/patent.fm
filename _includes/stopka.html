@@ -1,0 +1,51 @@
+<footer class="stopka">
+  <div class="kontener stopka__siatka">
+    <div class="stopka__kolumna">
+      <a class="marka marka--stopka" href="{{ '/' | relative_url }}">
+        <span class="marka__nazwa">patent<span class="marka__kropka">.</span>fm</span>
+      </a>
+      <p class="stopka__opis">{{ site.description | strip_html | normalize_whitespace }}</p>
+      <ul class="stopka__social">
+        {%- for konto in site.data.autor.social %}
+        <li><a href="{{ konto.url }}" rel="me noopener" target="_blank">{{ konto.nazwa }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <div class="stopka__kolumna">
+      <h2 class="stopka__tytul">Na antenie</h2>
+      <ul class="stopka__lista">
+        {%- for pozycja in site.data.nawigacja.glowne %}
+        <li><a href="{{ pozycja.url | relative_url }}">{{ pozycja.tytul }}</a></li>
+        {%- endfor %}
+        <li><a href="{{ '/feed.xml' | relative_url }}">Kanał RSS</a></li>
+      </ul>
+    </div>
+
+    <div class="stopka__kolumna">
+      <h2 class="stopka__tytul">Formalności</h2>
+      <ul class="stopka__lista">
+        {%- for pozycja in site.data.nawigacja.stopka %}
+        <li><a href="{{ pozycja.url | relative_url }}">{{ pozycja.tytul }}</a></li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <div class="stopka__kolumna">
+      <h2 class="stopka__tytul">Kontakt</h2>
+      <ul class="stopka__lista">
+        <li><a href="mailto:{{ site.data.autor.email }}">{{ site.data.autor.email }}</a></li>
+        <li><a href="tel:{{ site.data.autor.telefon | remove: ' ' }}">{{ site.data.autor.telefon }}</a></li>
+      </ul>
+      <p class="stopka__firma">
+        {{ site.data.autor.firma }}<br>
+        NIP {{ site.data.autor.nip }} · REGON {{ site.data.autor.regon }}<br>
+        {{ site.data.autor.adres }}
+      </p>
+    </div>
+  </div>
+
+  <div class="kontener stopka__dol">
+    <p>© {{ site.time | date: "%Y" }} {{ site.data.autor.firma }}. Wszystkie patenty zastrzeżone, ale i tak je pokazuję.</p>
+  </div>
+</footer>

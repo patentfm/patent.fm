@@ -1,0 +1,16 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- assign strony = site.pages | concat: site.odcinki | concat: site.kursy | concat: site.lekcje | concat: site.materialy %}
+  {%- for s in strony %}
+  {%- unless s.url contains ".xml" or s.url contains ".txt" or s.url contains "404" or s.przekierowanie %}
+  <url>
+    <loc>{{ s.url | absolute_url }}</loc>
+    {%- if s.data %}<lastmod>{{ s.data | date_to_xmlschema }}</lastmod>{% endif %}
+  </url>
+  {%- endunless %}
+  {%- endfor %}
+</urlset>

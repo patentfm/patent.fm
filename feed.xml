@@ -1,0 +1,27 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }} — odcinki</title>
+  <subtitle>{{ site.description | strip_html | normalize_whitespace }}</subtitle>
+  <link href="{{ '/feed.xml' | absolute_url }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ site.url }}/" rel="alternate" type="text/html"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}/</id>
+  <author>
+    <name>{{ site.data.autor.imie }}</name>
+    <email>{{ site.data.autor.email }}</email>
+  </author>
+  {%- assign odcinki = site.odcinki | sort: "numer" | reverse %}
+  {%- for o in odcinki %}
+  <entry>
+    <title>#{{ o.numer }} {{ o.title | xml_escape }}</title>
+    <link href="{{ o.url | absolute_url }}" rel="alternate" type="text/html"/>
+    <id>{{ o.url | absolute_url }}</id>
+    <updated>{{ o.data | default: site.time | date_to_xmlschema }}</updated>
+    <summary>{{ o.opis | strip_html | normalize_whitespace | xml_escape }}</summary>
+  </entry>
+  {%- endfor %}
+</feed>

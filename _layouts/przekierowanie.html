@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Przeniesione — {{ site.title }}</title>
+  <link rel="canonical" href="{{ page.przekierowanie | absolute_url }}">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url={{ page.przekierowanie | relative_url }}">
+</head>
+<body>
+  <p>Ta strona jest teraz pod adresem <a href="{{ page.przekierowanie | relative_url }}">{{ page.przekierowanie }}</a>.</p>
+</body>
+</html>

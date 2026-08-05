@@ -1,0 +1,25 @@
+# Menu główne. Kolejność z tego pliku = kolejność w nagłówku i w stopce.
+glowne:
+  - tytul: Odcinki
+    url: /odcinki/
+  - tytul: Kursy
+    url: /kursy/
+  - tytul: Materiały
+    url: /materialy/
+  - tytul: O mnie
+    url: /o-mnie/
+
+# Przycisk po prawej stronie menu — jedno CTA, zawsze to samo.
+cta:
+  tytul: Zapisz się
+  url: /newsletter/
+
+stopka:
+  - tytul: Regulamin
+    url: /regulamin/
+  - tytul: Prywatność
+    url: /prywatnosc/
+  - tytul: Dostęp do zakupów
+    url: /dostep/
+  - tytul: CEIDG
+    url: /ceidg.pdf

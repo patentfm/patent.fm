@@ -1,7 +1,9 @@
-#_site narazie wysyłamy, docelowo budowanie na CI
+_site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.bundle
 vendor
+Gemfile.lock
 .idea
-_site
+.gradle
